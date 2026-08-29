@@ -1,9 +1,21 @@
-schema_version: 0.2.0
+schema_version: 0.3.0
 repository:
   name: unitera_public_docs
   role: PUBLIC_DOCUMENTATION_PROJECTION
   visibility: public
   authority: NONE_BY_ITSELF
+localization:
+  canonical_content_model: mirrored_language_editions
+  default_landing_page: README.md
+  machine_manifest_language: language_neutral
+  editions:
+    de:
+      root: docs/de
+      label: Deutsch
+    en:
+      root: docs/en
+      label: English
+  substantive_changes_require_sync: true
 snapshot:
   reviewed_at: "2026-08-29"
   owner_refs:

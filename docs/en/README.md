@@ -1,9 +1,12 @@
 # Documentation Index
 
+[Deutsche Ausgabe](../de/README.md)
+
 This repository is organized by reader intent. Every page is downstream of its owning repository and must distinguish canonical `main`, qualified development work, candidates, and open gates.
 
 ## Start here
 
+- [UNITERA overview](overview.md)
 - [Executive overview](presentation/executive-overview.md)
 - [Current public state](status/current-state.md)
 - [Source basis](reference/source-basis.md)
@@ -35,3 +38,5 @@ This repository is organized by reader intent. Every page is downstream of its o
 
 - [Documentation & diagram conventions](style/documentation-and-diagrams.md)
 - [Glossary](reference/glossary.md)
+- [Contributing](reference/contributing.md)
+- [Governance](reference/governance.md)
