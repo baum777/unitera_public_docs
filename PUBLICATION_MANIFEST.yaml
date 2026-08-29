@@ -1,0 +1,25 @@
+schema_version: 0.1.0
+repository:
+  recommended_name: unitera_public_docs
+  role: PUBLIC_DOCUMENTATION_PROJECTION
+  visibility: public
+  authority: NONE_BY_ITSELF
+source_policy:
+  owner_repo_wins_on_conflict: true
+  registry_creates_authority: false
+  public_docs_create_authority: false
+  candidate_material_must_be_labeled: true
+initial_topics:
+  - system_overview
+  - authority_and_source_model
+  - know_think_act
+  - tenant_discovery_company_brain
+  - governed_external_effect
+  - registry_source_to_publication
+  - local_runtime_node_candidate
+  - current_state
+publication_gate:
+  - verify_owner_source
+  - verify_status_label
+  - reconcile_registry_reference_when_applicable
+  - avoid_unverified_production_or_compliance_claims
