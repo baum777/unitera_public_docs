@@ -21,6 +21,7 @@ This repository is organized by reader intent rather than by implementation pack
 
 - [Registry → Public Publication](registry/source-to-publication.md)
 - [Current public state](status/current-state.md)
+- [Bootstrap materialization record](status/bootstrap-materialization.md)
 
 ## Presentation & reference
 
