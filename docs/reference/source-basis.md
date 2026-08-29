@@ -4,38 +4,56 @@
 **Repository role:** PUBLIC DOCUMENTATION PROJECTION  
 **Authority:** none by itself
 
-This initial public projection was prepared from two classes of evidence:
+## Verified owner-repository refs
 
-## 1. Verified owning implementation surface
+| Owning repository | Verified default-branch ref | Used for |
+|---|---|---|
+| `baum777/coreos` | `3f23e2fa920f8b3bfe78d7fe898078ff924c1814` | Foundation, Company Brain, promotion and governance posture |
+| `baum777/unitera-os` | `18c50f837aa5442d29edf0bae7f0beb5fd9fa94b` | Provider-neutral capability/autonomy/execution contracts |
+| `baum777/Unitera_Systems` | `786d03ca731acf5ab1af38731954891e84542d8c` | Runtime, persistence, API, hosted auth, product and consumer enforcement |
+| `baum777/unitera_control_plane` | `10e2a3953a76a892cb4112dcf9c1f7998d970970` | Tenant/Governance physical ownership, assignment topology and pilot policy |
+| `baum777/unitera-registry` | `a2f4ccac009305741e463eba99069e8052c172fd` | Registry schema, reference contract, validation and reachability posture |
 
-`baum777/Unitera_Systems` was checked at reachable `main` commit:
+## Qualified noncanonical evidence
 
-`786d03ca731acf5ab1af38731954891e84542d8c`
+Discovery documentation also reads the remote branch:
 
-The public projection uses its current terminology around governed execution, Company Brain consumption, `unitera-os` contract ownership, tenant/runtime boundaries, documentation discipline, Registry disposition, and the bounded `email.send.commit` v1 capability.
+```yaml
+repository: baum777/Unitera_Systems
+ref: codex/discovery-pilot-readiness-closure
+head: 7f7a3b35e957dafaf0d3cb11eb46c5788ddecdfe
+compared_to_main:
+  ahead_by: 11
+  behind_by: 0
+classification: QUALIFIED_DEVELOPMENT_SLICE
+```
 
-## 2. Source-reconciled architecture material
+Branch evidence is never presented as canonical `main` or production activation.
 
-The projection also uses the supplied UNITERA source-reconciliation material covering:
+## Supplied source-reconciliation material
 
-- effective source precedence and authority domains;
-- `KNOW / THINK / ACT` semantic architecture;
-- Tenant, Discovery, epistemic state, Company Brain, and First Work direction;
-- autonomy, execution-control, receipts, verification, reconciliation, and security boundaries;
-- Registry adoption/supersession flow;
-- backend-agnostic route resolution candidates;
-- Local Runtime Node and device identity candidate boundaries.
+The 2026-08-15 bundle supplied with this review covers:
 
-Several of these source artifacts explicitly classify themselves as derived, candidate, non-authoritative, or pending owner-surface adoption. This public repository preserves those classifications instead of promoting them.
+- system architecture and authority precedence;
+- Tenant, Discovery, epistemic state and Company Brain lifecycle;
+- KNOW / THINK / ACT and autonomy/security boundaries;
+- lifecycle gates, bindings and semantic core;
+- source state, conflicts, adoption and supersession candidates;
+- security-logic derivation and negative-test families.
 
-## Current pointer posture in the supplied source snapshot
+Those artifacts explicitly include frozen specs, owner decisions pending adoption, candidates, and derived non-authoritative summaries. Their classifications are preserved.
 
-The supplied source-state snapshot reports:
+## Pointer posture
 
-`candidate_pointer_not_activated`
+The supplied source-state snapshot reports `candidate_pointer_not_activated`. This review verified later owner-repository states individually; it did not verify a separate unified pointer activation. Therefore no such activation is claimed.
 
-Accordingly, this repository must not present a candidate unified source bundle as automatically activated or canonical.
+## Evidence classes
+
+- **Observed:** read from exact GitHub refs, trees, commits, branch comparisons, files, or review metadata.
+- **Source-derived:** summarized from the supplied bundle with its original maturity label.
+- **Inferred:** explicitly labeled reasoning from observed evidence.
+- **Unverified:** excluded from materialized or production claims.
 
 ## Conflict rule
 
-If this public projection differs from a verified owner-repository artifact, the owner-repository artifact wins. If owner sources conflict or are missing, this repository should mark the subject `OPEN` rather than guess.
+If this public projection differs from a verified owner artifact, the owner artifact wins. If owner sources conflict or cannot be verified, the public document must say `OPEN`.

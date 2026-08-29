@@ -1,25 +1,44 @@
-schema_version: 0.1.0
+schema_version: 0.2.0
 repository:
-  recommended_name: unitera_public_docs
+  name: unitera_public_docs
   role: PUBLIC_DOCUMENTATION_PROJECTION
   visibility: public
   authority: NONE_BY_ITSELF
+snapshot:
+  reviewed_at: "2026-08-29"
+  owner_refs:
+    coreos: 3f23e2fa920f8b3bfe78d7fe898078ff924c1814
+    unitera_os: 18c50f837aa5442d29edf0bae7f0beb5fd9fa94b
+    unitera_systems: 786d03ca731acf5ab1af38731954891e84542d8c
+    unitera_control_plane: 10e2a3953a76a892cb4112dcf9c1f7998d970970
+    unitera_registry: a2f4ccac009305741e463eba99069e8052c172fd
+  qualified_noncanonical_refs:
+    discovery_runtime_branch:
+      ref: codex/discovery-pilot-readiness-closure
+      head: 7f7a3b35e957dafaf0d3cb11eb46c5788ddecdfe
+      relation_to_unitera_systems_main: ahead_11_behind_0
 source_policy:
   owner_repo_wins_on_conflict: true
   registry_creates_authority: false
   public_docs_create_authority: false
   candidate_material_must_be_labeled: true
-initial_topics:
+  noncanonical_branch_material_must_be_labeled: true
+topics:
   - system_overview
+  - repository_authority_topology
   - authority_and_source_model
   - know_think_act
+  - signup_to_discovery
   - tenant_discovery_company_brain
+  - cognition_runtime
   - governed_external_effect
   - registry_source_to_publication
   - local_runtime_node_candidate
   - current_state
 publication_gate:
   - verify_owner_source
+  - verify_exact_ref
   - verify_status_label
+  - separate_main_from_development_branch_state
   - reconcile_registry_reference_when_applicable
   - avoid_unverified_production_or_compliance_claims

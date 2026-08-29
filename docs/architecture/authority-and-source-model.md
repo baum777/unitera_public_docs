@@ -1,39 +1,56 @@
 # Authority & Source-of-Truth Model
 
-**Status:** PUBLIC PROJECTION
+**Status:** PUBLIC PROJECTION  
+**Authority:** none by itself  
+**Source basis:** verified owner repositories plus the supplied 2026-08-15 source-state snapshot
 
 ## Authority domains
 
-| Domain | Owning surface | Public interpretation |
+| Domain | Owning surface | Verified public interpretation |
 |---|---|---|
-| Foundation, identity, Company Brain | `coreos` | Established authority domain |
-| Agent autonomy, capability, policy, grant, execution contracts | `unitera-os` | Established provider-neutral authority domain |
-| Runtime, persistence, API, integrations, product enforcement | `Unitera_Systems` | Established implementation/runtime boundary |
-| Tenant control-plane authority | dedicated Tenant Control Plane authority surface | Owner-decided direction; adoption/materialization status must be checked before stronger claims |
-| Cross-repo Registry | Registry surface | Reference/provenance layer only; never authority by itself |
-| This repository | `unitera_public_docs` | Public documentation projection only |
+| Foundation, institutional identity, Company Brain | `coreos` | Established authority domain; active Foundation baseline and deterministic Prime projection are owner-repository concerns |
+| Capability, autonomy, policy, grant, receipt, execution-control contracts | `unitera-os` | Established provider-neutral authority domain |
+| Tenant and Governance authority | `unitera_control_plane` | Physical owner is now materialized; assignment topology and bounded-pilot policy are canonical authority records |
+| Runtime, persistence, API, integrations, sessions, product enforcement | `Unitera_Systems` | Established implementation boundary; implementation does not transfer semantic ownership |
+| Cross-repository Registry | `unitera-registry` | Reference, provenance, adoption/implementation binding, and reachability only |
+| Public documentation | `unitera_public_docs` | Explanation only |
 
 ```mermaid
 flowchart TD
-    CORE[coreos] -->|Foundation / Company Brain| SYS[Unitera_Systems]
-    OS[unitera-os] -->|Provider-neutral contracts| SYS
-    TCP[Tenant Control Plane] -->|Tenant authority / bindings| SYS
+    C[coreos] -->|Foundation and Company Brain| S[Unitera_Systems]
+    O[unitera-os] -->|Execution-control contracts| S
+    T[unitera_control_plane] -->|Tenant and assignment authority| S
 
-    CORE --> REG[Registry]
-    OS --> REG
-    SYS --> REG
-    TCP --> REG
+    C --> R[unitera-registry]
+    O --> R
+    T --> R
+    S --> R
+    R --> D[unitera_public_docs]
 
-    REG --> DOCS[Public Docs]
-
-    DOCS -. no authority backflow .-> REG
-    REG -. no authority backflow .-> CORE
-    REG -. no authority backflow .-> OS
-    REG -. no authority backflow .-> SYS
+    D -. no authority backflow .-> R
+    R -. no authority backflow .-> C
+    R -. no authority backflow .-> O
+    R -. no authority backflow .-> T
+    R -. no authority backflow .-> S
 ```
+
+## Precedence
+
+When evidence conflicts, apply this reading order:
+
+1. Verified canonical artifact in the owning repository.
+2. Frozen phase or contract specification.
+3. Owner-decision evidence pending formal adoption.
+4. Architecture or replacement candidate.
+5. Product/UX projection.
+6. Legacy or conversational material.
+
+This order is a documentation method, not a new authority layer.
+
+## Source pointer posture
+
+The supplied 2026-08-15 source snapshot reported `candidate_pointer_not_activated`. Later owner-repository materialization can supersede individual old assumptions, but this public repository does not infer that the unified source pointer itself has been activated. Pointer activation remains a separate, exact-evidence decision.
 
 ## Principle
 
-The Registry may record references, adoption state, digests, provenance, supersessions, dependency bindings, and qualified implementation bindings. It cannot create semantic, contract, tenant, execution, or runtime authority.
-
-The public documentation layer adds **zero** authority. It exists to make the verified system state understandable.
+The Registry may record references, status, digests, provenance, supersessions, consumers, and qualified implementation bindings. It cannot create semantic, tenant, execution, or runtime authority. Public documentation adds **zero** authority.
