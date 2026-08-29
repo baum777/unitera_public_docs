@@ -1,13 +1,15 @@
 # UNITERA — Executive Architecture Overview
 
 **Audience:** partners, customers, technical decision-makers  
-**Status:** PUBLIC PROJECTION
+**Status:** PUBLIC PROJECTION  
+**Authority:** none by itself  
+**Source basis:** current owner-repository refs and supplied source-reconciled architecture material
 
-## The problem UNITERA addresses
+## The problem
 
-AI can already generate, analyze, and automate. The harder problem is deciding **when AI-assisted work may become binding business reality**.
+AI can generate, analyze, and automate. The harder problem is deciding **when AI-assisted work may become binding business reality**.
 
-UNITERA is designed as a governed intelligence layer between organizational context, AI cognition, human authority, and external systems.
+UNITERA is a governed intelligence layer between organizational context, AI cognition, human authority, and external systems.
 
 ```mermaid
 flowchart LR
@@ -16,28 +18,32 @@ flowchart LR
     T --> P[Proposal]
     P --> G[Governance]
     G --> A[ACT]
-    A --> B[Business Effect]
-    B --> E[Evidence & Verification]
+    A --> B[Business effect]
+    B --> E[Evidence and verification]
 ```
 
-## Three architectural promises
+## Three promises
 
-### 1. Context without silent permission
+### Context without silent permission
 
-The system can compile richer organizational context without turning that context into authority.
+Richer organizational context does not become execution authority.
 
-### 2. Cognition without silent execution
+### Cognition without silent execution
 
-Models can analyze, plan, simulate, and propose. They do not gain business authority merely because they can reason or call tools.
+Models may analyze, plan, simulate, and propose. Compute and model capability do not grant business rights.
 
-### 3. Execution with evidence
+### Execution with evidence
 
-Binding effects pass through explicit capability, policy, approval/grant, execution, receipt, verification, and audit semantics.
+Binding effects pass through capability, policy, human control where required, grant, execution, receipt, verification, and reconciliation.
 
-## Why the architecture is split across repositories
+## Why the system is split
 
-Different kinds of truth have different owners. Foundation/Company Brain, provider-neutral execution contracts, runtime implementation, tenant control-plane authority, Registry references, and public documentation are intentionally separated so that no presentation layer can silently redefine system authority.
+Foundation/Company Brain, provider-neutral execution contracts, tenant authority, runtime implementation, Registry references, and public communication have different owners. The separation prevents a product UI, runtime package, or Registry entry from silently redefining authority.
 
 ## Current maturity
 
-UNITERA already has a substantially materialized bounded governance/runtime core. Broader cognition, product-surface convergence, tenant control-plane materialization, and candidate local-node capabilities remain areas where public documentation must track actual adoption rather than present target architecture as finished reality.
+The governed core is substantial: Company Brain authority, execution-control contracts, hosted OIDC sessions, internal identity/tenant/membership resolution, bounded external-effect controls, tenant/Governance authority records, and Registry enforcement are materialized in their owning surfaces.
+
+The complete product journey is not finished. Self-service sign-up, profile and tenant bootstrap remain open; Discovery is strongly qualified on a development branch but not canonical `main`; full cognition runtime authority/lifecycle and production end-to-end qualification remain open.
+
+The accurate description is therefore: **a materially implemented governed core with a partially integrated production journey**.

@@ -2,84 +2,97 @@
 
 > **Public projection — not an authority source.**
 >
-> This repository explains and visualizes UNITERA for external readers. It does not create, replace, or supersede canonical contracts, owner decisions, runtime authority, Registry state, or Source-of-Truth artifacts.
+> This repository explains the verified UNITERA architecture and its implementation maturity. It does not create or supersede owner contracts, tenant authority, runtime authority, Registry state, grants, or production activation.
 
-UNITERA is a customizable AI operating system for company-specific agentic work. Its architectural center is **governed execution**: AI may analyze, draft, plan, and propose actions, while binding business effects remain subject to explicit authority, policy, human control where required, grants, execution boundaries, receipts, verification, and audit evidence.
+UNITERA is a customizable AI operating system for company-specific agentic work. Its architectural center is **governed execution**: AI may analyze, draft, plan, and propose actions, while binding business effects remain subject to explicit tenant context, policy, human control where required, grants, execution boundaries, receipts, verification, and audit evidence.
 
-## Core architecture
+## System at a glance
 
 ```mermaid
 flowchart LR
-    E[Evidence & Organizational Context] --> K[KNOW<br/>Context Runtime]
+    E[Evidence and resources] --> K[KNOW<br/>Context Runtime]
     K --> T[THINK<br/>Cognition Runtime]
     T --> P[Action Proposal]
     P --> A[ACT<br/>Execution Control]
     A --> X[External System]
     X --> R[Receipt]
-    R --> V[Verification / Reconciliation]
+    R --> V[Verification and reconciliation]
 ```
 
-**Rule:** more context, more compute, or more model capability never creates more authority.
+**Core rule:** more context, compute, or model capability never creates more authority.
 
-## Repository role
+## Authority and implementation topology
 
 ```mermaid
-flowchart LR
-    C[coreos<br/>Foundation / Company Brain authority] --> R[UNITERA Registry<br/>Reference / provenance]
-    O[unitera-os<br/>Provider-neutral execution contracts] --> R
-    S[Unitera_Systems<br/>Runtime / persistence / API / product] --> R
-    T[Tenant Control Plane<br/>Authority domain] --> R
+flowchart TB
+    C[coreos<br/>Foundation and Company Brain] --> S[Unitera_Systems<br/>Runtime, API, persistence, product]
+    O[unitera-os<br/>Provider-neutral execution contracts] --> S
+    T[unitera_control_plane<br/>Tenant and assignment authority] --> S
+    C --> R[unitera-registry<br/>Reference and provenance]
+    O --> R
+    T --> R
+    S --> R
     R --> D[unitera_public_docs<br/>Public projection]
-
-    C -. authority wins .-> D
-    O -. authority wins .-> D
-    S -. authority wins .-> D
-    T -. authority wins .-> D
 ```
 
-The Registry **references authority; it does not create authority**. This repository is one step further downstream: it is a human-readable projection of verified source material.
+The Registry references authority; it does not create authority. This repository is one step further downstream: a human-readable projection of verified owner material.
+
+## Current maturity — 2026-08-29
+
+| Surface | Public status |
+|---|---|
+| Company Brain authority and deterministic Foundation projection | **MATERIALIZED**, owner: `coreos` |
+| Execution-control contracts and bounded `email.send.commit` path | **MATERIALIZED / ESTABLISHED**, owner: `unitera-os`; runtime consumer: `Unitera_Systems` |
+| Hosted OIDC sign-in, opaque sessions, internal identity/tenant/membership binding | **MATERIALIZED** on `Unitera_Systems/main` |
+| Self-service sign-up, profile completion, and tenant bootstrap journey | **OPEN**; no production-ready canonical flow is currently evidenced |
+| Discovery runtime and `/work/discovery` | **QUALIFIED DEVELOPMENT SLICE**, not merged to canonical `main` |
+| Cognition compute-envelope contract | **MATERIALIZED**; full cognition runtime authority/lifecycle remains **OPEN** |
+| Tenant-agent assignment semantics | **MATERIALIZED AS AUTHORITY CONTRACT**; downstream runtime qualification remains separate |
+| Registry validation and cross-repository reachability | **ENFORCED** on Registry `main`; Registry remains reference-only |
+| Local Runtime Node | **CANDIDATE** |
+
+See the [current-state matrix](docs/status/current-state.md) for exact refs and non-claims.
 
 ## Reading path
 
-1. [System overview](docs/architecture/system-overview.md)
-2. [Authority and Source-of-Truth model](docs/architecture/authority-and-source-model.md)
-3. [KNOW / THINK / ACT](docs/architecture/know-think-act.md)
-4. [Tenant, Discovery & Company Brain](docs/product/tenant-discovery-company-brain.md)
-5. [Governed effect lifecycle](docs/runtime/governed-effect.md)
-6. [Registry and publication flow](docs/registry/source-to-publication.md)
-7. [Current public status](docs/status/current-state.md)
-8. [Executive overview](docs/presentation/executive-overview.md)
-9. [Documentation & diagram conventions](docs/style/documentation-and-diagrams.md)
-10. [Source basis](docs/reference/source-basis.md)
-11. [Glossary](docs/reference/glossary.md)
+1. [Executive overview](docs/presentation/executive-overview.md)
+2. [System overview](docs/architecture/system-overview.md)
+3. [Repository and authority topology](docs/architecture/repository-topology.md)
+4. [Authority and Source-of-Truth model](docs/architecture/authority-and-source-model.md)
+5. [KNOW / THINK / ACT](docs/architecture/know-think-act.md)
+6. [Sign-up to Discovery product journey](docs/product/signup-to-discovery.md)
+7. [Tenant, Discovery & Company Brain](docs/product/tenant-discovery-company-brain.md)
+8. [Cognition runtime status](docs/runtime/cognition-runtime.md)
+9. [Governed effect lifecycle](docs/runtime/governed-effect.md)
+10. [Registry and publication flow](docs/registry/source-to-publication.md)
+11. [Current public state](docs/status/current-state.md)
+12. [Source basis](docs/reference/source-basis.md)
 
 ## Publication labels
 
 | Label | Meaning |
 |---|---|
-| **ESTABLISHED** | Stable architectural or authority boundary supported by owner/source material. |
-| **MATERIALIZED** | Implemented in the owning repository/runtime surface. |
-| **CANDIDATE** | Source-worthy direction, not yet canonical authority. |
-| **OPEN** | Intentionally unresolved or awaiting adoption/verification. |
-| **PUBLIC PROJECTION** | Explanatory representation only; never normative by itself. |
+| **ESTABLISHED** | Stable architecture or authority boundary supported by an owning source. |
+| **MATERIALIZED** | Implemented in the owning repository or runtime surface. |
+| **QUALIFIED DEVELOPMENT SLICE** | Implemented and evidenced away from canonical `main`; not yet canonical or production-active. |
+| **CANDIDATE** | Source-worthy direction, not canonical authority. |
+| **OPEN** | Unresolved, unadopted, or not sufficiently verified. |
+| **PUBLIC PROJECTION** | Explanatory representation only. |
 
-## Non-negotiable semantic boundaries
+## Non-negotiable boundaries
 
 - Evidence ≠ Truth
-- Interpretation ≠ Authority
-- Claim ≠ Active Truth
-- Approval ≠ Activation
+- Message ≠ Claim
+- Claim ≠ Active Institutional Truth
+- Discovery ≠ Activation
 - Context ≠ Permission
-- Capability availability ≠ Permission
 - Approval ≠ Capability Grant
 - Receipt ≠ Verification
-- Locality ≠ Trust
+- Runtime implementation ≠ Semantic Authority
 - Model capability ≠ Authority
 
-## Public claim posture
+## Claim posture
 
-This repository describes architecture and verified implementation state. It must not imply automatic regulatory compliance, certification, production activation, customer proof, or unrestricted autonomous execution unless those claims are independently supported by the relevant authority and evidence surfaces.
+UNITERA currently has a substantial governed core and several qualified implementation slices. This repository does not claim automatic regulatory compliance, certification, unrestricted autonomy, end-to-end production readiness, or a complete self-service onboarding journey.
 
-## Source discipline
-
-Every substantive document should identify its status and source basis. If this repository conflicts with an owning source, **the owning source wins**. Public documentation is updated only after source/authority reconciliation; it must never be used to back-propagate authority into owner repositories.
+If this repository conflicts with a verified owning artifact, **the owning artifact wins**.

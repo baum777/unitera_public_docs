@@ -1,7 +1,8 @@
 # Bootstrap Materialization Record — 2026-08-29
 
 **Status:** PUBLIC PROJECTION EVIDENCE  
-**Authority:** none by itself
+**Authority:** none by itself  
+**Source basis:** GitHub repository metadata and commit history for `baum777/unitera_public_docs`, verified 2026-08-29
 
 This record documents the initial public documentation bootstrap after the repository was created.
 
@@ -16,17 +17,15 @@ The initial bootstrap established the public projection boundary, governance, so
 
 ## Important interpretation
 
-The bootstrap was written directly to `main` before this follow-up branch existed. Therefore this pull request does **not** pretend to contain the already-published bootstrap commits.
-
-This follow-up PR adds explicit materialization evidence and makes the bootstrap history visible to future reviewers without rewriting or reverting published history.
+The bootstrap was written directly to `main` before this follow-up branch existed. This pull request does not rewrite or revert that history. It adds reviewable materialization evidence and subsequent current-state reconciliation.
 
 ## Authority posture
 
 ```mermaid
 flowchart LR
-    O[Owner Repositories] --> V[Verification]
-    V --> R[Registry / Provenance]
-    R --> P[Public Projection]
+    O[Owner repositories] --> V[Verification]
+    V --> R[Registry and provenance]
+    R --> P[Public projection]
     P -. no authority backflow .-> O
 ```
 

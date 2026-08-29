@@ -1,22 +1,63 @@
 # Current Public State — 2026-08-29
 
-**Status:** PUBLIC SNAPSHOT — descriptive, not authoritative
+**Status:** PUBLIC SNAPSHOT — descriptive, not authoritative  
+**Authority:** none by itself  
+**Source basis:** exact refs in `PUBLICATION_MANIFEST.yaml`, remote branch comparison, and supplied 2026-08-15 source-reconciliation material
 
-## Materialized / strongly evidenced
+## Overall result
 
-- `Unitera_Systems` has a governed runtime orientation with explicit tenant, auth, authority-runtime, execution-control, persistence, API, and audit/evidence surfaces.
-- Company Brain is treated as owned by `coreos`; `Unitera_Systems` consumes integrity-bound references rather than redefining Foundation authority.
-- `unitera-os` remains the provider-neutral contract authority for capability/autonomy/execution-control semantics.
-- The v1 external capability boundary is intentionally narrow around `email.send.commit`.
-- Registry disposition is consumed as governance/reference logic and does not grant authority.
+`PARTIAL` — UNITERA has a materially implemented governed core, while self-service onboarding, canonical Discovery, full cognition runtime, and end-to-end production qualification remain incomplete.
 
-## Still incomplete or adoption-dependent
+## Canonical owner-repository state
 
-- Full cognition runtime authority and lifecycle materialization remains a larger cross-repo integration area.
-- Tenant Control Plane authority is architecturally separated, but public claims should track its actual owner-repo adoption/materialization state.
-- Product surfaces are still catching up with the source direction around `/work`, contextual chat, Company Brain inspection, and lifecycle transparency.
-- Local Runtime Node remains a source candidate until owner-surface materialization and adoption occur.
+| Surface | Evidence | Rating | Public interpretation |
+|---|---|---|---|
+| Foundation and Company Brain | `coreos@3f23e2f` | **pass** | Active founder baseline, deterministic Prime projection, review/promotion contracts, governance validation and CI are owner-repository concerns. |
+| Provider-neutral execution control | `unitera-os@18c50f8` | **pass** | Capability, grant, receipt, policy and execution-control contracts are canonical here; build/test/typecheck/conformance run in CI. |
+| Tenant and Governance authority | `unitera_control_plane@10e2a39` | **pass / partial downstream** | Physical owner, assignment topology, contract v3 and pilot policy are materialized; consumer runtime qualification remains separate. |
+| Product/runtime consumer | `Unitera_Systems@786d03c` | **partial** | Hosted auth, authority runtime, persistence, APIs, product surfaces and bounded execution controls exist; not every broader UNITERA lifecycle is canonical or production-qualified. |
+| Cross-repository Registry | `unitera-registry@a2f4cca` | **pass as reference layer** | Schema `1.1.0`, offline validation and reachability enforcement are materialized; Registry remains non-authoritative. |
 
-## Public interpretation
+## Product journey status
 
-The system is best described as a **substantially materialized bounded governance/runtime core with a partially materialized broader UNITERA architecture**. This repository should evolve only as verified owner and Registry evidence evolves.
+```mermaid
+flowchart LR
+    A[Hosted sign-in<br/>MATERIALIZED] --> B[Profile<br/>OPEN]
+    B --> C[Tenant bootstrap<br/>OPEN]
+    C --> D[Discovery<br/>QUALIFIED BRANCH]
+    D --> E[Activation and First Work<br/>PARTIAL]
+    E --> F[/work<br/>PARTIAL]
+```
+
+| Journey step | Rating | Basis |
+|---|---|---|
+| Hosted OIDC sign-in and opaque session | **pass** | Canonical routes, session service, internal IdP bindings, membership-derived role, RLS-aware resolution, signed BFF proxy. |
+| Public sign-up | **missing** | No canonical production-ready self-service lifecycle evidenced. |
+| Personal profile | **missing** | No required profile-completion contract and handoff evidenced. |
+| Tenant bootstrap/selection | **partial / blocked for self-service** | Tenant authority exists, but public self-service ownership and initial membership flow are not closed. |
+| Discovery runtime | **partial** | Qualified at branch `7f7a3b3`, 11 commits ahead of canonical main; not merged or production-active. |
+| First Work and `/work` | **partial** | Work-first direction and several read-model/product surfaces exist; full activation-to-first-work journey remains dependent on canonical lifecycle integration. |
+
+## Runtime status
+
+| Runtime | Rating | Boundary |
+|---|---|---|
+| KNOW / Company Brain consumption | **partial to materialized** | Owner truth stays in `coreos`; runtime consumption must remain integrity-bound. |
+| THINK / cognition | **partial** | Compute-envelope contract is on main; full root/child run admission, lifecycle, ledger, memory and production backend remain open. |
+| ACT / governed effect | **materialized bounded core** | `email.send.commit` remains the single bounded v1 effect reference; broader integrations do not silently expand this boundary. |
+| Local Runtime Node | **candidate** | No canonical runtime activation. |
+
+## Explicit non-claims
+
+This snapshot does not claim:
+
+- a production-ready public sign-up and onboarding funnel;
+- Discovery on canonical `Unitera_Systems/main`;
+- production deployment or customer reachability of the branch-qualified Discovery slice;
+- complete cognition runtime activation;
+- unrestricted autonomy;
+- automatic regulatory compliance or certification.
+
+## Next documentary gate
+
+Update this snapshot when any of the following changes canonically: self-service identity/profile/tenant contracts, Discovery merge, deployed end-to-end onboarding proof, cognition runtime admission/lifecycle, or Registry bindings for those material changes.
