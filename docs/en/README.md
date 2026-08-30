@@ -23,7 +23,7 @@ This repository is organized by reader intent. Every page is downstream of its o
 
 - [Sign-up → Tenant → Discovery journey](product/signup-to-discovery.md)
 - [Tenant, Discovery & Company Brain](product/tenant-discovery-company-brain.md)
-- [Personal Domain, Member Companion, Personal Memory & Circling — candidate](product/personal-domain-member-companion-circling.md)
+- [Personal Realm, Companion, Personal Memory & Circling — owner-decided architecture](product/personal-realm-companion.md)
 
 ## Runtime & security
 
