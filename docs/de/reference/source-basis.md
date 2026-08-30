@@ -64,6 +64,14 @@ Für die zusammenhängende Architektur-&-Logik-Projektion werden zusätzlich die
 
 Diese Materialien erweitern die Erklärung des Systembilds. Sie dürfen keine verifizierte Owner-Repo-Authority überschreiben und erzeugen insbesondere keine Routing-, Model-, Tenant-, Memory-, Naming- oder Execution-Authority.
 
+Für die öffentliche Projektion der Pilot-Modellwahl und des OpenRouter-Routings werden zusätzlich herangezogen:
+
+- `UNITERA Backend-Agnostic Processing and Governed Route Resolution Source Candidate`, Version 0.1.0, Status `SOURCE_CANDIDATE_NON_AUTHORITATIVE`;
+- `UNITERA Open-Weights Model Infrastructure — Long-Term Architecture Plan`, Version 0.1.0, Status `LONG_TERM_ARCHITECTURE_DIRECTION_NON_AUTHORITATIVE`;
+- datierte Modellvergleichs- und Harness-Evaluations-Evidenz aus den Discovery-/Grill-Me-Pilotläufen vom 29.–30.08.2026.
+
+Die Modellvergleichsevidenz wird als **Pilot Working Evidence** behandelt. Sie begründet weder allgemeine Modellüberlegenheit noch eine dauerhafte Provider- oder Modellbindung. Die konkrete Runtime-Bindung bleibt vor Aktivierung separat zu verifizieren.
+
 ## Pointer-Status
 
 Der bereitgestellte Source-State-Snapshot meldet candidate_pointer_not_activated. Diese Prüfung hat spätere Zustände der Owner-Repositories einzeln verifiziert, aber keine separate Aktivierung eines einheitlichen Pointers. Eine solche Aktivierung wird daher nicht behauptet.
