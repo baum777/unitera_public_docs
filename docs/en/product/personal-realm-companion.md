@@ -1,9 +1,9 @@
 # Personal Realm, Companion, Personal Memory & Circling
 
-**Status:** PUBLIC PROJECTION — OWNER-DECIDED ARCHITECTURE; OWNER-REPO MATERIALIZATION IN REVIEW  
+**Status:** PUBLIC PROJECTION — OWNER-DECIDED ARCHITECTURE; OWNER-REPO FOUNDATION MERGED  
 **Authority:** none by itself  
 **Owner surface:** `baum777/unitera_companion`  
-**Qualified owner materialization:** branch `architecture/personal-realm-foundation`, head `cb59971c8f171954e979a0f8a6fccbd5a0176116`, PR #1 open  
+**Owner-main materialization:** `main@8dd8112a74631516c134bc3fc528d6220cdd27a7`, PR #1 merged  
 **Cross-repo source adoption:** pending  
 **Runtime activation:** none
 
@@ -17,14 +17,14 @@ The owner-finalized architecture now names the first-class personal UNITERA cont
 
 The 20-step Owner Grill-Me finalization established the architecture direction and designated `unitera_companion` as the dedicated semantic owner surface.
 
-The current owner materialization is present on an owner-repository review branch and PR. It is not yet merged to that repository's `main`. Therefore this public page distinguishes:
+The owner materialization from the 20-step decision set is now merged to the designated owner repository's `main`. Cross-repository adoption and runtime activation remain separate. Therefore this public page distinguishes:
 
 ~~~text
 Owner decision
 = finalized
 
 Owner-repo architecture materialization
-= present in PR #1 / review branch
+= merged to owner main (`8dd8112`)
 
 Cross-repo adoption
 = pending
@@ -521,11 +521,10 @@ The Companion may support Work by combining eligible personal context with least
 
 ## Current public status
 
-Owner decisions for this architecture are finalized and materialized in the designated owner repository's review branch.
+Owner decisions for this architecture are finalized and the architecture foundation is merged to the designated owner repository's `main`.
 
 This public page does **not** claim that:
 
-- the owner-repository PR is already merged to `main`;
 - cross-repo authority bindings are already adopted;
 - Personal Realm runtime exists;
 - production Companion effects are enabled;
