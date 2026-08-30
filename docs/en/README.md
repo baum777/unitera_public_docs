@@ -27,6 +27,7 @@ This repository is organized by reader intent. Every page is downstream of its o
 ## Runtime & security
 
 - [Cognition runtime](runtime/cognition-runtime.md)
+- [Pilot model selection, OpenRouter & governed routing — candidate](runtime/pilot-model-routing-openrouter.md)
 - [Governed external effect](runtime/governed-effect.md)
 - [Local Runtime Node — candidate](runtime/local-runtime-node.md)
 
