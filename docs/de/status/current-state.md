@@ -1,4 +1,4 @@
-# Aktueller öffentlicher Stand — 29.08.2026
+# Aktueller öffentlicher Stand — 30.08.2026
 
 **Status:** PUBLIC SNAPSHOT — beschreibend, nicht autoritativ  
 **Autorität:** keine aus sich selbst heraus  
@@ -17,6 +17,22 @@
 | Tenant- und Governance-Autorität | `unitera_control_plane@10e2a39` | **pass / partial downstream** | Physischer Owner, Zuordnungstopologie, Contract v3 und Pilot-Policy sind materialisiert; Qualifikation der Consumer-Runtime bleibt separat. |
 | Produkt-/Runtime-Consumer | `Unitera_Systems@786d03c` | **partial** | Gehostete Authentifizierung, Authority Runtime, Persistenz, APIs, Produktoberflächen und begrenzte Execution Controls existieren; nicht jeder umfassendere UNITERA-Lifecycle ist kanonisch oder produktiv qualifiziert. |
 | Repository-übergreifende Registry | `unitera-registry@a2f4cca` | **pass as reference layer** | Schema `1.1.0`, Offline-Validierung und Erreichbarkeitserzwingung sind materialisiert; die Registry bleibt nichtautoritativ. |
+
+
+## Personal-Realm-Owner-Entscheidung
+
+Die Personal-Realm-Architektur ist über den früheren offenen Candidate-Stand hinaus: Die 20-stufige Owner-Grill-Me-Session ist finalisiert und `baum777/unitera_companion` ist die designierte semantische Owner Surface. Das aktuelle Architekturfundament liegt auf Branch `architecture/personal-realm-foundation@cb59971c` in PR #1 und ist **noch nicht in Owner-`main` gemerged**.
+
+Öffentliche Einordnung:
+
+~~~text
+Owner Decision = finalisiert
+Owner-Repo-Materialisierung = qualifizierter PR-Branch
+Cross-Repo Adoption = ausstehend
+Runtime Activation = keine
+~~~
+
+Die Owner-entschiedene Richtung umfasst Personal-Realm-Naming, Local-first/Multi-Node-Kontinuität, Hardware-Key-signiertes Backup/Recovery, Personal-Memory-Residency-Kontrollen, first-class Circling-Semantik, PersonalIdea/PersonalConcept/PersonalPlan, explizite Personal→Institutional Contribution, capability-spezifische Companion-Autonomie und den tiered Companion Shadow Guard.
 
 ## Status der Product Journey
 
@@ -46,6 +62,7 @@ flowchart LR
 | THINK / Cognition | **partial** | Compute-Envelope-Vertrag ist auf `main`; vollständige Root-/Child-Run-Admission, Lifecycle, Ledger, Memory und Produktions-Backend bleiben offen. |
 | ACT / kontrollierte Wirkung | **materialized bounded core** | `email.send.commit` bleibt die einzelne begrenzte v1-Wirkungsreferenz; umfassendere Integrationen erweitern diese Grenze nicht stillschweigend. |
 | Local Runtime Node | **candidate** | Keine kanonische Runtime-Aktivierung. |
+| Personal Realm / Companion | **Owner-entschiedene Architektur / qualifizierter Owner-Branch** | Dedizierte Owner Surface und Detailed Architecture sind in `unitera_companion` PR #1 materialisiert; Contracts, Cross-Repo Adoption und Runtime bleiben ausstehend. |
 
 ## Explizite Nichtaussagen
 
@@ -56,6 +73,7 @@ Dieser Snapshot behauptet nicht:
 - produktives Deployment oder Kundenerreichbarkeit des Branch-qualifizierten Discovery Slice;
 - vollständige Aktivierung der Cognition Runtime;
 - unbeschränkte Autonomie;
+- einen gemergten/kanonischen `unitera_companion/main`-Architekturstand oder eine aktivierte Personal-Realm-Runtime;
 - automatische regulatorische Compliance oder Zertifizierung.
 
 ## Nächstes dokumentarisches Gate
