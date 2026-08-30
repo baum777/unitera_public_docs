@@ -52,6 +52,14 @@ The public projection of the Local Runtime Node additionally uses:
 
 These materials are documented strictly as candidates. They do not prove owner-surface adoption, runtime activation, production execution, or source-pointer activation.
 
+The public projection of pilot model selection and OpenRouter routing additionally uses:
+
+- `UNITERA Backend-Agnostic Processing and Governed Route Resolution Source Candidate`, version 0.1.0, status `SOURCE_CANDIDATE_NON_AUTHORITATIVE`;
+- `UNITERA Open-Weights Model Infrastructure — Long-Term Architecture Plan`, version 0.1.0, status `LONG_TERM_ARCHITECTURE_DIRECTION_NON_AUTHORITATIVE`;
+- dated model-comparison and harness-evaluation evidence from Discovery / Grill-Me pilot runs performed on 2026-08-29–30.
+
+The model-comparison evidence is treated as **Pilot Working Evidence**. It establishes neither general model superiority nor a permanent provider/model binding. Concrete runtime bindings still require separate verification before activation.
+
 ## Pointer posture
 
 The supplied source-state snapshot reports candidate_pointer_not_activated. This review verified later owner-repository states individually; it did not verify a separate unified pointer activation. Therefore no such activation is claimed.
