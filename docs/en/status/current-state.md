@@ -147,6 +147,43 @@ The unified/current source pointer remains unchanged. Pilot authorization is a s
 | Personal Realm / Companion | **owner foundation merged; runtime absent** | Owner semantics are on `unitera_companion/main`; cross-repo adoption and runtime remain pending. |
 | Production Interface | **product implementation merged; effects off** | UI/BFF and Settings are materialized without gaining semantic authority or activating live execution. |
 
+
+## Local Runtime Node × Personal Realm — joint boundary state
+
+The two surfaces have different maturity, but a real bootstrap dependency.
+
+~~~text
+Local Runtime Node
+= candidate
+
+Personal Realm
+= owner foundation merged
+= runtime absent
+~~~
+
+The Personal Realm owner surface binds initial Companion bootstrap to an authenticated PlatformPrincipal, a bound Local Runtime Node, an initialized local UNITERA workspace, and explicit Companion bootstrap.
+
+~~~text
+LocalNodeIdentity != PersonalRealm
+TenantNodeBinding != PersonalRealmBinding
+Local Reachability != Authority
+Company Context Access != Personal Memory Residency Permission
+~~~
+
+The combined boundary is described in [Local Runtime Node × Personal Realm](../architecture/local-node-personal-realm-trust-boundary.md).
+
+## Reviewer Assurance publication gap
+
+The currently verifiable Registry state still projects REVIEWER-MODEL-001 through GOV-DC-001@0.1.0 as an open source/governance gap. No exact owner-repository ref for a newer R2/R3 materialization was verified during this publication update.
+
+The public projection therefore does not claim newer R2/R3 ReviewerClass rules as source-backed current state. This is a publication/source-verification gap, not a claim that no local materialization exists.
+
+See [Reviewer Assurance — publication status](../reference/reviewer-assurance-publication-status.md).
+
+## OpenRouter/cognition publication posture
+
+The public OpenRouter page remains explicitly CANDIDATE / PILOT WORKING PLAN. This documentation update did not run a new live provider qualification and therefore does not make a new CLOSED claim. A later source/runtime reconciliation may establish that the public projection trails verified implementation state.
+
 ## Explicit non-claims
 
 This snapshot does not claim:

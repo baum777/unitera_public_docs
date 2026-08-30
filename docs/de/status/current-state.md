@@ -147,6 +147,43 @@ Der einheitliche/current Source Pointer bleibt unverändert. Pilot Authorization
 | Personal Realm / Companion | **Owner-Foundation gemerged; Runtime absent** | Owner-Semantik liegt auf `unitera_companion/main`; Cross-Repo Adoption und Runtime bleiben ausstehend. |
 | Production Interface | **Produktimplementierung gemerged; Effects off** | UI/BFF und Settings sind materialisiert, ohne semantische Autorität zu erlangen oder Live Execution zu aktivieren. |
 
+
+## Local Runtime Node × Personal Realm — gemeinsamer Boundary-Stand
+
+Die beiden Flächen haben unterschiedliche Reifegrade, aber eine reale Bootstrap-Abhängigkeit.
+
+~~~text
+Local Runtime Node
+= Candidate
+
+Personal Realm
+= Owner Foundation merged
+= Runtime absent
+~~~
+
+Die Personal-Realm-Owner-Surface bindet den initialen Companion-Bootstrap an authentifizierten PlatformPrincipal, gebundenen Local Runtime Node, initialisierten lokalen UNITERA Workspace und expliziten Companion Bootstrap.
+
+~~~text
+LocalNodeIdentity != PersonalRealm
+TenantNodeBinding != PersonalRealmBinding
+Local Reachability != Authority
+Company Context Access != Personal Memory Residency Permission
+~~~
+
+Die zusammenhängende Boundary ist auf [Local Runtime Node × Personal Realm](../architecture/local-node-personal-realm-trust-boundary.md) beschrieben.
+
+## Reviewer-Assurance-Publikationslücke
+
+Der aktuell verifizierbare Registry-Stand führt REVIEWER-MODEL-001 weiterhin über GOV-DC-001@0.1.0 als offenen Source-/Governance-Gap. In dieser Publikationsrunde wurde kein exakter Owner-Repository-Ref für eine neuere R2/R3-Materialisierung verifiziert.
+
+Darum behauptet die Public Projection derzeit keine neueren R2/R3-ReviewerClass-Regeln als source-backed Zustand. Das ist eine Publikations-/Source-Verifikationslücke, keine Aussage, dass keine lokale Materialisierung existiert.
+
+Siehe [Reviewer Assurance — Publikationsstatus](../reference/reviewer-assurance-publication-status.md).
+
+## OpenRouter-/Cognition-Publikationsstatus
+
+Die öffentliche OpenRouter-Seite bleibt ausdrücklich CANDIDATE / PILOT WORKING PLAN. Diese Dokumentationsaktualisierung hat keine neue Live-Provider-Qualification ausgeführt und erhebt deshalb keinen neuen CLOSED-Claim. Eine spätere Source-/Runtime-Reconciliation kann zeigen, dass die öffentliche Projektion hinter einem verifizierten Implementierungsstand zurückliegt.
+
 ## Explizite Nichtaussagen
 
 Dieser Snapshot behauptet nicht:

@@ -173,6 +173,42 @@ This review does not claim a unified source-pointer activation.
 - **Inferred:** explicitly labeled reasoning from observed evidence.
 - **Unverified:** excluded from canonical/materialized/production claims.
 
+
+## Cross-source reconciliation: Local Node × Personal Realm
+
+The joint trust-boundary projection uses two sources at different maturity levels:
+
+~~~text
+Local Runtime Node
+→ SOURCE_CANDIDATE_NON_AUTHORITATIVE
+
+Personal Realm
+→ owner decisions finalized
+→ unitera_companion/main@8dd8112
+→ cross-repo adoption pending
+~~~
+
+The Personal Realm owner surface decides the bootstrap dependency on a bound Local Runtime Node and local workspace. That does not automatically adopt the Local Node candidate or activate a Local Node runtime.
+
+## Reviewer Assurance source gap
+
+No exact owner-repository ref for a newer REVIEWER-MODEL-001/R2/R3 materialization was found in the verified GitHub state used for this update.
+
+The currently verifiable Registry entry remains:
+
+~~~text
+REVIEWER-MODEL-001
+state: open_source_available
+source_ref: GOV-DC-001@0.1.0
+governance_activation: decision_recorded_implementation_pending
+~~~
+
+Newer Reviewer Assurance decisions reported only in local/session evidence are therefore not published as source-backed public state. Public Documentation != Authority.
+
+## OpenRouter reconciliation note
+
+The public OpenRouter/model-routing page remains a Pilot Working Plan. This publication update did not execute a new live serving/provider qualification. Any newer runtime closure state must be separately verified against exact owner/implementation refs before the public status classification changes.
+
 ## Conflict rule
 
 If this public projection differs from a verified owner artifact, the owner artifact wins. If owner sources conflict or cannot be verified, the public document must state the gap rather than silently resolve it.

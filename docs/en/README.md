@@ -18,6 +18,7 @@ This repository is organized by reader intent. Every page is downstream of its o
 - [Repository and authority topology](architecture/repository-topology.md)
 - [Authority & Source-of-Truth model](architecture/authority-and-source-model.md)
 - [KNOW / THINK / ACT](architecture/know-think-act.md)
+- [Local Runtime Node × Personal Realm — joint trust boundary](architecture/local-node-personal-realm-trust-boundary.md)
 
 ## Product & organizational context
 
@@ -43,3 +44,4 @@ This repository is organized by reader intent. Every page is downstream of its o
 - [Glossary](reference/glossary.md)
 - [Contributing](reference/contributing.md)
 - [Governance](reference/governance.md)
+- [Reviewer Assurance — publication status and boundary](reference/reviewer-assurance-publication-status.md)
