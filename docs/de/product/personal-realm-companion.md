@@ -1,9 +1,9 @@
 # Personal Realm, Companion, Personal Memory und Circling
 
-**Status:** ÖFFENTLICHE PROJEKTION — OWNER-ENTSCHIEDENE ARCHITEKTUR; OWNER-REPO-MATERIALISIERUNG IM REVIEW  
+**Status:** ÖFFENTLICHE PROJEKTION — OWNER-ENTSCHIEDENE ARCHITEKTUR; OWNER-REPO-FOUNDATION GEMERGED  
 **Authority:** keine durch dieses Dokument  
 **Owner Surface:** `baum777/unitera_companion`  
-**Qualifizierte Owner-Materialisierung:** Branch `architecture/personal-realm-foundation`, Head `cb59971c8f171954e979a0f8a6fccbd5a0176116`, PR #1 offen  
+**Owner-main-Materialisierung:** `main@8dd8112a74631516c134bc3fc528d6220cdd27a7`, PR #1 gemerged  
 **Cross-Repo Source Adoption:** ausstehend  
 **Runtime Activation:** keine
 
@@ -17,14 +17,14 @@ Die Owner-finalisierte Architektur nennt die first-class persönliche UNITERA-Ko
 
 Die 20-stufige Owner-Grill-Me-Finalisierung hat die Architekturrichtung entschieden und `unitera_companion` als dedizierte semantische Owner Surface festgelegt.
 
-Die aktuelle Owner-Materialisierung liegt in einem Review-Branch und PR des Owner-Repositories. Sie ist noch nicht in dessen `main` gemerged. Daher unterscheidet diese öffentliche Seite:
+Die Owner-Materialisierung aus dem 20-stufigen Decision Set ist jetzt in `main` des designierten Owner-Repositories gemerged. Cross-Repo Adoption und Runtime Activation bleiben getrennte Gates. Daher unterscheidet diese öffentliche Seite:
 
 ~~~text
 Owner Decision
 = finalisiert
 
 Owner-Repo-Architekturmaterialisierung
-= in PR #1 / Review-Branch vorhanden
+= auf Owner-main (`8dd8112`) gemerged
 
 Cross-Repo Adoption
 = ausstehend
@@ -523,11 +523,10 @@ Der Companion darf Work unterstützen, indem er eligible Personal Context mit le
 
 ## Aktueller öffentlicher Status
 
-Die Owner Decisions für diese Architektur sind finalisiert und im Review-Branch des designierten Owner-Repositories materialisiert.
+Die Owner Decisions für diese Architektur sind finalisiert und das Architekturfundament ist in `main` des designierten Owner-Repositories gemerged.
 
 Diese öffentliche Seite behauptet **nicht**, dass:
 
-- der Owner-Repo-PR bereits in `main` gemerged ist;
 - Cross-Repo Authority Bindings bereits adopted sind;
 - eine Personal-Realm-Runtime bereits existiert;
 - produktive Companion Effects aktiviert sind;
