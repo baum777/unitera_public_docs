@@ -18,6 +18,7 @@ Dieses Repository ist nach Leserinteresse gegliedert. Jede Seite ist den zustän
 - [Repository- und Autoritätstopologie](architecture/repository-topology.md)
 - [Autoritäts- und Source-of-Truth-Modell](architecture/authority-and-source-model.md)
 - [KNOW / THINK / ACT](architecture/know-think-act.md)
+- [Local Runtime Node × Personal Realm — gemeinsame Trust Boundary](architecture/local-node-personal-realm-trust-boundary.md)
 
 ## Produkt- und Organisationskontext
 
@@ -43,3 +44,4 @@ Dieses Repository ist nach Leserinteresse gegliedert. Jede Seite ist den zustän
 - [Glossar](reference/glossary.md)
 - [Mitwirken](reference/contributing.md)
 - [Governance](reference/governance.md)
+- [Reviewer Assurance — Publikationsstatus und Boundary](reference/reviewer-assurance-publication-status.md)
