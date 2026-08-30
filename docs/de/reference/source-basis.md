@@ -30,6 +30,21 @@ classification: QUALIFIED_DEVELOPMENT_SLICE
 
 Branch-Evidenz wird niemals als kanonisches main oder Produktionsaktivierung dargestellt.
 
+Die Personal-Realm-Dokumentation berücksichtigt zusätzlich den Review-Branch des owner-designierten Repositories:
+
+~~~yaml
+repository: baum777/unitera_companion
+ref: architecture/personal-realm-foundation
+head: cb59971c8f171954e979a0f8a6fccbd5a0176116
+pull_request: 1
+classification: OWNER_DECISIONS_FINALIZED_OWNER_MATERIALIZATION_IN_REVIEW
+owner_main_merged: false
+cross_repo_adoption_complete: false
+runtime_activated: false
+~~~
+
+Dieser Branch wird verwendet, weil die Owner-Grill-Me-Entscheidungen finalisiert und dort materialisiert sind, während der Default Branch des Owner-Repositories das Architekturfundament noch nicht adopted hat.
+
 ## Bereitgestelltes Quellen-Abgleichsmaterial
 
 Das für diese Prüfung bereitgestellte Paket vom 15.08.2026 umfasst:
@@ -59,7 +74,7 @@ Für die zusammenhängende Architektur-&-Logik-Projektion werden zusätzlich die
 - UNITERA Backend-Agnostic Processing and Governed Route Resolution Source Candidate, Version 0.1.0, Status SOURCE_CANDIDATE_NON_AUTHORITATIVE;
 - UNITERA Open-Weights Model Infrastructure — Long-Term Architecture Plan, Version 0.1.0, Status LONG_TERM_ARCHITECTURE_DIRECTION_NON_AUTHORITATIVE;
 - UNITERA Canonical Naming, Terms & Definitions Ruling Specification, Version 0.1.0, Status RULING_SOURCE_CANDIDATE_READY_FOR_OWNER_BINDING;
-- UNITERA Personal Domain, Member Companion, Personal Memory & Circling, Version 0.1.0, Status SOURCE_RECONCILED_ARCHITECTURE_AND_CONTRACT_CANDIDATE_READY_FOR_OWNER_BINDING;
+- der frühere Candidate UNITERA Personal Domain, Member Companion, Personal Memory & Circling v0.1.0 als historische/source-reconciled Grundlage, öffentlich in Terminologie und Owner-Richtung inzwischen durch die qualifizierte Personal-Realm-Owner-Materialisierung in `unitera_companion` superseded;
 - source-reconciled Runtime-/Harness-Ergänzungen zu Runtime State, Memory, Handoff, Evaluation und Failure Attribution, soweit sie in der öffentlichen Gesamterklärung ausdrücklich als Candidate-Richtung markiert sind.
 
 Diese Materialien erweitern die Erklärung des Systembilds. Sie dürfen keine verifizierte Owner-Repo-Authority überschreiben und erzeugen insbesondere keine Routing-, Model-, Tenant-, Memory-, Naming- oder Execution-Authority.
@@ -86,3 +101,7 @@ Der bereitgestellte Source-State-Snapshot meldet candidate_pointer_not_activated
 ## Konfliktregel
 
 Weicht diese öffentliche Projektion von einem verifizierten Owner-Artefakt ab, gewinnt das Owner-Artefakt. Widersprechen sich Owner-Quellen oder können sie nicht verifiziert werden, muss das öffentliche Dokument OPEN ausweisen.
+
+## Source-State-Hinweis zum Personal Realm
+
+Für das Personal Realm darf die öffentliche Dokumentation festhalten, dass die **Owner Decisions finalisiert** sind und `unitera_companion` die **owner-designierte semantische Surface** ist. Gleichzeitig muss sie ausweisen, dass die aktuellen Architekturartefakte noch in PR #1 / Branch `architecture/personal-realm-foundation` liegen, Cross-Repo Adoption aussteht und durch diese Dokumente weder Runtime noch Production Execution aktiviert wurden.
