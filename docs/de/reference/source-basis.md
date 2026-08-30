@@ -4,104 +4,175 @@
 **Repository-Rolle:** PUBLIC DOCUMENTATION PROJECTION  
 **Autorität:** keine aus sich selbst heraus
 
-## Verifizierte Refs der Owner-Repositories
+## Verifizierte Default-Branch-Refs
 
-| Owner-Repository | Verifizierte Ref des Default-Branches | Verwendet für |
+| Repository | Verifizierte Default-Branch-Ref | Verwendet für |
 |---|---|---|
-| baum777/coreos | 3f23e2fa920f8b3bfe78d7fe898078ff924c1814 | Foundation, Company Brain, Promotion und Governance-Status |
-| baum777/unitera-os | 18c50f837aa5442d29edf0bae7f0beb5fd9fa94b | Providerneutrale Capability-/Autonomie-/Execution-Verträge |
-| baum777/Unitera_Systems | 786d03ca731acf5ab1af38731954891e84542d8c | Runtime, Persistenz, API, gehostete Authentifizierung, Produkt und Consumer-Erzwingung |
-| baum777/unitera_control_plane | 10e2a3953a76a892cb4112dcf9c1f7998d970970 | Physisches Tenant-/Governance-Ownership, Zuordnungstopologie und Pilot-Policy |
-| baum777/unitera-registry | a2f4ccac009305741e463eba99069e8052c172fd | Registry-Schema, Referenzvertrag, Validierung und Erreichbarkeitsstatus |
+| baum777/coreos | c34b61a9264348afaaae96c5b94e169011bf76ab | Foundation, Company Brain, Tenant-Foundation-Semantik und aktuellen Owner-Boundary-Stand |
+| baum777/unitera-os | 18c50f837aa5442d29edf0bae7f0beb5fd9fa94b | Providerneutrale Capability-/Autonomie-/Execution-Verträge und CI-gegatete Conformance |
+| baum777/Unitera_Systems | 786d03ca731acf5ab1af38731954891e84542d8c | Kanonischer Runtime-Consumer, Persistenz, APIs, gehostete Authentifizierung und begrenzte Authority-Enforcement |
+| baum777/unitera_control_plane | fc9370eb146dd068027f9dd9b3a7bdd01626bb65 | Aktueller Tenant-/Governance-Owner-Repository-Head; frühere Contract-Revisionen bleiben dort zitiert, wo sie das exakte semantische Review-Subject sind |
+| baum777/unitera-registry | 891f9b967328131d8d3348ffba3dc64e7c1163ac | Registry-Vertrag, Provenienz, Continuous Reachability und RCC-/Digest-Verification-Closure |
+| baum777/unitera_companion | 8dd8112a74631516c134bc3fc528d6220cdd27a7 | Personal-Realm-Owner-Decisions und gemergtes Architekturfundament |
+
+Diese Refs identifizieren die zum Review-Zeitpunkt verifizierten aktuellen Default Branches. Ein neuerer Repository-Head verändert nicht rückwirkend den Scope einer Decision oder eines Reviews, das an einen früheren exakten Commit gebunden war.
+
+## Verifizierte Implementierungsprojektion
+
+Das dedizierte Production Pilot Interface ist separat verifiziert:
+
+~~~yaml
+repository: baum777/unitera-production-interface
+ref: main
+head: d7cbf8ce78bb7c2e5737a126d972dfd638a378fd
+role: PRODUCT_UI_PLUS_BFF
+semantic_authority: NONE_BY_IMPLEMENTATION
+production_execution_activated: false
+live_effect_active: false
+~~~
+
+Sein gemergter PR #1 enthält den Migration-Closure-Stack und die kontrollierte Settings-/Profile-Produktoberfläche. Für den qualifizierten PR-Head `9e688b94b3335a625543a39aeb9873b1d88444e5` ist ein erfolgreicher Remote-`ci`-Run beobachtet.
+
+Dieses Repository belegt Product-/UI-/BFF-Materialisierung, ist aber keine Ersatz-Authority-Quelle für Tenant-, Membership-, Company-Brain-, Capability-, Grant- oder Execution-Semantik.
 
 ## Qualifizierte nichtkanonische Evidenz
 
-Die Discovery-Dokumentation berücksichtigt außerdem den Remote-Branch:
+### Discovery Runtime — Unitera_Systems PR #94
 
 ~~~yaml
 repository: baum777/Unitera_Systems
 ref: codex/discovery-pilot-readiness-closure
-head: 7f7a3b35e957dafaf0d3cb11eb46c5788ddecdfe
+head: 19e70f220a83c331b7fc7f4c9bbd9e3ff9d35893
+pull_request: 94
 compared_to_main:
-  ahead_by: 11
+  ahead_by: 15
   behind_by: 0
 classification: QUALIFIED_DEVELOPMENT_SLICE
+canonical_main: false
+runtime_activation_claimed: false
 ~~~
 
-Branch-Evidenz wird niemals als kanonisches main oder Produktionsaktivierung dargestellt.
+Dieser Branch enthält Discovery-Persistenz, deterministische Cognition, strukturiertes Wissen/Provenienz, `/work/discovery`, First Work, RLS und Qualifikationsevidenz.
 
-Die Personal-Realm-Dokumentation berücksichtigt zusätzlich den Review-Branch des owner-designierten Repositories:
+Branch-Evidenz wird niemals als kanonisches main oder Production Activation dargestellt.
+
+### Pilot UI / Identity / Decision Integration — Unitera_Systems PR #98
 
 ~~~yaml
-repository: baum777/unitera_companion
-ref: architecture/personal-realm-foundation
-head: cb59971c8f171954e979a0f8a6fccbd5a0176116
-pull_request: 1
-classification: OWNER_DECISIONS_FINALIZED_OWNER_MATERIALIZATION_IN_REVIEW
-owner_main_merged: false
-cross_repo_adoption_complete: false
-runtime_activated: false
+repository: baum777/Unitera_Systems
+ref: pilot-ui-01/production-entry-readonly-pilot
+head: 903f0250dd754ecc6ddaa87752a86e5c2c1a7f4d
+pull_request: 98
+classification: QUALIFIED_INTEGRATION_IN_REVIEW
+canonical_main: false
+remote_workflows:
+  audit_gates: success
+  visual_enforcement_level_2: success
+  canonical_enforcement: success
+  governance_guardrails: success
+  ci: success
 ~~~
 
-Dieser Branch wird verwendet, weil die Owner-Grill-Me-Entscheidungen finalisiert und dort materialisiert sind, während der Default Branch des Owner-Repositories das Architekturfundament noch nicht adopted hat.
+Dieser Branch wird ausschließlich für ausdrücklich als nichtkanonischer Integrationsfortschritt markierte Aussagen verwendet. Er enthält aktuell Natural-Person-Identity/Attestation, HumanDecision/DualControlSet, umfassendere Work-Read-Models und einen Read-only Pilot Product Entry.
 
-## Bereitgestelltes Quellen-Abgleichsmaterial
+Erfolgreiche Workflows machen diesen Branch weder zu Owner Authority noch zu Source Adoption, Runtime Activation oder Production Permission.
 
-Das für diese Prüfung bereitgestellte Paket vom 15.08.2026 umfasst:
+## Personal-Realm-Source-State-Update
+
+Die frühere öffentliche Projektion behandelte `unitera_companion/architecture/personal-realm-foundation@cb59971c` als offenen Owner-Materialisierungs-PR.
+
+Dieser Zustand ist superseded: PR #1 wurde am 30.08.2026 gemerged; `unitera_companion/main@8dd8112` enthält nun das owner-designierte Architekturfundament.
+
+Aktueller Stand:
+
+~~~yaml
+owner_decisions_finalized: true
+owner_main_merged: true
+cross_repo_adoption_complete: false
+runtime_activated: false
+production_execution_authorized: false
+~~~
+
+## Registry-Integritätsstand
+
+`unitera-registry@891f9b9` enthält den Abschluss des RCC-/Digest-Verification-Programms.
+
+Beobachtetes Ergebnis des gemergten Review-Programms:
+
+~~~text
+Digest-Assertions klassifiziert: 188 / 188
+exakte rekalkulierbare Matches: 130
+non-recalculable-by-design: 58
+unresolved: 0
+
+Live Reachability:
+verified: 163
+mismatch: 0
+unverifiable: 0
+record gaps: 0
+~~~
+
+Dies belegt Integritäts-/Reachability-Eigenschaften von Registry-Assertions. Es erzeugt **keine** Source Adoption oder Authority.
+
+Dieselbe Registry weist für den Pilot Authority Freeze weiterhin `FREEZE_NOT_AUTHORIZED` aus, weil Independent-Review- und Tenant-Control-Plane-Runtime-Conformance-Declaration-Gates offen bleiben.
+
+## Bereitgestelltes Source-Reconciliation-Material
+
+Das im Projekt bereitgestellte Paket vom 15.08.2026 umfasst:
 
 - Systemarchitektur und Autoritätsvorrang;
 - Tenant, Discovery, epistemischen Zustand und Company-Brain-Lifecycle;
 - KNOW / THINK / ACT und Autonomie-/Sicherheitsgrenzen;
 - Lifecycle-Gates, Bindings und semantischen Kern;
-- Quellenstatus, Konflikte, Adoptions- und Supersession-Kandidaten;
+- Source State, Konflikte, Adoption und Supersession Candidates;
 - Herleitung der Sicherheitslogik und Familien negativer Tests.
 
-Diese Artefakte enthalten ausdrücklich eingefrorene Spezifikationen, Owner-Entscheidungen vor Adoption, Kandidaten und abgeleitete nichtautoritative Zusammenfassungen. Ihre Klassifikationen bleiben erhalten.
+Diese Artefakte enthalten ausdrücklich eingefrorene Spezifikationen, Owner Decisions vor Adoption, Candidates und abgeleitete nichtautoritative Zusammenfassungen. Ihre Klassifikationen bleiben erhalten.
 
-## Später bereitgestellte Source Candidates
+## Später bereitgestellte Source Candidates und Architektur-Richtungen
 
-Für die öffentliche Projektion des Local Runtime Node wird zusätzlich herangezogen:
+Die zusammenhängende öffentliche Architekturprojektion berücksichtigt zusätzlich diese bereitgestellten Materialien, ohne ihren Reifegrad durch die Publikation anzuheben:
 
-- UNITERA Local Runtime Node & Device Capability Boundary, Spec-ID UNITERA-LOCAL-RUNTIME-NODE-DEVICE-CAPABILITY-BOUNDARY-001, Version 0.1.0, Status SOURCE_CANDIDATE_NON_AUTHORITATIVE;
-- UNITERA Local Runtime Node — Device Identity & Enrollment Amendment v0.1.1, Status SOURCE_CANDIDATE_READY_NON_AUTHORITATIVE.
+- UNITERA Local Runtime Node & Device Capability Boundary, v0.1.0, `SOURCE_CANDIDATE_NON_AUTHORITATIVE`;
+- Local Runtime Node Device Identity & Enrollment Amendment, Candidate/non-authoritative;
+- UNITERA Backend-Agnostic Processing and Governed Route Resolution, v0.1.0, `SOURCE_CANDIDATE_NON_AUTHORITATIVE`;
+- UNITERA Open-Weights Model Infrastructure — Long-Term Architecture Plan, v0.1.0, `LONG_TERM_ARCHITECTURE_DIRECTION_NON_AUTHORITATIVE`;
+- UNITERA Canonical Naming, Terms & Definitions Ruling Specification, v0.1.0, `RULING_SOURCE_CANDIDATE_READY_FOR_OWNER_BINDING`;
+- historisches Personal-Domain-/Member-Companion-/Personal-Memory-/Circling-Candidate-Material, öffentlich in Terminologie und Owner-Richtung inzwischen durch die gemergte Personal-Realm-Owner-Foundation superseded;
+- source-reconciled Runtime-/Harness-Ergänzungen zu Runtime State, Memory, Handoff, Evaluation und Failure Attribution, soweit ausdrücklich als Candidate-Richtung markiert.
 
-Diese Kandidaten werden ausschließlich als Kandidaten dokumentiert. Sie belegen weder Owner-Surface-Adoption noch Runtime-Aktivierung, Production Execution oder Source-Pointer-Aktivierung.
+Diese Materialien dürfen die Erklärung erweitern. Sie dürfen keine verifizierte Owner-Repository-Authority überschreiben.
 
-## Weitere Source Candidates und Architektur-Richtungen
+## Pilot-Modellwahl-Evidenz
 
-Für die zusammenhängende Architektur-&-Logik-Projektion werden zusätzlich die folgenden bereitgestellten, nicht automatisch kanonischen Materialien berücksichtigt:
+Die öffentliche OpenRouter-/Model-Routing-Seite verwendet zusätzlich:
 
-- UNITERA Backend-Agnostic Processing and Governed Route Resolution Source Candidate, Version 0.1.0, Status SOURCE_CANDIDATE_NON_AUTHORITATIVE;
-- UNITERA Open-Weights Model Infrastructure — Long-Term Architecture Plan, Version 0.1.0, Status LONG_TERM_ARCHITECTURE_DIRECTION_NON_AUTHORITATIVE;
-- UNITERA Canonical Naming, Terms & Definitions Ruling Specification, Version 0.1.0, Status RULING_SOURCE_CANDIDATE_READY_FOR_OWNER_BINDING;
-- der frühere Candidate UNITERA Personal Domain, Member Companion, Personal Memory & Circling v0.1.0 als historische/source-reconciled Grundlage, öffentlich in Terminologie und Owner-Richtung inzwischen durch die qualifizierte Personal-Realm-Owner-Materialisierung in `unitera_companion` superseded;
-- source-reconciled Runtime-/Harness-Ergänzungen zu Runtime State, Memory, Handoff, Evaluation und Failure Attribution, soweit sie in der öffentlichen Gesamterklärung ausdrücklich als Candidate-Richtung markiert sind.
+- den Backend-Agnostic-Processing-Candidate;
+- den Open-Weights-Langfristplan;
+- datierte Modellvergleichs- und Harness-Evaluations-Evidenz vom 29.–30.08.2026.
 
-Diese Materialien erweitern die Erklärung des Systembilds. Sie dürfen keine verifizierte Owner-Repo-Authority überschreiben und erzeugen insbesondere keine Routing-, Model-, Tenant-, Memory-, Naming- oder Execution-Authority.
+Diese Evidenz bleibt **Pilot Working Evidence**.
 
-Für die öffentliche Projektion der Pilot-Modellwahl und des OpenRouter-Routings werden zusätzlich herangezogen:
-
-- `UNITERA Backend-Agnostic Processing and Governed Route Resolution Source Candidate`, Version 0.1.0, Status `SOURCE_CANDIDATE_NON_AUTHORITATIVE`;
-- `UNITERA Open-Weights Model Infrastructure — Long-Term Architecture Plan`, Version 0.1.0, Status `LONG_TERM_ARCHITECTURE_DIRECTION_NON_AUTHORITATIVE`;
-- datierte Modellvergleichs- und Harness-Evaluations-Evidenz aus den Discovery-/Grill-Me-Pilotläufen vom 29.–30.08.2026.
-
-Die Modellvergleichsevidenz wird als **Pilot Working Evidence** behandelt. Sie begründet weder allgemeine Modellüberlegenheit noch eine dauerhafte Provider- oder Modellbindung. Die konkrete Runtime-Bindung bleibt vor Aktivierung separat zu verifizieren.
+Spätere Chat-only Provider-/Modell-Entscheidungen werden hier nicht hochgestuft, solange sie nicht unabhängig in einer zuständigen Repository-Surface verifizierbar sind. Die aktuelle Public Page bleibt deshalb ein Pilot-Architecture-/Working-Plan-Dokument und kein permanenter Modell-/Provider-Standard.
 
 ## Pointer-Status
 
-Der bereitgestellte Source-State-Snapshot meldet candidate_pointer_not_activated. Diese Prüfung hat spätere Zustände der Owner-Repositories einzeln verifiziert, aber keine separate Aktivierung eines einheitlichen Pointers. Eine solche Aktivierung wird daher nicht behauptet.
+Die aktuelle Registry-Evidenz bewahrt:
+
+~~~text
+CURRENT_SOURCE_POINTER = NOT_CHANGED
+Pilot Owner Freeze = FREEZE_NOT_AUTHORIZED
+~~~
+
+Diese Prüfung behauptet keine Aktivierung eines einheitlichen Source Pointers.
 
 ## Evidenzklassen
 
-- **Observed:** aus exakten GitHub-Refs, Trees, Commits, Branch-Vergleichen, Dateien oder Review-Metadaten gelesen.
-- **Source-derived:** aus dem bereitgestellten Paket oder ausdrücklich bezeichneten Source Candidates unter Beibehaltung des ursprünglichen Reifegrads zusammengefasst.
-- **Inferred:** ausdrücklich gekennzeichnete Schlussfolgerung aus beobachteter Evidenz.
-- **Unverified:** von Aussagen über Materialisierung oder Produktion ausgeschlossen.
+- **Observed:** aus exakten GitHub-Refs, Trees, Commits, Branch-Vergleichen, Dateien, PR-Metadaten, Reviews oder Workflow-Ergebnissen gelesen.
+- **Source-derived:** aus bereitgestelltem Source-Material unter Beibehaltung des Reifegrads zusammengefasst.
+- **Inferred:** ausdrücklich markierte Schlussfolgerung aus beobachteter Evidenz.
+- **Unverified:** von kanonischen/materialisierten/Production-Claims ausgeschlossen.
 
 ## Konfliktregel
 
-Weicht diese öffentliche Projektion von einem verifizierten Owner-Artefakt ab, gewinnt das Owner-Artefakt. Widersprechen sich Owner-Quellen oder können sie nicht verifiziert werden, muss das öffentliche Dokument OPEN ausweisen.
-
-## Source-State-Hinweis zum Personal Realm
-
-Für das Personal Realm darf die öffentliche Dokumentation festhalten, dass die **Owner Decisions finalisiert** sind und `unitera_companion` die **owner-designierte semantische Surface** ist. Gleichzeitig muss sie ausweisen, dass die aktuellen Architekturartefakte noch in PR #1 / Branch `architecture/personal-realm-foundation` liegen, Cross-Repo Adoption aussteht und durch diese Dokumente weder Runtime noch Production Execution aktiviert wurden.
+Weicht diese öffentliche Projektion von einem verifizierten Owner-Artefakt ab, gewinnt das Owner-Artefakt. Widersprechen sich Owner-Quellen oder können sie nicht verifiziert werden, muss das öffentliche Dokument die Lücke ausweisen statt sie still zu schließen.
