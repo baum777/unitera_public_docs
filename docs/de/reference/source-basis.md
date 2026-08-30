@@ -173,6 +173,42 @@ Diese Prüfung behauptet keine Aktivierung eines einheitlichen Source Pointers.
 - **Inferred:** ausdrücklich markierte Schlussfolgerung aus beobachteter Evidenz.
 - **Unverified:** von kanonischen/materialisierten/Production-Claims ausgeschlossen.
 
+
+## Cross-Source-Reconciliation: Local Node × Personal Realm
+
+Für die gemeinsame Trust-Boundary-Projektion werden zwei unterschiedlich reife Quellen nebeneinander verwendet:
+
+~~~text
+Local Runtime Node
+→ SOURCE_CANDIDATE_NON_AUTHORITATIVE
+
+Personal Realm
+→ owner decisions finalized
+→ unitera_companion/main@8dd8112
+→ cross-repo adoption pending
+~~~
+
+Die Personal-Realm-Owner-Surface entscheidet die Bootstrap-Abhängigkeit von gebundenem Local Runtime Node und lokalem Workspace. Sie adoptiert dadurch den Local-Node-Candidate nicht automatisch und erzeugt keine Local-Node-Runtime-Aktivierung.
+
+## Reviewer-Assurance-Source-Gap
+
+Im verifizierten GitHub-Stand dieser Aktualisierung wurde kein exakter Owner-Repository-Ref für eine neuere REVIEWER-MODEL-001-/R2-/R3-Materialisierung gefunden.
+
+Der aktuell verifizierbare Registry-Eintrag bleibt:
+
+~~~text
+REVIEWER-MODEL-001
+state: open_source_available
+source_ref: GOV-DC-001@0.1.0
+governance_activation: decision_recorded_implementation_pending
+~~~
+
+Daher werden neuere, nur lokal oder in Session-Evidence berichtete Reviewer-Assurance-Entscheidungen nicht als source-backed Public State publiziert. Public Documentation != Authority.
+
+## OpenRouter-Reconciliation-Hinweis
+
+Die Public OpenRouter-/Model-Routing-Seite bleibt ein Pilot Working Plan. Diese Publikationsrunde hat keine neue Live-Serving-/Provider-Qualification durchgeführt. Ein eventueller neuerer Runtime-Closure-Stand muss gegen exakte Owner-/Implementation-Refs separat verifiziert werden, bevor die öffentliche Statusklassifikation geändert wird.
+
 ## Konfliktregel
 
 Weicht diese öffentliche Projektion von einem verifizierten Owner-Artefakt ab, gewinnt das Owner-Artefakt. Widersprechen sich Owner-Quellen oder können sie nicht verifiziert werden, muss das öffentliche Dokument die Lücke ausweisen statt sie still zu schließen.
