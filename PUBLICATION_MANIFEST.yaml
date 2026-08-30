@@ -29,6 +29,13 @@ snapshot:
       ref: codex/discovery-pilot-readiness-closure
       head: 7f7a3b35e957dafaf0d3cb11eb46c5788ddecdfe
       relation_to_unitera_systems_main: ahead_11_behind_0
+    personal_realm_owner_materialization:
+      repository: baum777/unitera_companion
+      ref: architecture/personal-realm-foundation
+      head: cb59971c8f171954e979a0f8a6fccbd5a0176116
+      pull_request: 1
+      state: owner_decisions_finalized_pr_open
+      relation_to_owner_main: architecture_foundation_not_yet_merged
 source_policy:
   owner_repo_wins_on_conflict: true
   registry_creates_authority: false
@@ -43,7 +50,7 @@ topics:
   - know_think_act
   - signup_to_discovery
   - tenant_discovery_company_brain
-  - personal_domain_member_companion_circling_candidate
+  - personal_realm_companion_owner_decided_architecture
   - cognition_runtime
   - pilot_model_selection_openrouter_governed_routing_candidate
   - backend_agnostic_processing_candidate
