@@ -1,4 +1,4 @@
-schema_version: 0.3.0
+schema_version: 0.3.1
 repository:
   name: unitera_public_docs
   role: PUBLIC_DOCUMENTATION_PROJECTION
@@ -77,6 +77,8 @@ topics:
   - governed_external_effect
   - registry_source_to_publication
   - local_runtime_node_candidate
+  - local_runtime_node_personal_realm_joint_trust_boundary
+  - reviewer_assurance_publication_gap
   - current_state
 publication_gate:
   - verify_owner_source
