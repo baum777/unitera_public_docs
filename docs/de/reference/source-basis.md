@@ -52,6 +52,18 @@ Für die öffentliche Projektion des Local Runtime Node wird zusätzlich herange
 
 Diese Kandidaten werden ausschließlich als Kandidaten dokumentiert. Sie belegen weder Owner-Surface-Adoption noch Runtime-Aktivierung, Production Execution oder Source-Pointer-Aktivierung.
 
+## Weitere Source Candidates und Architektur-Richtungen
+
+Für die zusammenhängende Architektur-&-Logik-Projektion werden zusätzlich die folgenden bereitgestellten, nicht automatisch kanonischen Materialien berücksichtigt:
+
+- UNITERA Backend-Agnostic Processing and Governed Route Resolution Source Candidate, Version 0.1.0, Status SOURCE_CANDIDATE_NON_AUTHORITATIVE;
+- UNITERA Open-Weights Model Infrastructure — Long-Term Architecture Plan, Version 0.1.0, Status LONG_TERM_ARCHITECTURE_DIRECTION_NON_AUTHORITATIVE;
+- UNITERA Canonical Naming, Terms & Definitions Ruling Specification, Version 0.1.0, Status RULING_SOURCE_CANDIDATE_READY_FOR_OWNER_BINDING;
+- UNITERA Personal Domain, Member Companion, Personal Memory & Circling, Version 0.1.0, Status SOURCE_RECONCILED_ARCHITECTURE_AND_CONTRACT_CANDIDATE_READY_FOR_OWNER_BINDING;
+- source-reconciled Runtime-/Harness-Ergänzungen zu Runtime State, Memory, Handoff, Evaluation und Failure Attribution, soweit sie in der öffentlichen Gesamterklärung ausdrücklich als Candidate-Richtung markiert sind.
+
+Diese Materialien erweitern die Erklärung des Systembilds. Sie dürfen keine verifizierte Owner-Repo-Authority überschreiben und erzeugen insbesondere keine Routing-, Model-, Tenant-, Memory-, Naming- oder Execution-Authority.
+
 ## Pointer-Status
 
 Der bereitgestellte Source-State-Snapshot meldet candidate_pointer_not_activated. Diese Prüfung hat spätere Zustände der Owner-Repositories einzeln verifiziert, aber keine separate Aktivierung eines einheitlichen Pointers. Eine solche Aktivierung wird daher nicht behauptet.

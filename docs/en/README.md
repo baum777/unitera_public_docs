@@ -14,6 +14,7 @@ This repository is organized by reader intent. Every page is downstream of its o
 ## Architecture
 
 - [System overview](architecture/system-overview.md)
+- [Architecture & Logic — Detailed Concept](architecture/architecture-and-logic-deep-dive.md)
 - [Repository and authority topology](architecture/repository-topology.md)
 - [Authority & Source-of-Truth model](architecture/authority-and-source-model.md)
 - [KNOW / THINK / ACT](architecture/know-think-act.md)

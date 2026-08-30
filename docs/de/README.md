@@ -14,6 +14,7 @@ Dieses Repository ist nach Leserinteresse gegliedert. Jede Seite ist den zustän
 ## Architektur
 
 - [Systemübersicht](architecture/system-overview.md)
+- [Architektur & Logik — Detailed Concept](architecture/architecture-and-logic-deep-dive.md)
 - [Repository- und Autoritätstopologie](architecture/repository-topology.md)
 - [Autoritäts- und Source-of-Truth-Modell](architecture/authority-and-source-model.md)
 - [KNOW / THINK / ACT](architecture/know-think-act.md)
