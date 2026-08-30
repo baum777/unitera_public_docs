@@ -19,23 +19,40 @@ localization:
 snapshot:
   reviewed_at: "2026-08-30"
   owner_refs:
-    coreos: 3f23e2fa920f8b3bfe78d7fe898078ff924c1814
+    coreos: c34b61a9264348afaaae96c5b94e169011bf76ab
     unitera_os: 18c50f837aa5442d29edf0bae7f0beb5fd9fa94b
     unitera_systems: 786d03ca731acf5ab1af38731954891e84542d8c
-    unitera_control_plane: 10e2a3953a76a892cb4112dcf9c1f7998d970970
-    unitera_registry: a2f4ccac009305741e463eba99069e8052c172fd
+    unitera_control_plane: fc9370eb146dd068027f9dd9b3a7bdd01626bb65
+    unitera_registry: 891f9b967328131d8d3348ffba3dc64e7c1163ac
+    unitera_companion: 8dd8112a74631516c134bc3fc528d6220cdd27a7
+  verified_implementation_refs:
+    unitera_production_interface:
+      ref: main
+      head: d7cbf8ce78bb7c2e5737a126d972dfd638a378fd
+      role: PRODUCT_UI_PLUS_BFF
+      production_execution_activated: false
+      live_effect_active: false
   qualified_noncanonical_refs:
     discovery_runtime_branch:
+      repository: baum777/Unitera_Systems
       ref: codex/discovery-pilot-readiness-closure
-      head: 7f7a3b35e957dafaf0d3cb11eb46c5788ddecdfe
-      relation_to_unitera_systems_main: ahead_11_behind_0
-    personal_realm_owner_materialization:
-      repository: baum777/unitera_companion
-      ref: architecture/personal-realm-foundation
-      head: cb59971c8f171954e979a0f8a6fccbd5a0176116
-      pull_request: 1
-      state: owner_decisions_finalized_pr_open
-      relation_to_owner_main: architecture_foundation_not_yet_merged
+      head: 19e70f220a83c331b7fc7f4c9bbd9e3ff9d35893
+      pull_request: 94
+      state: open_qualified_development_slice
+      relation_to_unitera_systems_main: ahead_15_behind_0
+    unitera_systems_pilot_ui_integration:
+      repository: baum777/Unitera_Systems
+      ref: pilot-ui-01/production-entry-readonly-pilot
+      head: 903f0250dd754ecc6ddaa87752a86e5c2c1a7f4d
+      pull_request: 98
+      state: open_qualified_in_review
+      base: 786d03ca731acf5ab1af38731954891e84542d8c
+      remote_workflows:
+        audit_gates: success
+        visual_enforcement_level_2: success
+        canonical_enforcement: success
+        governance_guardrails: success
+        ci: success
 source_policy:
   owner_repo_wins_on_conflict: true
   registry_creates_authority: false
@@ -51,6 +68,7 @@ topics:
   - signup_to_discovery
   - tenant_discovery_company_brain
   - personal_realm_companion_owner_decided_architecture
+  - production_interface_product_ui_bff
   - cognition_runtime
   - pilot_model_selection_openrouter_governed_routing_candidate
   - backend_agnostic_processing_candidate
