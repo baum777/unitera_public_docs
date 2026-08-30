@@ -30,6 +30,21 @@ classification: QUALIFIED_DEVELOPMENT_SLICE
 
 Branch evidence is never presented as canonical main or production activation.
 
+Personal Realm documentation additionally reads the owner-designated repository review branch:
+
+~~~yaml
+repository: baum777/unitera_companion
+ref: architecture/personal-realm-foundation
+head: cb59971c8f171954e979a0f8a6fccbd5a0176116
+pull_request: 1
+classification: OWNER_DECISIONS_FINALIZED_OWNER_MATERIALIZATION_IN_REVIEW
+owner_main_merged: false
+cross_repo_adoption_complete: false
+runtime_activated: false
+~~~
+
+This branch is used because the Owner Grill-Me decisions are finalized and materialized there, while the owner repository's default branch has not yet adopted the architecture foundation.
+
 ## Supplied source-reconciliation material
 
 The 2026-08-15 bundle supplied with this review covers:
@@ -59,7 +74,7 @@ The coherent Architecture & Logic projection additionally considers the followin
 - UNITERA Backend-Agnostic Processing and Governed Route Resolution Source Candidate, version 0.1.0, status SOURCE_CANDIDATE_NON_AUTHORITATIVE;
 - UNITERA Open-Weights Model Infrastructure — Long-Term Architecture Plan, version 0.1.0, status LONG_TERM_ARCHITECTURE_DIRECTION_NON_AUTHORITATIVE;
 - UNITERA Canonical Naming, Terms & Definitions Ruling Specification, version 0.1.0, status RULING_SOURCE_CANDIDATE_READY_FOR_OWNER_BINDING;
-- UNITERA Personal Domain, Member Companion, Personal Memory & Circling, version 0.1.0, status SOURCE_RECONCILED_ARCHITECTURE_AND_CONTRACT_CANDIDATE_READY_FOR_OWNER_BINDING;
+- the earlier UNITERA Personal Domain, Member Companion, Personal Memory & Circling v0.1.0 candidate as historical/source-reconciliation basis, now superseded in public terminology and owner direction by the qualified `unitera_companion` Personal Realm owner materialization;
 - source-reconciled runtime/harness complements covering Runtime State, memory, handoff, evaluation, and failure attribution where the public system explanation explicitly labels them as candidate direction.
 
 These materials extend the explanation of the system model. They may not override verified owner-repository authority and create no routing, model, tenant, memory, naming, or execution authority.
@@ -86,3 +101,7 @@ The supplied source-state snapshot reports candidate_pointer_not_activated. This
 ## Conflict rule
 
 If this public projection differs from a verified owner artifact, the owner artifact wins. If owner sources conflict or cannot be verified, the public document must say OPEN.
+
+## Personal Realm source-state note
+
+For Personal Realm, the public documentation may state that the **Owner decisions are finalized** and that `unitera_companion` is the **owner-designated semantic surface**. It must simultaneously state that the current architecture artifacts are still on PR #1 / branch `architecture/personal-realm-foundation`, that cross-repository adoption is pending, and that no runtime or production execution has been activated by those documents.
