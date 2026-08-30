@@ -17,7 +17,7 @@ localization:
       label: English
   substantive_changes_require_sync: true
 snapshot:
-  reviewed_at: "2026-08-29"
+  reviewed_at: "2026-08-30"
   owner_refs:
     coreos: 3f23e2fa920f8b3bfe78d7fe898078ff924c1814
     unitera_os: 18c50f837aa5442d29edf0bae7f0beb5fd9fa94b
@@ -42,6 +42,7 @@ topics:
   - know_think_act
   - signup_to_discovery
   - tenant_discovery_company_brain
+  - personal_domain_member_companion_circling_candidate
   - cognition_runtime
   - governed_external_effect
   - registry_source_to_publication

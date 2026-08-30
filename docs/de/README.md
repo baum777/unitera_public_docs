@@ -22,6 +22,7 @@ Dieses Repository ist nach Leserinteresse gegliedert. Jede Seite ist den zustän
 
 - [Sign-up → Tenant → Discovery](product/signup-to-discovery.md)
 - [Tenant, Discovery und Company Brain](product/tenant-discovery-company-brain.md)
+- [Personal Domain, Member Companion, Personal Memory und Circling — Kandidat](product/personal-domain-member-companion-circling.md)
 
 ## Runtime und Sicherheit
 

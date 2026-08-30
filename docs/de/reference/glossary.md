@@ -16,4 +16,10 @@
 | **Public Projection** | Menschenlesbare, aus verifizierten Quellen abgeleitete Dokumentation ohne eigene Autorität. |
 | **Source Pointer** | Expliziter Mechanismus zur Auswahl eines aktuellen Source Bundles oder Zustands; Pointer-Prüfung und Quellenmaterialisierung sind getrennt. |
 | **Local Runtime Node** | Kandidat für eine kontrollierte lokale Deployment-/Vertrauensgrenze; Lokalität allein erzeugt kein Vertrauen. |
+| **Personal Domain** | Kandidat für eine nutzergebundene Kontinuitäts- und Isolationsdomäne der dauerhaften UNITERA-Beziehung einer Person; kein Company Tenant und keine Authority Domain. |
+| **Personal Tenant** | Working Term für Personal Domain; in dieser öffentlichen Projektion keine canonical Terminology. |
+| **Member Companion** | Kandidat für eine dauerhafte persönliche Interaktions- und Cognition-Projektion; weder Company Brain noch Tenant Assignment oder Authority. |
+| **Personal Memory** | Kandidat für bewusst gespeicherte nutzergebundene Kontinuitätsinformation; weder Runtime State noch institutionelle Wahrheit. |
+| **Circling** | Kandidat für einen Inkubationszustand potenziell relevanten Materials, das noch keine Priority, kein Work Order, Claim oder Decision ist. |
+| **Contribution Proposal** | Kandidat für einen expliziten Vorschlag, persönliches Material in einen institutionellen Lifecycle zu überführen; weder Claim Inclusion noch Brain Activation. |
 
