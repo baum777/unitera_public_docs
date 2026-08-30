@@ -52,6 +52,18 @@ The public projection of the Local Runtime Node additionally uses:
 
 These materials are documented strictly as candidates. They do not prove owner-surface adoption, runtime activation, production execution, or source-pointer activation.
 
+## Additional source candidates and architecture directions
+
+The coherent Architecture & Logic projection additionally considers the following supplied materials, none of which becomes canonical merely through publication:
+
+- UNITERA Backend-Agnostic Processing and Governed Route Resolution Source Candidate, version 0.1.0, status SOURCE_CANDIDATE_NON_AUTHORITATIVE;
+- UNITERA Open-Weights Model Infrastructure — Long-Term Architecture Plan, version 0.1.0, status LONG_TERM_ARCHITECTURE_DIRECTION_NON_AUTHORITATIVE;
+- UNITERA Canonical Naming, Terms & Definitions Ruling Specification, version 0.1.0, status RULING_SOURCE_CANDIDATE_READY_FOR_OWNER_BINDING;
+- UNITERA Personal Domain, Member Companion, Personal Memory & Circling, version 0.1.0, status SOURCE_RECONCILED_ARCHITECTURE_AND_CONTRACT_CANDIDATE_READY_FOR_OWNER_BINDING;
+- source-reconciled runtime/harness complements covering Runtime State, memory, handoff, evaluation, and failure attribution where the public system explanation explicitly labels them as candidate direction.
+
+These materials extend the explanation of the system model. They may not override verified owner-repository authority and create no routing, model, tenant, memory, naming, or execution authority.
+
 ## Pointer posture
 
 The supplied source-state snapshot reports candidate_pointer_not_activated. This review verified later owner-repository states individually; it did not verify a separate unified pointer activation. Therefore no such activation is claimed.

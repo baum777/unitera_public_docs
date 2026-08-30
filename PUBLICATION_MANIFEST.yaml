@@ -37,6 +37,7 @@ source_policy:
   noncanonical_branch_material_must_be_labeled: true
 topics:
   - system_overview
+  - architecture_and_logic_deep_dive
   - repository_authority_topology
   - authority_and_source_model
   - know_think_act
@@ -44,6 +45,9 @@ topics:
   - tenant_discovery_company_brain
   - personal_domain_member_companion_circling_candidate
   - cognition_runtime
+  - backend_agnostic_processing_candidate
+  - open_weights_model_infrastructure_longterm
+  - canonical_naming_terms_definitions_candidate
   - governed_external_effect
   - registry_source_to_publication
   - local_runtime_node_candidate
