@@ -59,3 +59,6 @@ Neuplanung darf den Weg ändern. Sie darf Tenant-, Ziel-, Capability-, Autonomie
 
 Sicherheitsevidenz sollte Run-Identität, Kontext-Digest, Modellantwort-Digest, Proposal-Digest, Policy-Snapshot und Lineage binden. Vollständige private Reasoning-Transkripte sind standardmäßig nicht als Autoritätsnachweis erforderlich.
 
+## Pilot-Modellwahl und Routing
+
+Die aktuelle Pilot-Arbeitsrichtung dokumentiert statische, profilgebundene Modellbindungen über einen OpenRouter-Cognition-Adapter sowie explizite High-Assurance-Review-Runs. Ein freier Dynamic Model Router bleibt in diesem Pilotkonzept deaktiviert. Details: [Pilot-Modellwahl, OpenRouter und kontrolliertes Routing](pilot-model-routing-openrouter.md).

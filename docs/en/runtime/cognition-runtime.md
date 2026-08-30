@@ -58,3 +58,7 @@ Replanning may alter the route. It may not expand tenant, objective, capability,
 ## Evidence posture
 
 Security evidence should bind run identity, context digest, model-response digest, proposal digest, policy snapshot, and lineage. Full private reasoning transcripts are not required as the default authority proof.
+
+## Pilot model selection and routing
+
+The current pilot working direction documents static profile-bound model bindings through an OpenRouter cognition adapter plus explicit High-Assurance review runs. A free dynamic model router remains disabled in this pilot concept. Details: [Pilot Model Selection, OpenRouter, and Governed Routing](pilot-model-routing-openrouter.md).
