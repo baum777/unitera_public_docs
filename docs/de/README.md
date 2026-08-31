@@ -31,7 +31,8 @@ Dieses Repository ist nach Leserinteresse gegliedert. Jede Seite ist den zustän
 - [Cognition Runtime](runtime/cognition-runtime.md)
 - [Pilot-Modellwahl, OpenRouter und kontrolliertes Routing — Kandidat](runtime/pilot-model-routing-openrouter.md)
 - [Kontrollierte externe Wirkung](runtime/governed-effect.md)
-- [Local Runtime Node — Kandidat](runtime/local-runtime-node.md)
+- [Local Runtime Node — Verträge auf main, Runtime absent](runtime/local-runtime-node.md)
+- [Pilot Production Readiness](status/pilot-production-readiness.md)
 
 ## Quellen-Governance
 

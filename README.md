@@ -31,6 +31,14 @@ flowchart LR
 
 **Kernregel / Core rule:** Mehr Kontext, Rechenleistung oder Modellfähigkeit erzeugt niemals mehr Autorität. / More context, compute, or model capability never creates more authority.
 
+## Aktueller Snapshot / Current snapshot
+
+- Öffentlicher Stand / public state: `PUBLIC_STATE_2026-08-31`
+- Discovery auf `Unitera_Systems/main`: ja, deterministisch, nicht aktiviert
+- Owner Freeze: `FREEZE_NOT_AUTHORIZED`
+- Production Execution: `NO`
+- Details: [Deutsch — aktueller Stand](docs/de/status/current-state.md) · [English — current state](docs/en/status/current-state.md) · [Pilot readiness DE](docs/de/status/pilot-production-readiness.md) · [Pilot readiness EN](docs/en/status/pilot-production-readiness.md)
+
 ## Dokumentationsstatus / Documentation status
 
 - Deutscher und englischer Dokumentationsbaum sind strukturell gespiegelt.

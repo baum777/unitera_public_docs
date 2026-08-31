@@ -1,4 +1,4 @@
-schema_version: 0.3.1
+schema_version: 0.3.2
 repository:
   name: unitera_public_docs
   role: PUBLIC_DOCUMENTATION_PROJECTION
@@ -17,42 +17,64 @@ localization:
       label: English
   substantive_changes_require_sync: true
 snapshot:
-  reviewed_at: "2026-08-30"
+  reviewed_at: "2026-08-31"
+  snapshot_id: PUBLIC_STATE_2026-08-31
+  supersedes_snapshot: "2026-08-30"
   owner_refs:
     coreos: c34b61a9264348afaaae96c5b94e169011bf76ab
-    unitera_os: 18c50f837aa5442d29edf0bae7f0beb5fd9fa94b
-    unitera_systems: 786d03ca731acf5ab1af38731954891e84542d8c
-    unitera_control_plane: fc9370eb146dd068027f9dd9b3a7bdd01626bb65
-    unitera_registry: 891f9b967328131d8d3348ffba3dc64e7c1163ac
-    unitera_companion: 8dd8112a74631516c134bc3fc528d6220cdd27a7
+    unitera_os: 36718e910c0adc29597911b7cb923f03282aa297
+    unitera_systems: f4debe62eb783aab93e4f106d60fd72a6363855f
+    unitera_control_plane: 021ead934fa9f73dd483d0c79fb78d71500e109f
+    unitera_registry: 1de27e805d180e602560b9f4227628892f5c5790
+    unitera_companion: 526177ed97d6c82d3fa8588852950511cd55dc65
   verified_implementation_refs:
     unitera_production_interface:
       ref: main
-      head: d7cbf8ce78bb7c2e5737a126d972dfd638a378fd
+      head: afa92cfd1e9b373cebd73d45cd4994967b11dec3
       role: PRODUCT_UI_PLUS_BFF
       production_execution_activated: false
       live_effect_active: false
-  qualified_noncanonical_refs:
-    discovery_runtime_branch:
+  current_main_materializations:
+    discovery_runtime:
       repository: baum777/Unitera_Systems
-      ref: codex/discovery-pilot-readiness-closure
-      head: 19e70f220a83c331b7fc7f4c9bbd9e3ff9d35893
       pull_request: 94
-      state: open_qualified_development_slice
-      relation_to_unitera_systems_main: ahead_15_behind_0
+      state: merged_to_main
+      merged_at: "2026-08-30T22:52:13Z"
+      live_llm_provider: NONE
+      live_llm_binding: false
+      production_execution_activated: false
+    ci_wp_030_container_smoke:
+      repository: baum777/Unitera_Systems
+      pull_request: 104
+      state: merged_to_main
+    governance_wp_035_review_hygiene:
+      repository: baum777/Unitera_Systems
+      pull_request: 103
+      state: merged_to_main
+    registry_wp_002_freeze_projection:
+      repository: baum777/unitera-registry
+      pull_request: 26
+      state: merged_to_main
+      freeze_result: FREEZE_NOT_AUTHORIZED
+    local_runtime_node_contracts:
+      repository: baum777/unitera-os
+      pull_request: 20
+      state: merged_to_main
+      classification: OWNER_CONTRACT_MATERIALIZED_RUNTIME_NOT_ACTIVATED
+  qualified_noncanonical_refs:
     unitera_systems_pilot_ui_integration:
       repository: baum777/Unitera_Systems
       ref: pilot-ui-01/production-entry-readonly-pilot
-      head: 903f0250dd754ecc6ddaa87752a86e5c2c1a7f4d
       pull_request: 98
+      head: 05b47e384d8ed63f91b2de15cc057c3948adc35c
+      recorded_base: 786d03ca731acf5ab1af38731954891e84542d8c
       state: open_qualified_in_review
-      base: 786d03ca731acf5ab1af38731954891e84542d8c
-      remote_workflows:
-        audit_gates: success
-        visual_enforcement_level_2: success
-        canonical_enforcement: success
-        governance_guardrails: success
-        ci: success
+      may_close_current_main_gates: false
+    freeze_report_internal_heads:
+      note: freeze report result remains FREEZE_NOT_AUTHORIZED; internally recorded freeze-review heads lag current owner mains
+      unitera_os_at_report: 18c50f837aa5442d29edf0bae7f0beb5fd9fa94b
+      unitera_control_plane_at_report: 10e2a3953a76a892cb4112dcf9c1f7998d970970
+      unitera_systems_at_report: 786d03ca731acf5ab1af38731954891e84542d8c
 source_policy:
   owner_repo_wins_on_conflict: true
   registry_creates_authority: false
@@ -71,15 +93,11 @@ topics:
   - production_interface_product_ui_bff
   - cognition_runtime
   - pilot_model_selection_openrouter_governed_routing_candidate
-  - backend_agnostic_processing_candidate
-  - open_weights_model_infrastructure_longterm
-  - canonical_naming_terms_definitions_candidate
   - governed_external_effect
   - registry_source_to_publication
   - local_runtime_node_candidate
-  - local_runtime_node_personal_realm_joint_trust_boundary
-  - reviewer_assurance_publication_gap
   - current_state
+  - pilot_production_readiness
 publication_gate:
   - verify_owner_source
   - verify_exact_ref
@@ -87,3 +105,12 @@ publication_gate:
   - separate_main_from_development_branch_state
   - reconcile_registry_reference_when_applicable
   - avoid_unverified_production_or_compliance_claims
+current_public_verdict:
+  implementation: PARTIAL
+  discovery_on_systems_main: true
+  owner_freeze: FREEZE_NOT_AUTHORIZED
+  pilot_activation: NOT_AUTHORIZED
+  production_execution: "NO"
+  live_llm_provider: NONE
+  v1_effectful_capabilities:
+    - email.send.commit
