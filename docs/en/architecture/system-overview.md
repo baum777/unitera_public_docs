@@ -23,7 +23,7 @@ flowchart TB
 
     subgraph ACT[ACT — Execution Control]
       CR[Capability Request]
-      PE[Policy & Effective Autonomy]
+      PE["Policy & Effective Autonomy"]
       HC[Human Control if required]
       GR[Capability Grant]
       EX[Trusted Executor]

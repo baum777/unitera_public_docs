@@ -34,7 +34,7 @@ flowchart LR
     A[Owner source change] --> B[Owner-repo verification]
     B --> C["Tests / conformance evidence"]
     C --> D["Registry / supersession reconciliation"]
-    D --> E[Digest & provenance update]
+    D --> E["Digest & provenance update"]
     E --> F["Owner freeze / approval where required"]
     F --> G[Pointer review where applicable]
     G --> H[Public projection update]
