@@ -41,6 +41,7 @@ This repository is organized by reader intent. Every page is downstream of its o
 
 ## Conventions & reference
 
+- [Mermaid syntax for GitHub](../../MERMAID.md)
 - [Documentation & diagram conventions](style/documentation-and-diagrams.md)
 - [Glossary](reference/glossary.md)
 - [Contributing](reference/contributing.md)
