@@ -11,7 +11,7 @@
 ## Verified default-branch state
 
 | Surface | Evidence | Rating | Public interpretation |
-|---|---|---|
+|---|---|---|---|
 | Foundation and Company Brain | `coreos@c34b61a` | **pass / active owner semantics with open follow-up gates** | Foundation/Company-Brain semantics and the Tenant-Foundation consumer surface are owner-repository concerns. The latest consumer-contract rematerialization is present on main but explicitly remains a proposed/not-frozen boundary. |
 | Provider-neutral execution control | `unitera-os@18c50f8` | **pass** | Capability, policy, autonomy, grant, receipt and execution-control contracts are canonical here; build/tests/typecheck/conformance are CI-gated. |
 | Tenant and Governance authority | `unitera_control_plane@fc9370e` | **pass / partial downstream declaration** | Tenant/Governance authority and assignment topology are materialized. Registry evidence still records an open owner declaration for current runtime-enforcement conformance. |
