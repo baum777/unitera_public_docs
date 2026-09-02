@@ -40,11 +40,11 @@ Die Owner-Surface bewahrt weiterhin die harte Grenze zwischen persönlicher Kont
 
 ```mermaid
 flowchart LR
-    A[Gehostetes Sign-in<br/>MATERIALIZED] --> B[Profil / Preferences<br/>PRODUCT SLICE MATERIALIZED]
-    B --> C[Tenant-Bootstrap<br/>SELF-SERVICE GAP]
-    C --> D[Discovery<br/>QUALIFIED OPEN PR]
-    D --> E[Aktivierung und First Work<br/>PARTIAL]
-    E --> F[/work<br/>PARTIAL / INTEGRATION IN REVIEW]
+    A["Gehostetes Sign-in<br>MATERIALIZED"] --> B["Profil / Preferences<br>PRODUCT SLICE MATERIALIZED"]
+    B --> C["Tenant-Bootstrap<br>SELF-SERVICE GAP"]
+    C --> D["Discovery<br>QUALIFIED OPEN PR"]
+    D --> E["Aktivierung und First Work<br>PARTIAL"]
+    E --> F["/work<br>PARTIAL / INTEGRATION IN REVIEW"]
 ```
 
 | Journey-Schritt | Bewertung | Grundlage |
