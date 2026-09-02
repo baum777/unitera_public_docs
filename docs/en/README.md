@@ -42,6 +42,7 @@ This repository is organized by reader intent. Every page is downstream of its o
 ## Conventions & reference
 
 - [Documentation & diagram conventions](style/documentation-and-diagrams.md)
+- [Mermaid contract (language-neutral)](../../MERMAID.md)
 - [Glossary](reference/glossary.md)
 - [Contributing](reference/contributing.md)
 - [Governance](reference/governance.md)

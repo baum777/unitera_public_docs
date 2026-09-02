@@ -38,7 +38,20 @@ Do not invent aliases for authority-bearing identifiers.
 
 ## Mermaid conventions
 
-Use GitHub-native Mermaid in Markdown.
+These rules are binding for this repository. The language-neutral contract is [`MERMAID.md`](../../../MERMAID.md). The renderer of record is GitHub-native Mermaid as documented in [Creating Mermaid diagrams on GitHub](https://docs.github.com/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams#creating-mermaid-diagrams).
+
+Use GitHub-native Mermaid in Markdown. Do not depend on a local or third-party Mermaid plugin; GitHub documents that those plugins can error against GitHub’s syntax.
+
+### Fence
+
+Use a backtick fence with the `mermaid` language identifier. Do not use `~~~mermaid`.
+
+````markdown
+```mermaid
+flowchart LR
+    A[Source] --> B[Evaluation]
+```
+````
 
 ### Flow diagrams
 
@@ -63,6 +76,19 @@ sequenceDiagram
     G->>X: Authorized request
     X-->>G: Receipt
 ```
+
+### Labels and GitHub parser hazards
+
+Quote any node or subgraph label that contains `/`, `\\`, `<`, `>`, `#`, `;`, quotes, parentheses, or a line break. Use `<br>` inside the quoted label, never `<br/>`.
+
+```mermaid
+flowchart LR
+    A["Hosted sign-in<br>MATERIALIZED"] --> B["/work"]
+```
+
+Unquoted `X[/work]` is invalid: `[/ ...]` is parallelogram shape syntax and breaks rendering on GitHub.
+
+Never use `end`, `subgraph`, `graph`, or `flowchart` as a node ID. Do not use `click` handlers, `%%{init: ...}%%`, or color as the only carrier of authority, risk, or maturity.
 
 ### Boundary notation
 

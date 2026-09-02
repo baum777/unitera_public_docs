@@ -42,6 +42,7 @@ Dieses Repository ist nach Leserinteresse gegliedert. Jede Seite ist den zustän
 ## Konventionen und Referenz
 
 - [Dokumentations- und Diagrammkonventionen](style/documentation-and-diagrams.md)
+- [Mermaid-Vertrag (sprachneutral)](../../MERMAID.md)
 - [Glossar](reference/glossary.md)
 - [Mitwirken](reference/contributing.md)
 - [Governance](reference/governance.md)

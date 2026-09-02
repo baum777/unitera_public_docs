@@ -13,7 +13,9 @@ This repository is a public projection of UNITERA architecture. Contributions mu
 
 ## Diagram style
 
-Use GitHub-native Mermaid inside Markdown. Prefer explicit lifecycle arrows and label trust/authority boundaries rather than relying on visual color semantics.
+Use GitHub-native Mermaid inside Markdown. Binding contract: [`MERMAID.md`](../../../MERMAID.md) and [Documentation & diagram conventions](../style/documentation-and-diagrams.md). Renderer documentation: [Creating Mermaid diagrams on GitHub](https://docs.github.com/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams#creating-mermaid-diagrams).
+
+Prefer explicit lifecycle arrows and label trust/authority boundaries rather than relying on visual color semantics. Always quote labels that contain `/` or `<br>`; write `/work` only as `["/work"]`.
 
 ## Changes that require extra care
 
@@ -25,4 +27,3 @@ Use GitHub-native Mermaid inside Markdown. Prefer explicit lifecycle arrows and 
 - source pointer/adoption status
 - security boundaries
 - compliance or certification language
-

@@ -38,7 +38,20 @@ Keine Aliasse für autoritätstragende Bezeichner erfinden.
 
 ## Mermaid-Konventionen
 
-GitHub-natives Mermaid in Markdown verwenden.
+Diese Regeln sind für dieses Repository verbindlich. Der sprachneutrale Vertrag steht in [`MERMAID.md`](../../../MERMAID.md). Renderer der Aufzeichnung ist GitHub-natives Mermaid gemäß [Creating Mermaid diagrams on GitHub](https://docs.github.com/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams#creating-mermaid-diagrams).
+
+GitHub-natives Mermaid in Markdown verwenden. Nicht auf lokale oder Drittanbieter-Mermaid-Plugins verlassen; GitHub weist ausdrücklich darauf hin, dass solche Plugins gegenüber der GitHub-Syntax Fehler erzeugen können.
+
+### Fence
+
+Backtick-Fence mit Sprachkennung `mermaid` verwenden. Nicht `~~~mermaid` verwenden.
+
+````markdown
+```mermaid
+flowchart LR
+    A[Quelle] --> B[Bewertung]
+```
+````
 
 ### Flussdiagramme
 
@@ -64,6 +77,19 @@ sequenceDiagram
     X-->>G: Receipt
 ```
 
+### Labels und GitHub-Parserfallen
+
+Jede Knoten- oder Subgraph-Beschriftung in doppelte Anführungszeichen setzen, die `/`, `\\`, `<`, `>`, `#`, `;`, Anführungszeichen, Klammern oder einen Zeilenumbruch enthält. Innerhalb des Labels `<br>` verwenden, niemals `<br/>`.
+
+```mermaid
+flowchart LR
+    A["Gehostetes Sign-in<br>MATERIALIZED"] --> B["/work"]
+```
+
+Unzitiertes `X[/work]` ist ungültig: `[/ ...]` startet die Parallelogramm-Formsyntax und zerlegt das Diagramm auf GitHub.
+
+Niemals `end`, `subgraph`, `graph` oder `flowchart` als Knoten-ID verwenden. Keine `click`-Handler, kein `%%{init: ...}%%` und Farbe nicht als einzigen Träger von Autorität, Risiko oder Reifegrad nutzen.
+
 ### Grenznotation
 
 - Durchgezogener Pfeil `-->`: normaler Daten- oder Kontrollfluss.
@@ -82,4 +108,3 @@ Bevorzugen:
 - „Registry-Referenz“ statt „Registry-Autorität“.
 
 Unverifizierte Aussagen über Production Readiness, Compliance, Zertifizierung, Kundennachweis oder autonome Erlaubnis vermeiden.
-
