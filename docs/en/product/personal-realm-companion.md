@@ -93,13 +93,13 @@ A repository path or runtime implementation does not inherit authority outside t
 
 ## Architecture at a glance
 
-~~~mermaid
+```mermaid
 flowchart TB
-    P[Person / PlatformPrincipal] -->|verified identity evidence| R[Personal Realm]
+    P["Person / PlatformPrincipal"] -->|verified identity evidence| R[Personal Realm]
     R --> C[Companion]
 
     C --> PM[Personal Memory]
-    C --> PI[PersonalIdea / PersonalConcept]
+    C --> PI["PersonalIdea / PersonalConcept"]
     C --> PP[PersonalPlan]
     PI --> CI[Circling]
     PP --> CI
@@ -115,8 +115,8 @@ flowchart TB
 
     subgraph Company["Institutional boundary"]
       M[Membership]
-      W[/work]
-      D[Discovery / Learning]
+      W["/work"]
+      D["Discovery / Learning"]
       CB[Company Brain]
       OP[Operational Pulse]
     end
@@ -131,7 +131,7 @@ flowchart TB
     CB -->|purpose-bound context| C
     OP -->|purpose-bound context| C
     W -->|work-bound context| C
-~~~
+```
 
 The same person may participate in multiple Company Tenants. Their institutional contexts remain isolated.
 
