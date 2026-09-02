@@ -41,6 +41,7 @@ Dieses Repository ist nach Leserinteresse gegliedert. Jede Seite ist den zustän
 
 ## Konventionen und Referenz
 
+- [Mermaid-Syntax für GitHub](../../MERMAID.md)
 - [Dokumentations- und Diagrammkonventionen](style/documentation-and-diagrams.md)
 - [Glossar](reference/glossary.md)
 - [Mitwirken](reference/contributing.md)

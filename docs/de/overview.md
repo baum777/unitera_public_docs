@@ -10,10 +10,10 @@ UNITERA ist ein anpassbares KI-Betriebssystem für unternehmensspezifische agent
 
 ```mermaid
 flowchart LR
-    E[Evidenz und Ressourcen] --> K[KNOW<br/>Context Runtime]
-    K --> T[THINK<br/>Cognition Runtime]
+    E[Evidenz und Ressourcen] --> K["KNOW<br>Context Runtime"]
+    K --> T["THINK<br>Cognition Runtime"]
     T --> P[Action Proposal]
-    P --> A[ACT<br/>Execution Control]
+    P --> A["ACT<br>Execution Control"]
     A --> X[Externes System]
     X --> R[Receipt]
     R --> V[Verifikation und Abgleich]
@@ -25,14 +25,14 @@ flowchart LR
 
 ```mermaid
 flowchart TB
-    C[coreos<br/>Foundation und Company Brain] --> S[Unitera_Systems<br/>Runtime, API, Persistenz, Produkt]
-    O[unitera-os<br/>Providerneutrale Ausführungsverträge] --> S
-    T[unitera_control_plane<br/>Tenant- und Zuordnungsautorität] --> S
-    C --> R[unitera-registry<br/>Referenz und Provenienz]
+    C["coreos<br>Foundation und Company Brain"] --> S["Unitera_Systems<br>Runtime, API, Persistenz, Produkt"]
+    O["unitera-os<br>Providerneutrale Ausführungsverträge"] --> S
+    T["unitera_control_plane<br>Tenant- und Zuordnungsautorität"] --> S
+    C --> R["unitera-registry<br>Referenz und Provenienz"]
     O --> R
     T --> R
     S --> R
-    R --> D[unitera_public_docs<br/>Öffentliche Projektion]
+    R --> D["unitera_public_docs<br>Öffentliche Projektion"]
 ```
 
 Die Registry referenziert Autorität; sie erzeugt keine Autorität. Dieses Repository liegt noch einen Schritt weiter nachgelagert: Es ist eine menschenlesbare Projektion verifizierten Owner-Materials.
@@ -81,4 +81,3 @@ Exakte Refs und Nichtaussagen stehen in der [Current-State-Matrix](status/curren
 UNITERA besitzt derzeit einen substanziellen kontrollierten Kern und mehrere qualifizierte Implementation Slices. Dieses Repository behauptet weder automatische regulatorische Compliance, Zertifizierung, unbeschränkte Autonomie, vollständige End-to-End-Production-Readiness noch eine abgeschlossene Self-Service-Onboarding-Journey.
 
 Widerspricht dieses Repository einem verifizierten zuständigen Artefakt, **gewinnt das Owner-Artefakt**.
-

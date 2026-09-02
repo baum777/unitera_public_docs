@@ -38,7 +38,9 @@ Do not invent aliases for authority-bearing identifiers.
 
 ## Mermaid conventions
 
-Use GitHub-native Mermaid in Markdown.
+Use GitHub-native Mermaid in Markdown. The repository-root syntax card is [`MERMAID.md`](../../../MERMAID.md), taken from [GitHub: Creating diagrams](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams).
+
+Required fence: a fenced code block whose language identifier is `mermaid`. Quote labels that contain `/`, `&`, HTML breaks, or a leading path. Use `<br>`, never `<br/>`. Write `/work` as `W["/work"]`, not `W[/work]`.
 
 ### Flow diagrams
 

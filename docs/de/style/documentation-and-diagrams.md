@@ -38,7 +38,9 @@ Keine Aliasse für autoritätstragende Bezeichner erfinden.
 
 ## Mermaid-Konventionen
 
-GitHub-natives Mermaid in Markdown verwenden.
+GitHub-natives Mermaid in Markdown verwenden. Die Syntaxkarte an der Repository-Wurzel ist [`MERMAID.md`](../../../MERMAID.md), abgeleitet von [GitHub: Diagramme erstellen](https://docs.github.com/de/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams).
+
+Erforderlicher Fence: ein Codeblock mit dem Sprachbezeichner `mermaid`. Labels mit `/`, `&`, HTML-Umbrüchen oder führendem Pfad in Anführungszeichen setzen. `<br>` verwenden, niemals `<br/>`. `/work` als `W["/work"]` schreiben, nicht `W[/work]`.
 
 ### Flussdiagramme
 
@@ -82,4 +84,3 @@ Bevorzugen:
 - „Registry-Referenz“ statt „Registry-Autorität“.
 
 Unverifizierte Aussagen über Production Readiness, Compliance, Zertifizierung, Kundennachweis oder autonome Erlaubnis vermeiden.
-

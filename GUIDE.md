@@ -11,6 +11,7 @@ concepts publicly in German and English.
 2. Read `GOVERNANCE.md` before changing architectural or authority claims.
 3. Read `CONTRIBUTING.md` for the bilingual synchronization rule.
 4. Check `PUBLICATION_MANIFEST.yaml` for the reviewed source refs and status.
+5. Follow `MERMAID.md` for GitHub-native diagram fences and labels.
 
 ## Content workflow
 

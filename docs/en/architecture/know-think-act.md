@@ -29,7 +29,7 @@ flowchart LR
     AD --> ES[External System]
     ES --> RC[Receipt]
     RC --> V[Verification]
-    V --> CL[Closure / Reconciliation / Containment]
+    V --> CL["Closure / Reconciliation / Containment"]
 ```
 
 An action proposal is not an effect. A capability request is not a grant. A receipt is not verification.

@@ -35,10 +35,9 @@ flowchart LR
     B --> C[Tests und Konformitätsevidenz]
     C --> D[Registry- und Supersession-Abgleich]
     D --> E[Digest- und Provenienzaktualisierung]
-    E --> F[Owner-Freeze oder Freigabe, falls erforderlich]
-    F --> G[Pointer-Prüfung, falls anwendbar]
+    E --> F["Owner-Freeze oder Freigabe, falls erforderlich"]
+    F --> G["Pointer-Prüfung, falls anwendbar"]
     G --> H[Aktualisierung der öffentlichen Projektion]
 ```
 
 **Eine Adoption beginnt niemals mit einer Änderung der öffentlichen Dokumentation oder des aktuellen Source Pointers.**
-

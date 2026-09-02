@@ -16,14 +16,14 @@ flowchart TB
 
     subgraph THINK[THINK — Cognition Runtime]
       AN[Analysis]
-      PL[Planning / Replanning]
+      PL["Planning / Replanning"]
       AP[Action Proposal]
       AN --> PL --> AP
     end
 
     subgraph ACT[ACT — Execution Control]
       CR[Capability Request]
-      PE[Policy & Effective Autonomy]
+      PE["Policy & Effective Autonomy"]
       HC[Human Control if required]
       GR[Capability Grant]
       EX[Trusted Executor]
@@ -34,7 +34,7 @@ flowchart TB
     AP --> CR
     EX --> XS[External System]
     XS --> RC[Receipt]
-    RC --> VR[Verification / Reconciliation]
+    RC --> VR["Verification / Reconciliation"]
 ```
 
 ## System thesis

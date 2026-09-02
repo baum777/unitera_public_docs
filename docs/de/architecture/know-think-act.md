@@ -21,7 +21,7 @@ flowchart LR
     AP[Action Proposal] --> CR[Capability Request]
     CR --> EA[Bewertung effektiver Autonomie]
     EA --> PE[Policy-Bewertung]
-    PE --> HC[Menschliche Kontrolle, falls erforderlich]
+    PE --> HC["Menschliche Kontrolle, falls erforderlich"]
     HC --> G[Capability Grant]
     G --> RE[Erneute Prüfung vor Dispatch]
     RE --> TE[Trusted Executor]
@@ -29,8 +29,7 @@ flowchart LR
     AD --> ES[Externes System]
     ES --> RC[Receipt]
     RC --> V[Verifikation]
-    V --> CL[Abschluss / Abgleich / Eindämmung]
+    V --> CL["Abschluss / Abgleich / Eindämmung"]
 ```
 
 Ein Action Proposal ist keine Wirkung. Ein Capability Request ist kein Grant. Ein Receipt ist keine Verifikation.
-
