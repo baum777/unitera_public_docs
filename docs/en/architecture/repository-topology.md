@@ -9,16 +9,16 @@ UNITERA intentionally separates semantic authority, runtime implementation, prod
 ```mermaid
 flowchart TB
     subgraph OWNERS[Semantic authority owners]
-      C[coreos<br/>Foundation, Company Brain]
-      O[unitera-os<br/>Provider-neutral execution control]
-      T[unitera_control_plane<br/>Tenant and Governance authority]
-      P[unitera_companion<br/>Personal Realm<br/>owner main]
+      C["coreos<br>Foundation, Company Brain"]
+      O["unitera-os<br>Provider-neutral execution control"]
+      T["unitera_control_plane<br>Tenant and Governance authority"]
+      P["unitera_companion<br>Personal Realm<br>owner main"]
     end
 
-    S[Unitera_Systems<br/>Runtime, persistence, API,<br/>consumer enforcement]
-    I[unitera-production-interface<br/>Product UI + BFF<br/>implementation projection]
-    R[unitera-registry<br/>Reference, provenance,<br/>reachability + digest verification]
-    D[unitera_public_docs<br/>Public projection]
+    S["Unitera_Systems<br>Runtime, persistence, API,<br>consumer enforcement"]
+    I["unitera-production-interface<br>Product UI + BFF<br>implementation projection"]
+    R["unitera-registry<br>Reference, provenance,<br>reachability + digest verification"]
+    D["unitera_public_docs<br>Public projection"]
 
     C -->|integrity-bound consumption| S
     O -->|provider-neutral contracts| S
@@ -52,9 +52,9 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-    G[Governance<br/>decides policy] --> T[Tenant Control Plane<br/>materializes assignment]
-    O[unitera-os<br/>defines neutral shape] --> T
-    T --> S[Unitera_Systems<br/>enforces runtime]
+    G["Governance<br>decides policy"] --> T["Tenant Control Plane<br>materializes assignment"]
+    O["unitera-os<br>defines neutral shape"] --> T
+    T --> S["Unitera_Systems<br>enforces runtime"]
     S --> E[Evidence and qualification]
 ```
 
