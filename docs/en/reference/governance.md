@@ -32,13 +32,12 @@ A public statement may be marked `ESTABLISHED` or `MATERIALIZED` only when its s
 ```mermaid
 flowchart LR
     A[Owner source change] --> B[Owner-repo verification]
-    B --> C[Tests / conformance evidence]
-    C --> D[Registry / supersession reconciliation]
+    B --> C["Tests / conformance evidence"]
+    C --> D["Registry / supersession reconciliation"]
     D --> E[Digest & provenance update]
-    E --> F[Owner freeze / approval where required]
+    E --> F["Owner freeze / approval where required"]
     F --> G[Pointer review where applicable]
     G --> H[Public projection update]
 ```
 
 **Never begin adoption by changing the public documentation or the current source pointer.**
-

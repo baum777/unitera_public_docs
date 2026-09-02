@@ -29,8 +29,7 @@ flowchart LR
     AD --> ES[Externes System]
     ES --> RC[Receipt]
     RC --> V[Verifikation]
-    V --> CL[Abschluss / Abgleich / Eindämmung]
+    V --> CL["Abschluss / Abgleich / Eindämmung"]
 ```
 
 Ein Action Proposal ist keine Wirkung. Ein Capability Request ist kein Grant. Ein Receipt ist keine Verifikation.
-

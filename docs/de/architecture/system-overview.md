@@ -16,7 +16,7 @@ flowchart TB
 
     subgraph THINK[THINK — Cognition Runtime]
       AN[Analyse]
-      PL[Planung / Neuplanung]
+      PL["Planung / Neuplanung"]
       AP[Action Proposal]
       AN --> PL --> AP
     end
@@ -34,7 +34,7 @@ flowchart TB
     AP --> CR
     EX --> XS[Externes System]
     XS --> RC[Receipt]
-    RC --> VR[Verifikation / Abgleich]
+    RC --> VR["Verifikation / Abgleich"]
 ```
 
 ## Systemthese
@@ -42,4 +42,3 @@ flowchart TB
 UNITERA lässt sich als **evidenzbasierte, kontextkompilierte und autoritätsgetrennte Ausführung** zusammenfassen.
 
 Die Architektur behandelt weder Modell, Prompt, Harness, externes Werkzeug noch Adapter als Autoritätsgrenze. Autorität bleibt in den zuständigen Domänen und in der Runtime-Erzwingung explizit.
-
