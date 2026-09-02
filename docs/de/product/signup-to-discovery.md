@@ -20,7 +20,7 @@ flowchart TD
     R --> B[Prüfung von Candidate und exakter Revision]
     B --> A[Materialisierung und Aktivierung]
     A --> W[Erster beratender Work Order]
-    W --> X[/work]
+    W --> X["/work"]
 ```
 
 Dies bleibt die semantisch korrekte End-to-End-Journey. Sie ist **noch kein vollständig kanonischer Produktionsfluss**.
@@ -167,12 +167,12 @@ qualifizierter offener PR
 ```mermaid
 flowchart LR
     A[Gehostetes Sign-in] --> B[Self-Service Identity Lifecycle]
-    B --> C[Profilvertrag / Product Handoff]
+    B --> C["Profilvertrag / Product Handoff"]
     C --> D[Tenant-Bootstrap und Membership]
     D --> E[Discovery Admission]
     E --> F[Kanonischer Discovery Merge]
     F --> G[Activation- und First-Work-Proof]
-    G --> H[Deployment / Pilot Authorization]
+    G --> H["Deployment / Pilot Authorization"]
 ```
 
 Der produktionsreife Onboarding Slice ist erst geschlossen, wenn jeder Übergang einen zuständigen Vertrag, Fail-closed-Fehlerzustand, Tenant-Isolationsnachweis, Migrationspfad, kanonische Materialisierung und deployte End-to-End-Evidenz besitzt.
