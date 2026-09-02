@@ -20,13 +20,13 @@ UNITERA is a customizable AI operating system for company-specific agentic work.
 
 ```mermaid
 flowchart LR
-    E[Evidenz / Evidence] --> K[KNOW<br/>Context Runtime]
-    K --> T[THINK<br/>Cognition Runtime]
-    T --> P[Handlungsvorschlag / Action Proposal]
-    P --> A[ACT<br/>Execution Control]
-    A --> X[Externes System / External System]
+    E["Evidenz / Evidence"] --> K["KNOW<br>Context Runtime"]
+    K --> T["THINK<br>Cognition Runtime"]
+    T --> P["Handlungsvorschlag / Action Proposal"]
+    P --> A["ACT<br>Execution Control"]
+    A --> X["Externes System / External System"]
     X --> R[Receipt]
-    R --> V[Verifikation / Verification]
+    R --> V["Verifikation / Verification"]
 ```
 
 **Kernregel / Core rule:** Mehr Kontext, Rechenleistung oder Modellfähigkeit erzeugt niemals mehr Autorität. / More context, compute, or model capability never creates more authority.
@@ -38,6 +38,11 @@ flowchart LR
 - Owner Freeze: `FREEZE_NOT_AUTHORIZED`
 - Production Execution: `NO`
 - Details: [Deutsch — aktueller Stand](docs/de/status/current-state.md) · [English — current state](docs/en/status/current-state.md) · [Pilot readiness DE](docs/de/status/pilot-production-readiness.md) · [Pilot readiness EN](docs/en/status/pilot-production-readiness.md)
+
+## Diagramme / Diagrams
+
+GitHub-natives Mermaid, Fence und Label-Regeln: [`MERMAID.md`](MERMAID.md).
+Syntaxgrundlage: [Diagramme erstellen (GitHub Docs)](https://docs.github.com/de/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams) · [Creating diagrams](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams).
 
 ## Dokumentationsstatus / Documentation status
 
