@@ -10,10 +10,10 @@ UNITERA is a customizable AI operating system for company-specific agentic work.
 
 ```mermaid
 flowchart LR
-    E[Evidence and resources] --> K[KNOW<br/>Context Runtime]
-    K --> T[THINK<br/>Cognition Runtime]
+    E[Evidence and resources] --> K["KNOW<br>Context Runtime"]
+    K --> T["THINK<br>Cognition Runtime"]
     T --> P[Action Proposal]
-    P --> A[ACT<br/>Execution Control]
+    P --> A["ACT<br>Execution Control"]
     A --> X[External System]
     X --> R[Receipt]
     R --> V[Verification and reconciliation]
@@ -25,14 +25,14 @@ flowchart LR
 
 ```mermaid
 flowchart TB
-    C[coreos<br/>Foundation and Company Brain] --> S[Unitera_Systems<br/>Runtime, API, persistence, product]
-    O[unitera-os<br/>Provider-neutral execution contracts] --> S
-    T[unitera_control_plane<br/>Tenant and assignment authority] --> S
-    C --> R[unitera-registry<br/>Reference and provenance]
+    C["coreos<br>Foundation and Company Brain"] --> S["Unitera_Systems<br>Runtime, API, persistence, product"]
+    O["unitera-os<br>Provider-neutral execution contracts"] --> S
+    T["unitera_control_plane<br>Tenant and assignment authority"] --> S
+    C --> R["unitera-registry<br>Reference and provenance"]
     O --> R
     T --> R
     S --> R
-    R --> D[unitera_public_docs<br/>Public projection]
+    R --> D["unitera_public_docs<br>Public projection"]
 ```
 
 The Registry references authority; it does not create authority. This repository is one step further downstream: a human-readable projection of verified owner material.
@@ -81,4 +81,3 @@ See the [current-state matrix](status/current-state.md) for exact refs and non-c
 UNITERA currently has a substantial governed core and several qualified implementation slices. This repository does not claim automatic regulatory compliance, certification, unrestricted autonomy, end-to-end production readiness, or a complete self-service onboarding journey.
 
 If this repository conflicts with a verified owning artifact, **the owning artifact wins**.
-
