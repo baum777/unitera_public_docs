@@ -15,7 +15,7 @@ flowchart TD
     T --> M[Verifizierte Membership und Rolle]
     M --> F[First Contact]
     F --> D[Discovery Workspace]
-    D --> C[Claims, Quellen, Konflikte, offene Entscheidungen]
+    D --> C["Claims, Quellen, Konflikte, offene Entscheidungen"]
     C --> R[Serverseitige Readiness]
     R --> B[Prüfung von Candidate und exakter Revision]
     B --> A[Materialisierung und Aktivierung]
