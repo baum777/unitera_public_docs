@@ -20,7 +20,7 @@ flowchart TD
     R --> B[Candidate and exact-revision review]
     B --> A[Materialization and activation]
     A --> W[First advisory Work Order]
-    W --> X[/work]
+    W --> X["/work"]
 ```
 
 This remains the semantically correct end-to-end journey. It is **not yet one fully canonical production flow**.
@@ -167,12 +167,12 @@ qualified open PR
 ```mermaid
 flowchart LR
     A[Hosted sign-in] --> B[Self-service identity lifecycle]
-    B --> C[Profile contract / product handoff]
+    B --> C["Profile contract / product handoff"]
     C --> D[Tenant bootstrap and Membership]
     D --> E[Discovery admission]
     E --> F[Canonical Discovery merge]
     F --> G[Activation and First Work proof]
-    G --> H[Deployment / pilot authorization]
+    G --> H["Deployment / pilot authorization"]
 ```
 
 The production-ready onboarding slice closes only when each transition has an owning contract, fail-closed error state, tenant-isolation proof, migration path, canonical materialization and deployed end-to-end evidence.
