@@ -27,10 +27,22 @@ Before changing substantive content:
 Editorial-only changes may be scoped to the affected text when they do not
 change meaning.
 
+## Diagrams
+
+Mermaid in this repository is GitHub-native only. Follow `MERMAID.md` as the
+binding contract (GitHub renderer documentation:
+https://docs.github.com/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams#creating-mermaid-diagrams).
+
+- Fence every diagram as a backtick `mermaid` block, never `~~~mermaid`.
+- Quote labels that contain `/`, `<br>`, or other shape/syntax characters.
+- Write the product path as `["/work"]`, never `[/work]`.
+- Keep German and English diagram topology identical.
+
 ## Validation
 
 - Confirm substantive German and English content remains synchronized.
 - Run `git diff --check`.
 - Review `PUBLICATION_MANIFEST.yaml` whenever source-backed claims change.
+- Preview every changed Mermaid block on GitHub before merge.
 
-See `README.md`, `GUIDE.md`, `GOVERNANCE.md`, and `CONTRIBUTING.md`.
+See `README.md`, `GUIDE.md`, `MERMAID.md`, `GOVERNANCE.md`, and `CONTRIBUTING.md`.

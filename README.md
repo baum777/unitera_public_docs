@@ -20,13 +20,13 @@ UNITERA is a customizable AI operating system for company-specific agentic work.
 
 ```mermaid
 flowchart LR
-    E[Evidenz / Evidence] --> K[KNOW<br/>Context Runtime]
-    K --> T[THINK<br/>Cognition Runtime]
-    T --> P[Handlungsvorschlag / Action Proposal]
-    P --> A[ACT<br/>Execution Control]
-    A --> X[Externes System / External System]
+    E["Evidenz / Evidence"] --> K["KNOW<br>Context Runtime"]
+    K --> T["THINK<br>Cognition Runtime"]
+    T --> P["Handlungsvorschlag / Action Proposal"]
+    P --> A["ACT<br>Execution Control"]
+    A --> X["Externes System / External System"]
     X --> R[Receipt]
-    R --> V[Verifikation / Verification]
+    R --> V["Verifikation / Verification"]
 ```
 
 **Kernregel / Core rule:** Mehr Kontext, Rechenleistung oder Modellfähigkeit erzeugt niemals mehr Autorität. / More context, compute, or model capability never creates more authority.
@@ -45,3 +45,4 @@ flowchart LR
 - German and English documentation trees are structurally mirrored.
 - `PUBLICATION_MANIFEST.yaml` bleibt als sprachneutrales, maschinenlesbares Referenzmanifest einmalig an der Repository-Wurzel.
 - `PUBLICATION_MANIFEST.yaml` remains a single language-neutral machine-readable reference manifest at the repository root.
+- Mermaid diagrams follow the binding repository contract in [`MERMAID.md`](MERMAID.md) (GitHub-native renderer: [Creating Mermaid diagrams](https://docs.github.com/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams#creating-mermaid-diagrams)).
