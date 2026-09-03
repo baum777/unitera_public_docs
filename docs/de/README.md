@@ -2,7 +2,9 @@
 
 [English edition](../en/README.md)
 
-Dieses Repository ist nach Leserinteresse gegliedert. Jede Seite ist den zuständigen Owner-Repositories nachgelagert und unterscheidet zwischen kanonischem `main`, qualifizierter Entwicklungsarbeit, Kandidaten und offenen Gates.
+Diese Seiten sind eine kuratierte öffentliche Projektion. Sie erklären
+Prinzipien, Produktverhalten und grobe Reifegrade, ohne interne Umsetzung oder
+Autoritätstopologie rekonstruierbar zu machen.
 
 ## Einstieg
 
@@ -14,30 +16,31 @@ Dieses Repository ist nach Leserinteresse gegliedert. Jede Seite ist den zustän
 ## Architektur
 
 - [Systemübersicht](architecture/system-overview.md)
-- [Architektur & Logik — Detailed Concept](architecture/architecture-and-logic-deep-dive.md)
-- [Repository- und Autoritätstopologie](architecture/repository-topology.md)
+- [Architektur & Logik](architecture/architecture-and-logic-deep-dive.md)
+- [Human Agency und Model Sovereignty](architecture/human-agency-and-model-sovereignty.md)
+- [Verantwortungs- und Vertrauensdomänen](architecture/repository-topology.md)
 - [Autoritäts- und Source-of-Truth-Modell](architecture/authority-and-source-model.md)
 - [KNOW / THINK / ACT](architecture/know-think-act.md)
-- [Local Runtime Node × Personal Realm — gemeinsame Trust Boundary](architecture/local-node-personal-realm-trust-boundary.md)
+- [Local Runtime Node × Personal Realm](architecture/local-node-personal-realm-trust-boundary.md)
 
 ## Produkt- und Organisationskontext
 
 - [Sign-up → Tenant → Discovery](product/signup-to-discovery.md)
 - [Tenant, Discovery und Company Brain](product/tenant-discovery-company-brain.md)
-- [Personal Realm, Companion, Personal Memory und Circling — Owner-entschiedene Architektur](product/personal-realm-companion.md)
+- [Personal Realm, Companion, Personal Memory und Circling](product/personal-realm-companion.md)
 
 ## Runtime und Sicherheit
 
 - [Cognition Runtime](runtime/cognition-runtime.md)
-- [Pilot-Modellwahl, OpenRouter und kontrolliertes Routing — Kandidat](runtime/pilot-model-routing-openrouter.md)
+- [Modell- und Provider-Unabhängigkeit](runtime/model-and-provider-independence.md)
 - [Kontrollierte externe Wirkung](runtime/governed-effect.md)
-- [Local Runtime Node — Verträge auf main, Runtime absent](runtime/local-runtime-node.md)
+- [Local Runtime Node](runtime/local-runtime-node.md)
 - [Pilot Production Readiness](status/pilot-production-readiness.md)
 
 ## Quellen-Governance
 
-- [Registry → öffentliche Publikation](registry/source-to-publication.md)
-- [Bootstrap-Materialisierungsnachweis](status/bootstrap-materialization.md)
+Die öffentlichen Quellen- und Materialisierungsgrundsätze sind über die
+Status- und Referenzseiten dokumentiert.
 
 ## Konventionen und Referenz
 
@@ -46,4 +49,5 @@ Dieses Repository ist nach Leserinteresse gegliedert. Jede Seite ist den zustän
 - [Glossar](reference/glossary.md)
 - [Mitwirken](reference/contributing.md)
 - [Governance](reference/governance.md)
-- [Reviewer Assurance — Publikationsstatus und Boundary](reference/reviewer-assurance-publication-status.md)
+- [Public-Disclosure-Policy](reference/public-disclosure-policy.md)
+- [Reviewer Assurance](reference/reviewer-assurance-publication-status.md)

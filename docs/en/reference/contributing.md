@@ -1,27 +1,19 @@
 # Contributing
 
-This repository is a public projection of UNITERA architecture. Contributions must preserve source authority and status distinctions.
+Contributions must improve the public explanation without reproducing internal
+sources or adopting candidates.
 
 ## Before editing
 
-1. Identify the owning domain and source artifact.
-2. Classify the statement as `ESTABLISHED`, `MATERIALIZED`, `CANDIDATE`, or `OPEN`.
-3. Prefer diagrams and summaries over copying internal source text.
-4. Preserve exact technical identifiers such as `email.send.commit`, `KNOW`, `THINK`, `ACT`, and authority-domain names.
-5. Never convert a candidate into a canonical claim through documentation alone.
-6. Apply substantive changes to `docs/de` and `docs/en` in sync.
+1. Verify the claim against its current owning source.
+2. Determine its disclosure class and coarse maturity.
+3. Publish only the abstraction required to explain what and why.
+4. Check composition risk with other public pages.
+5. Apply substantive changes in German and English together.
+6. Run disclosure, structure, link, and formatting checks.
 
-## Diagram style
+Diagrams follow [`MERMAID.md`](../../../MERMAID.md) and show roles and conceptual
+relationships, not reconstructable implementation topology.
 
-Use GitHub-native Mermaid inside Markdown. Follow [`MERMAID.md`](../../../MERMAID.md). Prefer explicit lifecycle arrows and label trust/authority boundaries rather than relying on visual color semantics.
-
-## Changes that require extra care
-
-- authority ownership
-- capability/grant semantics
-- production activation
-- tenant isolation
-- external effects
-- source pointer/adoption status
-- security boundaries
-- compliance or certification language
+Claims about authority, external effect, production maturity, security,
+compliance, or certification require particular care.

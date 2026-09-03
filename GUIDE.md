@@ -1,31 +1,26 @@
-# Guide — Maintaining the UNITERA public documentation
+# Guide — Maintaining the UNITERA Public Documentation
 
-## Purpose
-
-Use this repository to explain reviewed UNITERA architecture and operating
-concepts publicly in German and English.
-
-## Start here
-
-1. Read `README.md` for the publication role and language entry points.
-2. Read `GOVERNANCE.md` before changing architectural or authority claims.
-3. Read `CONTRIBUTING.md` for the bilingual synchronization rule.
-4. Check `PUBLICATION_MANIFEST.yaml` for the reviewed source refs and status.
-5. Follow `MERMAID.md` for GitHub-native diagram fences and labels.
+This repository explains reviewed UNITERA principles and product behavior in
+German and English. It is a curated public projection, not an engineering
+inventory.
 
 ## Content workflow
 
 For a substantive change:
 
-1. identify the repository that owns the claim;
-2. verify the exact source ref and whether it is canonical or a candidate;
-3. apply the same meaning to `docs/de/` and `docs/en/`;
-4. preserve explicit status labels and authority boundaries;
-5. update publication metadata when its recorded sources or scope change;
-6. review both language paths and run `git diff --check`.
+1. verify the claim against its current owning source;
+2. distinguish established semantics, public status, candidates, and gaps;
+3. publish only the minimum abstraction needed to explain what and why;
+4. synchronize German and English meaning;
+5. apply the composition rule across the complete public projection;
+6. run the disclosure, structure, link, and formatting checks.
+
+Read `GOVERNANCE.md`, `CONTRIBUTING.md`, `PUBLICATION_MANIFEST.yaml`, and
+`MERMAID.md` before editing.
 
 ## Core rule
 
-Public documentation projects verified owner state; it does not create that
-state. If a public statement conflicts with an owning repository, correct the
-projection from verified source evidence.
+Public documentation creates no adoption, permission, runtime authority, or
+production activation. If a public statement conflicts with its verified
+owning source, correct the public projection without publishing restricted
+source detail.

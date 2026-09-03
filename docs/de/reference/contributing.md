@@ -1,27 +1,19 @@
 # Mitwirken
 
-Dieses Repository ist eine öffentliche Projektion der UNITERA-Architektur. Beiträge müssen Quellenautorität und Statusunterscheidungen bewahren.
+Beiträge müssen die öffentliche Erklärung verbessern, ohne interne Quellen zu
+reproduzieren oder Kandidaten zu adoptieren.
 
 ## Vor der Bearbeitung
 
-1. Zuständige Domäne und Quellartefakt bestimmen.
-2. Aussage als `ESTABLISHED`, `MATERIALIZED`, `CANDIDATE` oder `OPEN` klassifizieren.
-3. Diagramme und Zusammenfassungen dem Kopieren interner Quelltexte vorziehen.
-4. Exakte technische Bezeichner wie `email.send.commit`, `KNOW`, `THINK`, `ACT` und Namen der Autoritätsdomänen unverändert lassen.
-5. Niemals einen Kandidaten allein durch Dokumentation zu einer kanonischen Aussage machen.
-6. Inhaltliche Änderungen synchron in `docs/de` und `docs/en` ausführen.
+1. Aussage gegen die aktuelle zuständige Quelle prüfen.
+2. Disclosure-Klasse und groben Reifegrad bestimmen.
+3. Nur das für Was und Warum nötige Abstraktionsniveau publizieren.
+4. Kompositionsrisiken mit anderen öffentlichen Seiten prüfen.
+5. Inhaltliche Änderungen in Deutsch und Englisch synchron ausführen.
+6. Disclosure-, Struktur-, Link- und Formatprüfungen ausführen.
 
-## Diagrammstil
+Diagramme folgen [`MERMAID.md`](../../../MERMAID.md) und zeigen Rollen sowie
+fachliche Beziehungen, keine rekonstruierbare Implementierungstopologie.
 
-GitHub-natives Mermaid in Markdown verwenden. [`MERMAID.md`](../../../MERMAID.md) beachten. Explizite Lifecycle-Pfeile bevorzugen und Vertrauens- sowie Autoritätsgrenzen beschriften, statt sich auf Farbcodierung zu verlassen.
-
-## Änderungen mit besonderem Prüfbedarf
-
-- Autoritätszuständigkeit
-- Capability-/Grant-Semantik
-- Produktionsaktivierung
-- Tenant-Isolation
-- externe Wirkungen
-- Source-Pointer- und Adoptionsstatus
-- Sicherheitsgrenzen
-- Compliance- oder Zertifizierungsaussagen
+Besondere Prüfung erfordern Aussagen zu Autorität, externer Wirkung,
+Produktionsreife, Sicherheit, Compliance und Zertifizierung.

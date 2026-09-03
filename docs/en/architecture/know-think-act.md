@@ -1,35 +1,20 @@
 # KNOW / THINK / ACT
 
-**Status:** PUBLIC PROJECTION of the semantic core model
+Status: `PUBLIC_CORE`
 
-## KNOW — Context Runtime
-
-Responsibilities include tenant binding, resource addressability, context compilation, freshness, provenance, epistemic state, privacy transforms, context budgets, lineage, and session bootstrap.
-
-Resource handles are opaque, tenant-bound references. They are not credentials and carry no execution-grant semantics.
-
-## THINK — Cognition Runtime
-
-Responsibilities include analysis, planning, replanning, hypotheses, simulation, structured findings, action proposals, and learning candidates.
-
-The compute envelope is bounded externally. **More compute never creates more authority.** Replanning may change the route, but it may not expand tenant, capability, objective, or autonomy bounds.
-
-## ACT — Execution Control
+- **KNOW** supplies purpose-bound, current and traceable context.
+- **THINK** analyzes, plans and produces proposals within external bounds.
+- **ACT** evaluates authority and policy, controls real-world effects and produces evidence.
 
 ```mermaid
 flowchart LR
-    AP[Action Proposal] --> CR[Capability Request]
-    CR --> EA[Effective Autonomy Evaluation]
-    EA --> PE[Policy Evaluation]
-    PE --> HC[Human Control if required]
-    HC --> G[Capability Grant]
-    G --> RE[Pre-dispatch Re-evaluation]
-    RE --> TE[Trusted Executor]
-    TE --> AD[Execution Adapter]
-    AD --> ES[External System]
-    ES --> RC[Receipt]
-    RC --> V[Verification]
-    V --> CL["Closure / Reconciliation / Containment"]
+    E["Evidence and sources"] -->|"classified context"| K["KNOW"]
+    K -->|"minimized work context"| T["THINK"]
+    T -->|"proposal"| A["Governance and ACT"]
+    A -->|"governed effect"| X["External system"]
+    X -->|"receipt and verification"| E
 ```
 
-An action proposal is not an effect. A capability request is not a grant. A receipt is not verification.
+More context or model capability never creates more authority.
+
+> Conceptual public projection — not deployment, service, repository, protocol or security topology.

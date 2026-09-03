@@ -2,7 +2,9 @@
 
 [Deutsche Ausgabe](../de/README.md)
 
-This repository is organized by reader intent. Every page is downstream of its owning repository and must distinguish canonical `main`, qualified development work, candidates, and open gates.
+These pages are a curated public projection. They explain principles, product
+behavior, and coarse maturity without making internal implementation or
+authority topology reconstructable.
 
 ## Start here
 
@@ -14,30 +16,31 @@ This repository is organized by reader intent. Every page is downstream of its o
 ## Architecture
 
 - [System overview](architecture/system-overview.md)
-- [Architecture & Logic — Detailed Concept](architecture/architecture-and-logic-deep-dive.md)
-- [Repository and authority topology](architecture/repository-topology.md)
+- [Architecture & logic](architecture/architecture-and-logic-deep-dive.md)
+- [Human Agency & Model Sovereignty](architecture/human-agency-and-model-sovereignty.md)
+- [Responsibility and trust domains](architecture/repository-topology.md)
 - [Authority & Source-of-Truth model](architecture/authority-and-source-model.md)
 - [KNOW / THINK / ACT](architecture/know-think-act.md)
-- [Local Runtime Node × Personal Realm — joint trust boundary](architecture/local-node-personal-realm-trust-boundary.md)
+- [Local Runtime Node × Personal Realm](architecture/local-node-personal-realm-trust-boundary.md)
 
 ## Product & organizational context
 
 - [Sign-up → Tenant → Discovery journey](product/signup-to-discovery.md)
 - [Tenant, Discovery & Company Brain](product/tenant-discovery-company-brain.md)
-- [Personal Realm, Companion, Personal Memory & Circling — owner-decided architecture](product/personal-realm-companion.md)
+- [Personal Realm, Companion, Personal Memory & Circling](product/personal-realm-companion.md)
 
 ## Runtime & security
 
 - [Cognition runtime](runtime/cognition-runtime.md)
-- [Pilot model selection, OpenRouter & governed routing — candidate](runtime/pilot-model-routing-openrouter.md)
+- [Model and provider independence](runtime/model-and-provider-independence.md)
 - [Governed external effect](runtime/governed-effect.md)
-- [Local Runtime Node — contracts on main, runtime absent](runtime/local-runtime-node.md)
+- [Local Runtime Node](runtime/local-runtime-node.md)
 - [Pilot production readiness](status/pilot-production-readiness.md)
 
 ## Source governance
 
-- [Registry → Public Publication](registry/source-to-publication.md)
-- [Bootstrap materialization record](status/bootstrap-materialization.md)
+Public source and materialization principles are documented through the status
+and reference pages.
 
 ## Conventions & reference
 
@@ -46,4 +49,5 @@ This repository is organized by reader intent. Every page is downstream of its o
 - [Glossary](reference/glossary.md)
 - [Contributing](reference/contributing.md)
 - [Governance](reference/governance.md)
-- [Reviewer Assurance — publication status and boundary](reference/reviewer-assurance-publication-status.md)
+- [Public disclosure policy](reference/public-disclosure-policy.md)
+- [Reviewer Assurance](reference/reviewer-assurance-publication-status.md)

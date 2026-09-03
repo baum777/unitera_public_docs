@@ -93,8 +93,8 @@ Edge labels with spaces or punctuation belong in `|...|`:
 
 ```mermaid
 flowchart LR
-    C["coreos"] -->|"Foundation and Company Brain"| S["Unitera_Systems"]
-    D["Public docs"] -. no authority backflow .-> R["Registry"]
+    K["Institutional knowledge"] -->|"purpose-bound context"| C["Cognition"]
+    D["Public explanation"] -. no authority backflow .-> A["Owning authority"]
 ```
 
 `&` in a label must be quoted (`["Policy & Effective Autonomy"]`). Unquoted
@@ -199,3 +199,20 @@ Quoted from the GitHub docs linked above:
   further diagram types.
 - Third-party Mermaid plugins can conflict with GitHub’s built-in renderer.
 - GitHub does not expose a custom Mermaid configuration to authors.
+
+---
+
+## 9. Public architecture rule
+
+A public diagram MUST use responsibility roles such as Institutional Knowledge,
+Governance, Cognition, Execution Boundary, Evidence, Personal Continuity and
+External System. It MUST NOT combine physical services, repositories, protocols,
+credentials, authority bindings, providers and execution targets into a
+reconstructable topology.
+
+Every public architecture diagram must state:
+
+> Conceptual public projection — not deployment, service, repository, protocol or security topology.
+
+Use labeled flows that explain public meaning. Exact internal identifiers,
+object names and enforcement order belong in verified owner sources, not here.

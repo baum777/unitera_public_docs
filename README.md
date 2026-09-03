@@ -1,52 +1,42 @@
-# UNITERA — Öffentliche Architektur und Dokumentation
+# UNITERA — Public Architecture & Documentation
 
 > **Öffentliche Projektion — keine Autoritätsquelle.**
+>
 > **Public projection — not an authority source.**
 
-Diese Dokumentation ist vollständig auf Deutsch und Englisch verfügbar. Beide Sprachfassungen bilden denselben fachlichen Stand ab; bei Abweichungen gilt die verifizierte Quelle im jeweils zuständigen Owner-Repository.
+UNITERA verbindet Organisationskontext, KI-gestützte Kognition, menschliche
+Entscheidungsfähigkeit und kontrollierte Wirkung. Mehr Kontext oder
+Modellfähigkeit erzeugt dabei niemals mehr Autorität.
 
-This documentation is available in complete German and English editions. Both editions represent the same reviewed state; if they diverge, the verified source in the owning repository prevails.
+UNITERA connects organizational context, AI-assisted cognition, human agency,
+and governed effect. More context or model capability never creates more
+authority.
 
 ## Sprache / Language
 
-- [Deutsch — Dokumentationsindex](docs/de/README.md)
-- [English — documentation index](docs/en/README.md)
+- [Deutsch](docs/de/README.md)
+- [English](docs/en/README.md)
 
-## UNITERA in Kürze / UNITERA at a glance
-
-UNITERA ist ein anpassbares KI-Betriebssystem für unternehmensspezifische agentische Arbeit. Sein architektonischer Kern ist **kontrollierte Ausführung**: KI darf analysieren, entwerfen, planen und Handlungen vorschlagen. Verbindliche Geschäftswirkungen bleiben jedoch an Tenant-Kontext, Richtlinien, erforderliche menschliche Kontrolle, Grants, Ausführungsgrenzen, Receipts, Verifikation und Audit-Evidenz gebunden.
-
-UNITERA is a customizable AI operating system for company-specific agentic work. Its architectural center is **governed execution**: AI may analyze, draft, plan, and propose actions, while binding business effects remain subject to tenant context, policy, required human control, grants, execution boundaries, receipts, verification, and audit evidence.
+## Öffentliche Aussage / Public claim
 
 ```mermaid
 flowchart LR
-    E["Evidenz / Evidence"] --> K["KNOW<br>Context Runtime"]
-    K --> T["THINK<br>Cognition Runtime"]
-    T --> P["Handlungsvorschlag / Action Proposal"]
-    P --> A["ACT<br>Execution Control"]
-    A --> X["Externes System / External System"]
-    X --> R[Receipt]
-    R --> V["Verifikation / Verification"]
+    H["Mensch / Human"] --> K["KNOW"]
+    K --> T["THINK"]
+    T --> G["Govern"]
+    G --> A["ACT"]
+    A --> E["Evidenz / Evidence"]
+    E --> V["Verifikation / Verification"]
 ```
 
-**Kernregel / Core rule:** Mehr Kontext, Rechenleistung oder Modellfähigkeit erzeugt niemals mehr Autorität. / More context, compute, or model capability never creates more authority.
+*Conceptual public projection — not deployment, service, repository, protocol or security topology.*
 
-## Aktueller Snapshot / Current snapshot
+Die Dokumentation erklärt Prinzipien, Produktverhalten und grobe Reifegrade.
+Sie veröffentlicht keine rekonstruierbare interne Topologie. Details zur Grenze
+stehen in der [deutschen](docs/de/reference/public-disclosure-policy.md) und
+[englischen](docs/en/reference/public-disclosure-policy.md) Disclosure-Policy.
 
-- Öffentlicher Stand / public state: `PUBLIC_STATE_2026-08-31`
-- Discovery auf `Unitera_Systems/main`: ja, deterministisch, nicht aktiviert
-- Owner Freeze: `FREEZE_NOT_AUTHORIZED`
-- Production Execution: `NO`
-- Details: [Deutsch — aktueller Stand](docs/de/status/current-state.md) · [English — current state](docs/en/status/current-state.md) · [Pilot readiness DE](docs/de/status/pilot-production-readiness.md) · [Pilot readiness EN](docs/en/status/pilot-production-readiness.md)
-
-## Diagramme / Diagrams
-
-GitHub-natives Mermaid, Fence und Label-Regeln: [`MERMAID.md`](MERMAID.md).
-Syntaxgrundlage: [Diagramme erstellen (GitHub Docs)](https://docs.github.com/de/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams) · [Creating diagrams](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams).
-
-## Dokumentationsstatus / Documentation status
-
-- Deutscher und englischer Dokumentationsbaum sind strukturell gespiegelt.
-- German and English documentation trees are structurally mirrored.
-- `PUBLICATION_MANIFEST.yaml` bleibt als sprachneutrales, maschinenlesbares Referenzmanifest einmalig an der Repository-Wurzel.
-- `PUBLICATION_MANIFEST.yaml` remains a single language-neutral machine-readable reference manifest at the repository root.
+This documentation explains principles, product behavior, and coarse maturity.
+It does not publish reconstructable internal topology. See the
+[German](docs/de/reference/public-disclosure-policy.md) and
+[English](docs/en/reference/public-disclosure-policy.md) disclosure policies.

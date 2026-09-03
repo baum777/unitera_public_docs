@@ -1,37 +1,16 @@
-# Governed External Effect
+# Governed effect
 
-**Status:** ESTABLISHED architecture; exact runtime availability depends on the owning implementation surface.
-
-UNITERA separates approval, grant, external execution, receipt, and verification. External effects must not be dispatched directly from cognition.
+Status: `PUBLIC_CORE`
 
 ```mermaid
-sequenceDiagram
-    participant AI as Cognition / Agent
-    participant EC as Execution Control
-    participant H as Human Control
-    participant X as Trusted Executor
-    participant P as External Provider
-    participant A as Audit / Evidence
-
-    AI->>EC: Action Proposal / Capability Request
-    EC->>EC: Tenant + policy + autonomy evaluation
-    alt human control required
-        EC->>H: Review / approval request
-        H-->>EC: Approval decision
-    end
-    EC->>EC: Capability Grant + pre-dispatch re-evaluation
-    EC->>X: Authorized execution request
-    X->>P: External effect
-    P-->>X: Provider response
-    X-->>EC: Receipt
-    EC->>A: Append evidence
-    EC->>EC: Verify / reconcile outcome
+flowchart LR
+    P["Proposal"] -->|"requested effect"| A["Authority and policy evaluation"]
+    A -->|"human control when required"| E["Authorized execution"]
+    E -->|"bounded external effect"| X["External system"]
+    X -->|"receipt"| V["Verification or reconciliation"]
+    V -->|"reviewable evidence"| R["Traceable outcome"]
 ```
 
-## v1 effect boundary
+Approval is not execution, a receipt is not verification, and an unknown outcome is not an invitation to retry blindly. Real-world effects remain deliberately narrow.
 
-The established technical reference for the single bounded v1 external capability is `email.send.commit`. Broader business workflows may compose around it, but workflow names must not silently become new atomic capabilities.
-
-## Failure rule
-
-Unknown external outcome is not permission to retry blindly. The system must reconcile uncertain effects before deciding whether another attempt is safe.
+> Conceptual public projection — not deployment, service, repository, protocol or security topology.

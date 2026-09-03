@@ -1,57 +1,17 @@
-# Autoritäts- und Source-of-Truth-Modell
+# Authority- und Quellenmodell
 
-**Status:** PUBLIC PROJECTION  
-**Autorität:** keine aus sich selbst heraus  
-**Quellengrundlage:** verifizierte Owner-Repositories sowie der bereitgestellte Source-State-Snapshot vom 15.08.2026
+Status: `PUBLIC_ABSTRACTED`
 
-## Autoritätsdomänen
-
-| Domäne | Zuständige Oberfläche | Verifizierte öffentliche Einordnung |
-|---|---|---|
-| Foundation, institutionelle Identität, Company Brain | `coreos` | Etablierte Autoritätsdomäne; aktive Foundation-Baseline und deterministische Prime-Projektion sind Angelegenheiten des Owner-Repositories |
-| Capability, Autonomie, Policy, Grant, Receipt und Execution-Control-Verträge | `unitera-os` | Etablierte providerneutrale Autoritätsdomäne |
-| Tenant- und Governance-Autorität | `unitera_control_plane` | Physischer Owner ist materialisiert; Zuordnungstopologie und begrenzte Pilot-Policy sind kanonische Autoritätsnachweise |
-| Runtime, Persistenz, API, Integrationen, Sessions und Produkterzwingung | `Unitera_Systems` | Etablierte Implementierungsgrenze; Implementierung überträgt keine semantische Zuständigkeit |
-| Repository-übergreifende Registry | `unitera-registry` | Nur Referenz, Provenienz, Adoptions-/Implementierungsbindung und Erreichbarkeit |
-| Öffentliche Dokumentation | `unitera_public_docs` | Nur Erklärung |
+Verifizierte Owner-Quellen definieren fachliche Wahrheit. Die öffentliche Dokumentation erklärt diese Wahrheit in reduzierter Form und erzeugt selbst keine Authority.
 
 ```mermaid
-flowchart TD
-    C[coreos] -->|Foundation und Company Brain| S[Unitera_Systems]
-    O[unitera-os] -->|Execution-Control-Verträge| S
-    T[unitera_control_plane] -->|Tenant- und Zuordnungsautorität| S
-
-    C --> R[unitera-registry]
-    O --> R
-    T --> R
-    S --> R
-    R --> D[unitera_public_docs]
-
-    D -. kein Autoritätsrückfluss .-> R
-    R -. kein Autoritätsrückfluss .-> C
-    R -. kein Autoritätsrückfluss .-> O
-    R -. kein Autoritätsrückfluss .-> T
-    R -. kein Autoritätsrückfluss .-> S
+flowchart LR
+    S["Verifizierte fachliche Quellen"] -->|"geprüfte Semantik"| P["Öffentliche Projektion"]
+    E["Externe Konzepte"] -->|"klar attribuierte Begründung"| P
+    P -->|"verständliche Prinzipien"| H["Menschen und Organisationen"]
+    P -.->|"keine Authority zurück"| S
 ```
 
-## Vorrangfolge
+Kandidaten bleiben Kandidaten. Publikation ist keine Adoption; Adoption ist keine Runtime-Aktivierung. Exakte Quellenstände werden intern verifiziert, aber nicht als operative Landkarte publiziert.
 
-Bei widersprüchlicher Evidenz gilt folgende Lesereihenfolge:
-
-1. Verifiziertes kanonisches Artefakt im zuständigen Owner-Repository.
-2. Eingefrorene Phasen- oder Vertragsspezifikation.
-3. Evidenz einer Owner-Entscheidung vor formaler Adoption.
-4. Architektur- oder Ersatzkandidat.
-5. Produkt-/UX-Projektion.
-6. Veraltetes oder rein konversationelles Material.
-
-Diese Reihenfolge ist eine Dokumentationsmethode, keine neue Autoritätsschicht.
-
-## Status des Source Pointers
-
-Der Source-Snapshot vom 15.08.2026 meldete `candidate_pointer_not_activated`. Spätere Materialisierungen in Owner-Repositories können einzelne ältere Annahmen ablösen. Dieses öffentliche Repository leitet daraus jedoch keine Aktivierung des einheitlichen Source Pointers ab. Eine Pointer-Aktivierung bleibt eine eigenständige Entscheidung mit exakter Evidenz.
-
-## Prinzip
-
-Die Registry darf Referenzen, Status, Digests, Provenienz, Supersessions, Consumer und qualifizierte Implementierungsbindungen erfassen. Sie kann keine semantische, Tenant-, Ausführungs- oder Runtime-Autorität erzeugen. Die öffentliche Dokumentation fügt **null** Autorität hinzu.
-
+> Conceptual public projection — not deployment, service, repository, protocol or security topology.

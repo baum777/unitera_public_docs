@@ -13,6 +13,28 @@ UNITERA. It is an explanatory surface, not an authority source.
 - Registry references and imported material do not create authority.
 - Candidate and non-canonical branch material must remain explicitly labeled.
 
+## Public disclosure boundary
+
+Public documentation is a curated, deliberately lossy projection. It explains
+what UNITERA does and why; owner/internal sources define exactly how, where and
+under which contract.
+
+Every statement belongs to one disclosure class:
+
+- `PUBLIC_CORE`: principles and product behavior suitable for direct explanation.
+- `PUBLIC_ABSTRACTED`: architecture explained without reconstructable implementation topology.
+- `PUBLIC_STATUS`: coarse maturity only: concept, contracted, under implementation,
+  pilot preparation, limited pilot, or production.
+- `RESTRICTED_SOURCE_DETAIL`: exact repositories, refs, change/review identifiers,
+  internal object/schema/package names, state enums, capability identifiers,
+  providers, credentials, protocols, routes, enforcement order and test topology.
+
+Composition rule: individually acceptable facts MUST NOT be combined when their
+combination reconstructs internal ownership, runtime, authority or enforcement topology.
+
+Exact refs remain required for internal verification but MUST NOT be published.
+Engineering state changes continuously; public architectural state changes deliberately.
+
 ## Change rules
 
 Before changing substantive content:
@@ -44,5 +66,6 @@ https://docs.github.com/get-started/writing-on-github/working-with-advanced-form
 - Run `git diff --check`.
 - Review `PUBLICATION_MANIFEST.yaml` whenever source-backed claims change.
 - Preview every changed Mermaid block on GitHub before merge.
+- Run `python3 scripts/check_public_disclosure.py` and resolve every finding.
 
 See `README.md`, `GUIDE.md`, `MERMAID.md`, `GOVERNANCE.md`, and `CONTRIBUTING.md`.

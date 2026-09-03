@@ -1,50 +1,30 @@
-# UNITERA — Managementübersicht der Architektur
+# UNITERA — Managementübersicht
 
-**Zielgruppe:** Partner, Kunden und technische Entscheider  
-**Status:** PUBLIC PROJECTION  
-**Autorität:** keine aus sich selbst heraus  
-**Quellengrundlage:** aktuelle Refs der Owner-Repositories und abgeglichenes Architekturmaterial
+**Disclosure:** PUBLIC_CORE · PUBLIC_ABSTRACTED · PUBLIC_STATUS
 
-## Das Problem
+**Autorität:** keine aus sich selbst heraus
 
-KI kann erzeugen, analysieren und automatisieren. Die schwierigere Frage lautet, **wann KI-gestützte Arbeit verbindliche geschäftliche Realität werden darf**.
-
-UNITERA ist eine kontrollierte Intelligenzschicht zwischen Organisationskontext, KI-Kognition, menschlicher Autorität und externen Systemen.
+KI kann analysieren, entwerfen und automatisieren. Die schwierigere Frage ist,
+wann KI-gestützte Arbeit verbindliche Realität werden darf. UNITERA trennt
+deshalb Kontext, Kognition, Autorität, Wirkung und Nachweis.
 
 ```mermaid
 flowchart LR
-    O[Organisation] --> K[KNOW]
-    K --> T[THINK]
-    T --> P[Vorschlag]
-    P --> G[Governance]
-    G --> A[ACT]
-    A --> B[Geschäftswirkung]
-    B --> E[Evidenz und Verifikation]
+    O["Organisation"] --> K["Kontext"]
+    K --> C["Kognition"]
+    C --> H["Menschliche Kontrolle"]
+    H --> E["Kontrollierte Wirkung"]
+    E --> V["Evidenz und Verifikation"]
 ```
 
-## Drei Versprechen
+*Conceptual public projection — not deployment, service, repository, protocol or security topology.*
 
-### Kontext ohne stillschweigende Erlaubnis
+## Öffentliches Nutzenversprechen
 
-Reicherer Organisationskontext wird nicht zu Ausführungsautorität.
+- Kontext wird nicht stillschweigend zu Erlaubnis.
+- Modellfähigkeit wird nicht stillschweigend zu Autorität.
+- Verbindliche Wirkung bleibt begrenzt, überprüfbar und zurechenbar.
+- Persönliche Kontinuität und institutionelle Verantwortung bleiben getrennt.
 
-### Kognition ohne stillschweigende Ausführung
-
-Modelle dürfen analysieren, planen, simulieren und vorschlagen. Rechenleistung und Modellfähigkeit verleihen keine geschäftlichen Rechte.
-
-### Ausführung mit Evidenz
-
-Verbindliche Wirkungen durchlaufen Capability, Policy, erforderliche menschliche Kontrolle, Grant, Ausführung, Receipt, Verifikation und Abgleich.
-
-## Warum das System getrennt ist
-
-Foundation/Company Brain, providerneutrale Ausführungsverträge, Tenant-Autorität, Runtime-Implementierung, Registry-Referenzen und öffentliche Kommunikation besitzen unterschiedliche Owner. Diese Trennung verhindert, dass Produktoberfläche, Runtime-Paket oder Registry-Eintrag Autorität unbemerkt neu definieren.
-
-## Aktueller Reifegrad
-
-Der kontrollierte Kern ist substanziell: Company-Brain-Autorität, Execution-Control-Verträge, gehostete OIDC-Sessions, interne Identitäts-/Tenant-/Membership-Auflösung, begrenzte Kontrollen externer Wirkungen, Tenant-/Governance-Autoritätsnachweise und Registry-Erzwingung sind in ihren zuständigen Oberflächen materialisiert.
-
-Die vollständige Product Journey ist nicht abgeschlossen. Self-Service-Sign-up, Profil und Tenant-Bootstrap sind offen; Discovery ist auf einem Entwicklungsbranch stark qualifiziert, jedoch nicht auf kanonischem `main`; die vollständige Cognition-Runtime-Autorität, ihr Lifecycle und die produktive End-to-End-Qualifikation bleiben offen.
-
-Die präzise Beschreibung lautet daher: **ein materiell implementierter kontrollierter Kern mit teilweise integrierter Production Journey**.
-
+Der kontrollierte Kern ist in Teilen materialisiert; die vollständige Product
+Journey und Ende-zu-Ende-Produktionsreife werden nicht behauptet.

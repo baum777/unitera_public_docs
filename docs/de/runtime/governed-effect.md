@@ -1,38 +1,16 @@
-# Kontrollierte externe Wirkung
+# Kontrollierte Wirkung
 
-**Status:** ESTABLISHED architecture; exakte Runtime-Verfügbarkeit hängt von der zuständigen Implementierungsoberfläche ab.
-
-UNITERA trennt Approval, Grant, externe Ausführung, Receipt und Verifikation. Externe Wirkungen dürfen nicht direkt aus der Cognition heraus ausgeführt werden.
+Status: `PUBLIC_CORE`
 
 ```mermaid
-sequenceDiagram
-    participant AI as Cognition / Agent
-    participant EC as Execution Control
-    participant H as Menschliche Kontrolle
-    participant X as Trusted Executor
-    participant P as Externer Provider
-    participant A as Audit / Evidenz
-
-    AI->>EC: Action Proposal / Capability Request
-    EC->>EC: Tenant-, Policy- und Autonomiebewertung
-    alt menschliche Kontrolle erforderlich
-        EC->>H: Review- / Approval-Anfrage
-        H-->>EC: Approval-Entscheidung
-    end
-    EC->>EC: Capability Grant + erneute Prüfung vor Dispatch
-    EC->>X: Autorisierte Ausführungsanfrage
-    X->>P: Externe Wirkung
-    P-->>X: Provider-Antwort
-    X-->>EC: Receipt
-    EC->>A: Evidenz anhängen
-    EC->>EC: Ergebnis verifizieren / abgleichen
+flowchart LR
+    P["Vorschlag"] -->|"angefragte Wirkung"| A["Authority- und Richtlinienprüfung"]
+    A -->|"menschliche Kontrolle, falls erforderlich"| E["Autorisierte Ausführung"]
+    E -->|"begrenzte externe Wirkung"| X["Externes System"]
+    X -->|"Receipt"| V["Verifikation oder Reconciliation"]
+    V -->|"prüfbare Evidenz"| R["Nachvollziehbares Ergebnis"]
 ```
 
-## v1-Wirkungsgrenze
+Approval ist nicht Ausführung, Receipt ist nicht Verifikation und ein unbekanntes Ergebnis ist keine Einladung zum blinden Retry. Reale Wirkung bleibt absichtlich eng begrenzt.
 
-Die etablierte technische Referenz für die einzelne begrenzte externe v1-Capability ist `email.send.commit`. Um sie herum können umfassendere Geschäftsabläufe komponiert werden; Namen von Workflows dürfen jedoch nicht stillschweigend zu neuen atomaren Capabilities werden.
-
-## Fehlerregel
-
-Ein unbekanntes externes Ergebnis ist keine Erlaubnis für einen blinden Retry. Das System muss unsichere Wirkungen abgleichen, bevor es entscheidet, ob ein weiterer Versuch sicher ist.
-
+> Conceptual public projection — not deployment, service, repository, protocol or security topology.

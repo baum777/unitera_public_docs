@@ -1,4 +1,4 @@
-schema_version: 0.3.2
+schema_version: 0.4.0
 repository:
   name: unitera_public_docs
   role: PUBLIC_DOCUMENTATION_PROJECTION
@@ -6,8 +6,6 @@ repository:
   authority: NONE_BY_ITSELF
 localization:
   canonical_content_model: mirrored_language_editions
-  default_landing_page: README.md
-  machine_manifest_language: language_neutral
   editions:
     de:
       root: docs/de
@@ -17,100 +15,33 @@ localization:
       label: English
   substantive_changes_require_sync: true
 snapshot:
-  reviewed_at: "2026-08-31"
-  snapshot_id: PUBLIC_STATE_2026-08-31
-  supersedes_snapshot: "2026-08-30"
-  owner_refs:
-    coreos: c34b61a9264348afaaae96c5b94e169011bf76ab
-    unitera_os: 36718e910c0adc29597911b7cb923f03282aa297
-    unitera_systems: f4debe62eb783aab93e4f106d60fd72a6363855f
-    unitera_control_plane: 021ead934fa9f73dd483d0c79fb78d71500e109f
-    unitera_registry: 1de27e805d180e602560b9f4227628892f5c5790
-    unitera_companion: 526177ed97d6c82d3fa8588852950511cd55dc65
-  verified_implementation_refs:
-    unitera_production_interface:
-      ref: main
-      head: afa92cfd1e9b373cebd73d45cd4994967b11dec3
-      role: PRODUCT_UI_PLUS_BFF
-      production_execution_activated: false
-      live_effect_active: false
-  current_main_materializations:
-    discovery_runtime:
-      repository: baum777/Unitera_Systems
-      pull_request: 94
-      state: merged_to_main
-      merged_at: "2026-08-30T22:52:13Z"
-      live_llm_provider: NONE
-      live_llm_binding: false
-      production_execution_activated: false
-    ci_wp_030_container_smoke:
-      repository: baum777/Unitera_Systems
-      pull_request: 104
-      state: merged_to_main
-    governance_wp_035_review_hygiene:
-      repository: baum777/Unitera_Systems
-      pull_request: 103
-      state: merged_to_main
-    registry_wp_002_freeze_projection:
-      repository: baum777/unitera-registry
-      pull_request: 26
-      state: merged_to_main
-      freeze_result: FREEZE_NOT_AUTHORIZED
-    local_runtime_node_contracts:
-      repository: baum777/unitera-os
-      pull_request: 20
-      state: merged_to_main
-      classification: OWNER_CONTRACT_MATERIALIZED_RUNTIME_NOT_ACTIVATED
-  qualified_noncanonical_refs:
-    unitera_systems_pilot_ui_integration:
-      repository: baum777/Unitera_Systems
-      ref: pilot-ui-01/production-entry-readonly-pilot
-      pull_request: 98
-      head: 05b47e384d8ed63f91b2de15cc057c3948adc35c
-      recorded_base: 786d03ca731acf5ab1af38731954891e84542d8c
-      state: open_qualified_in_review
-      may_close_current_main_gates: false
-    freeze_report_internal_heads:
-      note: freeze report result remains FREEZE_NOT_AUTHORIZED; internally recorded freeze-review heads lag current owner mains
-      unitera_os_at_report: 18c50f837aa5442d29edf0bae7f0beb5fd9fa94b
-      unitera_control_plane_at_report: 10e2a3953a76a892cb4112dcf9c1f7998d970970
-      unitera_systems_at_report: 786d03ca731acf5ab1af38731954891e84542d8c
+  reviewed_at: "2026-09-03"
+  source_verification: VERIFIED_AGAINST_OWNER_SOURCES
+  detail_level: PUBLIC_ABSTRACTED
+disclosure:
+  policy: CURATED_NON_RECONSTRUCTABLE
+  exact_owner_topology_published: false
+  exact_source_refs_published: false
+  branch_and_change_state_published: false
+  internal_contract_ids_published: false
+  provider_or_credential_routing_published: false
 source_policy:
-  owner_repo_wins_on_conflict: true
-  registry_creates_authority: false
+  owner_source_wins_on_conflict: true
   public_docs_create_authority: false
-  candidate_material_must_be_labeled: true
-  noncanonical_branch_material_must_be_labeled: true
-topics:
-  - system_overview
-  - architecture_and_logic_deep_dive
-  - repository_authority_topology
-  - authority_and_source_model
-  - know_think_act
-  - signup_to_discovery
-  - tenant_discovery_company_brain
-  - personal_realm_companion_owner_decided_architecture
-  - production_interface_product_ui_bff
-  - cognition_runtime
-  - pilot_model_selection_openrouter_governed_routing_candidate
-  - governed_external_effect
-  - registry_source_to_publication
-  - local_runtime_node_candidate
-  - current_state
-  - pilot_production_readiness
+  public_provenance_is_abstracted: true
+  candidates_must_be_labeled: true
+public_state:
+  core_architecture: ESTABLISHED
+  institutional_knowledge: BOUNDED_IMPLEMENTATION
+  product_experience: ACTIVE_DEVELOPMENT
+  personal_continuity: CONTRACT_AND_PRODUCT_DIRECTION
+  local_runtime: BOUNDED_ARCHITECTURE
+  governed_external_effects: DELIBERATELY_LIMITED
+  pilot: PREPARATION
+  production_autonomy_claimed: false
 publication_gate:
-  - verify_owner_source
-  - verify_exact_ref
-  - verify_status_label
-  - separate_main_from_development_branch_state
-  - reconcile_registry_reference_when_applicable
+  - verify_owner_sources_internally
+  - publish_only_curated_abstraction
+  - preserve_candidate_labels
+  - prevent_topology_reconstruction
   - avoid_unverified_production_or_compliance_claims
-current_public_verdict:
-  implementation: PARTIAL
-  discovery_on_systems_main: true
-  owner_freeze: FREEZE_NOT_AUTHORIZED
-  pilot_activation: NOT_AUTHORIZED
-  production_execution: "NO"
-  live_llm_provider: NONE
-  v1_effectful_capabilities:
-    - email.send.commit

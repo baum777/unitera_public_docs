@@ -1,44 +1,9 @@
-# System Overview
+# System overview
 
-**Status:** PUBLIC PROJECTION  
-**Authority:** none by itself
+Status: `PUBLIC_CORE`
 
-UNITERA separates organizational knowledge, cognition, and external action so that richer AI reasoning cannot silently expand business authority.
+UNITERA connects institutional context, bounded AI cognition, human and organizational authority, governed execution and durable evidence.
 
-```mermaid
-flowchart TB
-    subgraph KNOW[KNOW — Context Runtime]
-      E[Evidence]
-      CB[Company Brain]
-      C[Compiled Context]
-      E --> CB --> C
-    end
+The model is a replaceable capability, not the institution or authority. The Company Brain holds reviewed institutional context. The Personal Realm holds personal continuity separately. `/work` makes active work, next steps, sources and required decisions understandable.
 
-    subgraph THINK[THINK — Cognition Runtime]
-      AN[Analysis]
-      PL["Planning / Replanning"]
-      AP[Action Proposal]
-      AN --> PL --> AP
-    end
-
-    subgraph ACT[ACT — Execution Control]
-      CR[Capability Request]
-      PE["Policy & Effective Autonomy"]
-      HC[Human Control if required]
-      GR[Capability Grant]
-      EX[Trusted Executor]
-      CR --> PE --> HC --> GR --> EX
-    end
-
-    C --> AN
-    AP --> CR
-    EX --> XS[External System]
-    XS --> RC[Receipt]
-    RC --> VR["Verification / Reconciliation"]
-```
-
-## System thesis
-
-UNITERA can be summarized as **evidence-grounded, context-compiled, authority-separated execution**.
-
-The architecture intentionally avoids treating a model, prompt, harness, external tool, or adapter as an authority boundary. Authority remains explicit in owning domains and runtime enforcement.
+The architecture optimizes for useful, traceable and bounded effects rather than maximum autonomy.
