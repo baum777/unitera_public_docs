@@ -8,7 +8,7 @@ Autoritätstopologie rekonstruierbar zu machen.
 
 ## Einstieg nach Leserziel
 
-- **Für Entscheider:** [UNITERA in 5 Minuten](getting-started/unitera-in-5-minutes.md), danach die [Managementübersicht](presentation/executive-overview.md) und der [aktuelle öffentliche Stand](status/current-state.md).
+- **Für Entscheider:** [UNITERA in 5 Minuten](getting-started/unitera-in-5-minutes.md), danach die [Managementübersicht](presentation/executive-overview.md), der [aktuelle öffentliche Stand](status/current-state.md) und die [Capability-/Use-Case-Matrix](status/capability-use-case-matrix.md).
 - **Für Anwender:** [Ein Kundenanliegen von A bis Z](getting-started/customer-request-from-a-to-z.md), danach [Discovery und Company Brain](product/tenant-discovery-company-brain.md).
 - **Für technische Leser:** [Systemübersicht](architecture/system-overview.md), danach [KNOW / THINK / ACT](architecture/know-think-act.md) und das [Authority- und Source-of-Truth-Modell](architecture/authority-and-source-model.md).
 
@@ -19,6 +19,7 @@ Autoritätstopologie rekonstruierbar zu machen.
 - [UNITERA-Überblick](overview.md)
 - [Managementübersicht](presentation/executive-overview.md)
 - [Aktueller öffentlicher Stand](status/current-state.md)
+- [Funktionen, Capabilities und Use Cases](status/capability-use-case-matrix.md)
 - [Quellengrundlage](reference/source-basis.md)
 
 ## Architektur

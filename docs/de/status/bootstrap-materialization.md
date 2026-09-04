@@ -8,4 +8,4 @@ Diese Einordnung ist keine Produktions-, Autonomie- oder Compliance-Freigabe.
 
 ---
 
-[← Vorherige: Aktueller öffentlicher Stand](current-state.md) · [Index](../README.md) · [Nächste: Public Source Assurance →](../reference/source-basis.md)
+[← Vorherige: Funktionen, Capabilities und Use Cases](capability-use-case-matrix.md) · [Index](../README.md) · [Nächste: Public Source Assurance →](../reference/source-basis.md)

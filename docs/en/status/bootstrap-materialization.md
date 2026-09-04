@@ -8,4 +8,4 @@ This classification is not a production, autonomy or compliance authorization.
 
 ---
 
-[← Previous: Current public state](current-state.md) · [Index](../README.md) · [Next: Public source assurance →](../reference/source-basis.md)
+[← Previous: Functions, capabilities and use cases](capability-use-case-matrix.md) · [Index](../README.md) · [Next: Public source assurance →](../reference/source-basis.md)

@@ -16,8 +16,11 @@ As of: 4 September 2026
 
 Newer owner-confirmed directions for surface continuity, local/remote cognition and pilot workflows are labeled as adoption candidates on the relevant pages. They do not change the maturity classification shown here.
 
+The [capability and use-case matrix](capability-use-case-matrix.md) breaks this
+classification down by product function, expected result and boundary.
+
 Engineering state changes continuously. This page changes deliberately only when architecture, product commitments or public maturity change materially.
 
 ---
 
-[← Previous: UNITERA — Executive Overview](../presentation/executive-overview.md) · [Index](../README.md) · [Next: Architecture baseline →](bootstrap-materialization.md)
+[← Previous: UNITERA — Executive Overview](../presentation/executive-overview.md) · [Index](../README.md) · [Next: Functions, capabilities and use cases →](capability-use-case-matrix.md)

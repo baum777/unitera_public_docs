@@ -8,7 +8,7 @@ authority topology reconstructable.
 
 ## Start by reader goal
 
-- **For decision-makers:** [UNITERA in 5 minutes](getting-started/unitera-in-5-minutes.md), followed by the [Executive overview](presentation/executive-overview.md) and [current public state](status/current-state.md).
+- **For decision-makers:** [UNITERA in 5 minutes](getting-started/unitera-in-5-minutes.md), followed by the [Executive overview](presentation/executive-overview.md), [current public state](status/current-state.md) and [capability/use-case matrix](status/capability-use-case-matrix.md).
 - **For users:** [A customer request from A to Z](getting-started/customer-request-from-a-to-z.md), followed by [Discovery and Company Brain](product/tenant-discovery-company-brain.md).
 - **For technical readers:** [System overview](architecture/system-overview.md), followed by [KNOW / THINK / ACT](architecture/know-think-act.md) and the [authority and source-of-truth model](architecture/authority-and-source-model.md).
 
@@ -19,6 +19,7 @@ authority topology reconstructable.
 - [UNITERA overview](overview.md)
 - [Executive overview](presentation/executive-overview.md)
 - [Current public state](status/current-state.md)
+- [Functions, capabilities and use cases](status/capability-use-case-matrix.md)
 - [Source basis](reference/source-basis.md)
 
 ## Architecture

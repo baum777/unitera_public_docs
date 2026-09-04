@@ -21,6 +21,8 @@ authority.
 
 - [UNITERA in 5 Minuten](docs/de/getting-started/unitera-in-5-minutes.md)
 - [UNITERA in 5 minutes](docs/en/getting-started/unitera-in-5-minutes.md)
+- [Funktionen, Capabilities und Use Cases](docs/de/status/capability-use-case-matrix.md)
+- [Functions, capabilities and use cases](docs/en/status/capability-use-case-matrix.md)
 
 ## Öffentliche Aussage / Public claim
 
