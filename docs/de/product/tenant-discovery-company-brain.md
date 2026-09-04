@@ -20,4 +20,4 @@ Weder Chat noch Quickactions erzeugen eigene Entscheidungs-, Freigabe- oder Ausf
 
 ---
 
-[← Vorherige: Von der Anmeldung zur Discovery](signup-to-discovery.md) · [Index](../README.md) · [Nächste: Personal Realm und Companion →](personal-realm-companion.md)
+[← Vorherige: Von der Anmeldung zur Discovery](signup-to-discovery.md) · [Index](../README.md) · [Nächste: Operating Surface und Kontinuität →](operating-surface-and-continuity.md)

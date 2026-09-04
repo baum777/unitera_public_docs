@@ -23,4 +23,4 @@ Local and cross-device continuity does not expand rights. Personal and instituti
 
 ---
 
-[← Previous: Discovery and Company Brain](tenant-discovery-company-brain.md) · [Index](../README.md) · [Next: Redirect: Personal Realm & Companion →](personal-domain-member-companion-circling.md)
+[← Previous: Operating surface and continuity](operating-surface-and-continuity.md) · [Index](../README.md) · [Next: Redirect: Personal Realm & Companion →](personal-domain-member-companion-circling.md)

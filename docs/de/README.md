@@ -27,6 +27,7 @@ Autoritätstopologie rekonstruierbar zu machen.
 
 - [Sign-up → Tenant → Discovery](product/signup-to-discovery.md)
 - [Tenant, Discovery und Company Brain](product/tenant-discovery-company-brain.md)
+- [Operating Surface und Kontinuität](product/operating-surface-and-continuity.md)
 - [Personal Realm, Companion, Personal Memory und Circling](product/personal-realm-companion.md)
 
 ## Runtime und Sicherheit

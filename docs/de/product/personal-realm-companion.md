@@ -23,4 +23,4 @@ Lokale und geräteübergreifende Kontinuität erweitert keine Rechte. Persönlic
 
 ---
 
-[← Vorherige: Discovery und Company Brain](tenant-discovery-company-brain.md) · [Index](../README.md) · [Nächste: Weiterleitung: Personal Realm und Companion →](personal-domain-member-companion-circling.md)
+[← Vorherige: Operating Surface und Kontinuität](operating-surface-and-continuity.md) · [Index](../README.md) · [Nächste: Weiterleitung: Personal Realm und Companion →](personal-domain-member-companion-circling.md)

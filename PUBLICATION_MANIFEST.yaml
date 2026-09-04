@@ -15,8 +15,9 @@ localization:
       label: English
   substantive_changes_require_sync: true
 snapshot:
-  reviewed_at: "2026-09-03"
-  source_verification: VERIFIED_AGAINST_OWNER_SOURCES
+  reviewed_at: "2026-09-04"
+  source_verification: VERIFIED_OWNER_SOURCES_WITH_EXPLICITLY_LABELED_OWNER_CONFIRMED_CANDIDATES
+  candidate_projection: PRESENT_PENDING_CANONICAL_ADOPTION
   detail_level: PUBLIC_ABSTRACTED
 disclosure:
   policy: CURATED_NON_RECONSTRUCTABLE

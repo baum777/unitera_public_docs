@@ -20,4 +20,4 @@ Neither Chat nor Quick Actions create their own decision, approval or execution 
 
 ---
 
-[← Previous: From sign-in to Discovery](signup-to-discovery.md) · [Index](../README.md) · [Next: Personal Realm and Companion →](personal-realm-companion.md)
+[← Previous: From sign-in to Discovery](signup-to-discovery.md) · [Index](../README.md) · [Next: Operating surface and continuity →](operating-surface-and-continuity.md)

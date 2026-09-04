@@ -1,7 +1,7 @@
 # Aktueller öffentlicher Stand
 
 Status: `PUBLIC_STATUS`
-Stand: 3. September 2026
+Stand: 4. September 2026
 
 | Bereich | Öffentliche Einordnung |
 |---|---|
@@ -13,6 +13,8 @@ Stand: 3. September 2026
 | Kontrollierte externe Wirkung | absichtlich begrenzt |
 | Pilot | Vorbereitung |
 | Produktionsautonomie | nicht behauptet |
+
+Neuere Owner-bestätigte Richtungen zu Surface-Kontinuität, lokaler/remote Kognition und Pilotabläufen werden in den Fachseiten als Adoptionskandidaten gekennzeichnet. Sie ändern den hier ausgewiesenen Reifegrad nicht.
 
 Engineering-State ändert sich kontinuierlich. Diese Seite wird bewusst nur bei relevanten Änderungen von Architektur, Produktzusage oder öffentlichem Reifegrad aktualisiert.
 
