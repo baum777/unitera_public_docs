@@ -8,6 +8,9 @@
 | **KNOW** | Zusammenführung ausreichenden, zweckgebundenen Kontexts. |
 | **THINK** | Analyse, Planung und Vorschläge innerhalb begrenzter Kognition. |
 | **ACT** | Kontrollierte Überführung einer erlaubten Handlung in Wirkung. |
+| **Chat** | Konversationelle Oberfläche für freie Fragen, Aufträge und die Präzisierung laufender Arbeit; keine eigene Entscheidungs- oder Ausführungsbefugnis. |
+| **Quickactions** | Kompakte allgemeine oder kontextbezogene nächste Schritte; deren Ausführbarkeit hängt von aktuellen Rechten und Voraussetzungen ab. |
+| **Needs You** | Tenantbezogene Sammlung von Vorgängen, die menschliche Mitwirkung oder Entscheidung erfordern; kein Dringlichkeitssignal an sich. |
 | **Action Proposal** | Vorschlag für eine Wirkung; keine Ausführungserlaubnis. |
 | **Capability Grant** | Explizite, begrenzte Erlaubnis unter definierten Bedingungen. |
 | **Receipt** | Evidenz eines Ausführungsversuchs; kein Beweis des Geschäftsergebnisses. |
