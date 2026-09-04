@@ -6,8 +6,16 @@ Diese Seiten sind eine kuratierte öffentliche Projektion. Sie erklären
 Prinzipien, Produktverhalten und grobe Reifegrade, ohne interne Umsetzung oder
 Autoritätstopologie rekonstruierbar zu machen.
 
+## Einstieg nach Leserziel
+
+- **Für Entscheider:** [UNITERA in 5 Minuten](getting-started/unitera-in-5-minutes.md), danach die [Managementübersicht](presentation/executive-overview.md) und der [aktuelle öffentliche Stand](status/current-state.md).
+- **Für Anwender:** [Ein Kundenanliegen von A bis Z](getting-started/customer-request-from-a-to-z.md), danach [Discovery und Company Brain](product/tenant-discovery-company-brain.md).
+- **Für technische Leser:** [Systemübersicht](architecture/system-overview.md), danach [KNOW / THINK / ACT](architecture/know-think-act.md) und das [Authority- und Source-of-Truth-Modell](architecture/authority-and-source-model.md).
+
 ## Einstieg
 
+- [UNITERA in 5 Minuten](getting-started/unitera-in-5-minutes.md)
+- [Ein Kundenanliegen von A bis Z](getting-started/customer-request-from-a-to-z.md)
 - [UNITERA-Überblick](overview.md)
 - [Managementübersicht](presentation/executive-overview.md)
 - [Aktueller öffentlicher Stand](status/current-state.md)
@@ -55,4 +63,4 @@ Status- und Referenzseiten dokumentiert.
 
 ---
 
-[← Vorherige: Review und Assurance](reference/reviewer-assurance-publication-status.md) · [Index](README.md) · [Nächste: UNITERA — Überblick →](overview.md)
+[← Vorherige: Review und Assurance](reference/reviewer-assurance-publication-status.md) · [Index](README.md) · [Nächste: UNITERA in 5 Minuten →](getting-started/unitera-in-5-minutes.md)

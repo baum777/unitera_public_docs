@@ -6,8 +6,16 @@ These pages are a curated public projection. They explain principles, product
 behavior, and coarse maturity without making internal implementation or
 authority topology reconstructable.
 
+## Start by reader goal
+
+- **For decision-makers:** [UNITERA in 5 minutes](getting-started/unitera-in-5-minutes.md), followed by the [Executive overview](presentation/executive-overview.md) and [current public state](status/current-state.md).
+- **For users:** [A customer request from A to Z](getting-started/customer-request-from-a-to-z.md), followed by [Discovery and Company Brain](product/tenant-discovery-company-brain.md).
+- **For technical readers:** [System overview](architecture/system-overview.md), followed by [KNOW / THINK / ACT](architecture/know-think-act.md) and the [authority and source-of-truth model](architecture/authority-and-source-model.md).
+
 ## Start here
 
+- [UNITERA in 5 minutes](getting-started/unitera-in-5-minutes.md)
+- [A customer request from A to Z](getting-started/customer-request-from-a-to-z.md)
 - [UNITERA overview](overview.md)
 - [Executive overview](presentation/executive-overview.md)
 - [Current public state](status/current-state.md)
@@ -55,4 +63,4 @@ and reference pages.
 
 ---
 
-[← Previous: Review and assurance](reference/reviewer-assurance-publication-status.md) · [Index](README.md) · [Next: UNITERA — Overview →](overview.md)
+[← Previous: Review and assurance](reference/reviewer-assurance-publication-status.md) · [Index](README.md) · [Next: UNITERA in 5 minutes →](getting-started/unitera-in-5-minutes.md)

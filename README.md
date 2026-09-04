@@ -17,6 +17,11 @@ authority.
 - [Deutsch](docs/de/README.md)
 - [English](docs/en/README.md)
 
+## Schnellstart / Quick start
+
+- [UNITERA in 5 Minuten](docs/de/getting-started/unitera-in-5-minutes.md)
+- [UNITERA in 5 minutes](docs/en/getting-started/unitera-in-5-minutes.md)
+
 ## Öffentliche Aussage / Public claim
 
 ```mermaid

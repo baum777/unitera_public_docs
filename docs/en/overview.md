@@ -43,4 +43,4 @@ the publication boundary.
 
 ---
 
-[← Previous: Documentation Index](README.md) · [Index](README.md) · [Next: UNITERA — Executive Overview →](presentation/executive-overview.md)
+[← Previous: A customer request from A to Z](getting-started/customer-request-from-a-to-z.md) · [Index](README.md) · [Next: UNITERA — Executive Overview →](presentation/executive-overview.md)

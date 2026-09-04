@@ -44,4 +44,4 @@ Die Details der öffentlichen Grenze beschreibt die
 
 ---
 
-[← Vorherige: Dokumentationsindex](README.md) · [Index](README.md) · [Nächste: UNITERA — Managementübersicht →](presentation/executive-overview.md)
+[← Vorherige: Ein Kundenanliegen von A bis Z](getting-started/customer-request-from-a-to-z.md) · [Index](README.md) · [Nächste: UNITERA — Managementübersicht →](presentation/executive-overview.md)
