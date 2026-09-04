@@ -21,3 +21,7 @@ Zwei einzeln unkritische Informationen werden nicht gemeinsam publiziert, wenn i
 Exakte Quellen werden intern geprüft, aber nicht automatisch publiziert. Transparenz bedeutet nachvollziehbare Prinzipien und Grenzen, nicht operative Rekonstruierbarkeit.
 
 Engineering-State ändert sich laufend. Der öffentliche Architekturstand ändert sich bewusst bei geänderter kanonischer Architektur, Produktzusage oder öffentlichem Reifegrad — nicht bei jedem Merge oder internen Gate.
+
+---
+
+[← Vorherige: Governance — Öffentliche Dokumentationsprojektion](governance.md) · [Index](../README.md) · [Nächste: Review und Assurance →](reviewer-assurance-publication-status.md)

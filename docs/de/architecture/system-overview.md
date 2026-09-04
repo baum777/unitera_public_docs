@@ -7,3 +7,7 @@ UNITERA verbindet institutionellen Kontext, begrenzte KI-Kognition, menschliche 
 Das Modell ist austauschbare Capability, nicht Institution oder Authority. Der Company Brain hält geprüften institutionellen Kontext. Der Personal Realm hält persönliche Kontinuität getrennt davon. `/work` macht aktive Vorgänge, nächste Schritte, Quellen und erforderliche Entscheidungen verständlich.
 
 Die Architektur optimiert nicht für maximale Autonomie, sondern für nützliche, nachvollziehbare und begrenzte Wirkung.
+
+---
+
+[← Vorherige: Public Source Assurance](../reference/source-basis.md) · [Index](../README.md) · [Nächste: Architektur und Logik →](architecture-and-logic-deep-dive.md)

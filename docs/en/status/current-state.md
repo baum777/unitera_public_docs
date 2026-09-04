@@ -15,3 +15,7 @@ As of: 3 September 2026
 | Production autonomy | not claimed |
 
 Engineering state changes continuously. This page changes deliberately only when architecture, product commitments or public maturity change materially.
+
+---
+
+[← Previous: UNITERA — Executive Overview](../presentation/executive-overview.md) · [Index](../README.md) · [Next: Architecture baseline →](bootstrap-materialization.md)

@@ -11,3 +11,7 @@ Better model != more authority
 ```
 
 Model selection and permitted use are governed outside model output. A model cannot choose its own authority ceiling or an authority-bearing execution route.
+
+---
+
+[← Previous: Redirect: Personal Realm & Companion](../product/personal-domain-member-companion-circling.md) · [Index](../README.md) · [Next: Model and provider independence →](model-and-provider-independence.md)

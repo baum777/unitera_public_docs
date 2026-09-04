@@ -17,3 +17,7 @@ Exakte Repositories, Commits, Branches, Change-IDs, Contract-Pfade und Runtime-B
 Public explainability != source completeness
 Public provenance != exact internal topology
 ```
+
+---
+
+[← Vorherige: Architektur-Baseline](../status/bootstrap-materialization.md) · [Index](../README.md) · [Nächste: Systemüberblick →](../architecture/system-overview.md)

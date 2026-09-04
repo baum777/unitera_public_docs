@@ -18,3 +18,7 @@ flowchart LR
 Mehr Kontext oder Modellleistung erzeugt niemals mehr Authority.
 
 > Conceptual public projection — not deployment, service, repository, protocol or security topology.
+
+---
+
+[← Vorherige: Authority- und Quellenmodell](authority-and-source-model.md) · [Index](../README.md) · [Nächste: Lokale und persönliche Vertrauensgrenze →](local-node-personal-realm-trust-boundary.md)

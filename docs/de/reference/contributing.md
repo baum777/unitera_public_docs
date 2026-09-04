@@ -17,3 +17,7 @@ fachliche Beziehungen, keine rekonstruierbare Implementierungstopologie.
 
 Besondere Prüfung erfordern Aussagen zu Autorität, externer Wirkung,
 Produktionsreife, Sicherheit, Compliance und Zertifizierung.
+
+---
+
+[← Vorherige: Glossar](glossary.md) · [Index](../README.md) · [Nächste: Governance — Öffentliche Dokumentationsprojektion →](governance.md)

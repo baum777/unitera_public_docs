@@ -17,3 +17,7 @@ Exact repositories, commits, branches, change IDs, contract paths and runtime bi
 Public explainability != source completeness
 Public provenance != exact internal topology
 ```
+
+---
+
+[← Previous: Architecture baseline](../status/bootstrap-materialization.md) · [Index](../README.md) · [Next: System overview →](../architecture/system-overview.md)

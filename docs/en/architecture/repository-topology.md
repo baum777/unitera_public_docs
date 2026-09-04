@@ -17,3 +17,7 @@ flowchart TB
 Physical allocation, internal contracts and enforcement chains remain in the responsible internal sources.
 
 > Conceptual public projection — not deployment, service, repository, protocol or security topology.
+
+---
+
+[← Previous: Human Agency & Model Sovereignty](human-agency-and-model-sovereignty.md) · [Index](../README.md) · [Next: Authority and source model →](authority-and-source-model.md)

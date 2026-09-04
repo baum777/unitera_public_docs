@@ -21,3 +21,7 @@ flowchart LR
 *Conceptual public projection — not deployment, service, repository, protocol or security topology.*
 
 Offene Lücken werden benannt und nicht durch Dokumentation geschlossen.
+
+---
+
+[← Vorherige: Mitwirken](contributing.md) · [Index](../README.md) · [Nächste: Public-Disclosure-Policy →](public-disclosure-policy.md)

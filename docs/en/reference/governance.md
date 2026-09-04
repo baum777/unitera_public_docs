@@ -21,3 +21,7 @@ flowchart LR
 *Conceptual public projection — not deployment, service, repository, protocol or security topology.*
 
 Open gaps are named, not closed through documentation.
+
+---
+
+[← Previous: Contributing](contributing.md) · [Index](../README.md) · [Next: Public disclosure policy →](public-disclosure-policy.md)

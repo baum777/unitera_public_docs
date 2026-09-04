@@ -16,3 +16,7 @@ Resume context != Authority
 A device or session change may continue context but cannot expand rights. Current identity, purpose, organizational context and admissibility are checked again.
 
 > Conceptual public projection — not deployment, service, repository, protocol or security topology.
+
+---
+
+[← Previous: KNOW / THINK / ACT](know-think-act.md) · [Index](../README.md) · [Next: From sign-in to Discovery →](../product/signup-to-discovery.md)

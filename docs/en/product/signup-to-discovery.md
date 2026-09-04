@@ -15,3 +15,7 @@ flowchart LR
 Discovery helps capture mission, operating model, boundaries, sources and open questions in a traceable way. Results remain reviewable before they become active institutional context.
 
 > Conceptual public projection — not deployment, service, repository, protocol or security topology.
+
+---
+
+[← Previous: Local and personal trust boundary](../architecture/local-node-personal-realm-trust-boundary.md) · [Index](../README.md) · [Next: Discovery and Company Brain →](tenant-discovery-company-brain.md)

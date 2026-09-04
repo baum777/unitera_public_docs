@@ -22,3 +22,7 @@
 | **Circling** | Aufmerksamkeit für ein Thema ohne stillschweigendes Commitment. |
 | **Resume Continuity** | Nachvollziehbare Fortsetzung von Arbeit ohne stille Rechteübernahme. |
 | **Public Projection** | Kuratierte, verlustbehaftete Erklärung ohne eigene Autorität. |
+
+---
+
+[← Vorherige: Dokumentations- und Diagrammkonventionen](../style/documentation-and-diagrams.md) · [Index](../README.md) · [Nächste: Mitwirken →](contributing.md)

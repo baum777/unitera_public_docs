@@ -28,3 +28,7 @@ flowchart LR
 
 The governed core is partly materialized; complete product journey and
 end-to-end production readiness are not claimed.
+
+---
+
+[← Previous: UNITERA — Overview](../overview.md) · [Index](../README.md) · [Next: Current public state →](../status/current-state.md)

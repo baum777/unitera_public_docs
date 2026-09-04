@@ -7,3 +7,7 @@ UNITERA can use different qualified models without transferring institutional id
 A model change alone does not change permission. Selection and binding happen outside model output. Sensitive credentials remain outside model context.
 
 This does not imply silent dynamic substitution. Cognitive portability remains an architectural objective whose concrete contracts require separate proof.
+
+---
+
+[← Previous: Cognition](cognition-runtime.md) · [Index](../README.md) · [Next: Governed effect →](governed-effect.md)

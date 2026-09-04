@@ -17,3 +17,7 @@ relationships, not reconstructable implementation topology.
 
 Claims about authority, external effect, production maturity, security,
 compliance, or certification require particular care.
+
+---
+
+[← Previous: Glossary](glossary.md) · [Index](../README.md) · [Next: Governance — Public Documentation Projection →](governance.md)

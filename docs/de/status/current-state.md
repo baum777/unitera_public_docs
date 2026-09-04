@@ -15,3 +15,7 @@ Stand: 3. September 2026
 | Produktionsautonomie | nicht behauptet |
 
 Engineering-State ändert sich kontinuierlich. Diese Seite wird bewusst nur bei relevanten Änderungen von Architektur, Produktzusage oder öffentlichem Reifegrad aktualisiert.
+
+---
+
+[← Vorherige: UNITERA — Managementübersicht](../presentation/executive-overview.md) · [Index](../README.md) · [Nächste: Architektur-Baseline →](bootstrap-materialization.md)

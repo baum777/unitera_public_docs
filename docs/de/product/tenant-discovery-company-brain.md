@@ -17,3 +17,7 @@ Quickactions bieten kompakte nächste Schritte — allgemein verfügbare ebenso 
 Chat unterstützt freie Fragen, Aufträge und die Präzisierung laufender Arbeit — kontextbezogen zum laufenden Vorgang oder tenantweit. `/work` bleibt die primäre institutionelle Arbeitsoberfläche; Chat ist eine zentrale, ergänzende Fläche, keine unwichtige Option.
 
 Weder Chat noch Quickactions erzeugen eigene Entscheidungs-, Freigabe- oder Ausführungsbefugnisse. Verbindliche Wirkungen unterliegen unabhängig vom Einstieg denselben Freigabe- und Berechtigungsregeln.
+
+---
+
+[← Vorherige: Von der Anmeldung zur Discovery](signup-to-discovery.md) · [Index](../README.md) · [Nächste: Personal Realm und Companion →](personal-realm-companion.md)

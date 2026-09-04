@@ -41,3 +41,7 @@ Zusage vollständiger Ende-zu-Ende-Reife.
 
 Die Details der öffentlichen Grenze beschreibt die
 [Public-Disclosure-Policy](reference/public-disclosure-policy.md).
+
+---
+
+[← Vorherige: Dokumentationsindex](README.md) · [Index](README.md) · [Nächste: UNITERA — Managementübersicht →](presentation/executive-overview.md)

@@ -51,3 +51,7 @@ Status- und Referenzseiten dokumentiert.
 - [Governance](reference/governance.md)
 - [Public-Disclosure-Policy](reference/public-disclosure-policy.md)
 - [Reviewer Assurance](reference/reviewer-assurance-publication-status.md)
+
+---
+
+[← Vorherige: Review und Assurance](reference/reviewer-assurance-publication-status.md) · [Index](README.md) · [Nächste: UNITERA — Überblick →](overview.md)

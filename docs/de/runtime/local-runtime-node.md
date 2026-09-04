@@ -16,3 +16,7 @@ flowchart LR
 Lokale Souveränität bedeutet kontrollierte Nähe zu Daten und Wirkung, nicht universellen Zugriff. Details zu Transport, Identität, Credentials und Enforcement bleiben in internen Owner-Quellen.
 
 > Conceptual public projection — not deployment, service, repository, protocol or security topology.
+
+---
+
+[← Vorherige: Kontrollierte Wirkung](governed-effect.md) · [Index](../README.md) · [Nächste: Pilot und Produktionsreife →](../status/pilot-production-readiness.md)

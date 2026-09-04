@@ -16,3 +16,7 @@ Resume context != Authority
 Gerätewechsel oder eine neue Session dürfen Kontext fortsetzen, aber keine Rechte erweitern. Aktuelle Identität, Zweck, Organisationsbezug und Zulässigkeit werden erneut geprüft.
 
 > Conceptual public projection — not deployment, service, repository, protocol or security topology.
+
+---
+
+[← Vorherige: KNOW / THINK / ACT](know-think-act.md) · [Index](../README.md) · [Nächste: Von der Anmeldung zur Discovery →](../product/signup-to-discovery.md)

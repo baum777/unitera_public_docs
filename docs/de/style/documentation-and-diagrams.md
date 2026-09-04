@@ -13,3 +13,7 @@ Diagramme erklären Konzepte und Beziehungen. Sie tragen den Hinweis:
 GitHub-natives Mermaid und die Regeln in [`MERMAID.md`](../../../MERMAID.md)
 verwenden. Bedeutung muss über Beschriftung und Form verständlich sein, nicht
 nur über Farbe. Receipt und Verification bleiben getrennte Konzepte.
+
+---
+
+[← Vorherige: Pilot Production Readiness](../status/pilot-production-readiness.md) · [Index](../README.md) · [Nächste: Glossar →](../reference/glossary.md)

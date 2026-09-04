@@ -17,3 +17,7 @@ Quick Actions provide concise next steps — generally available ones as well as
 Chat supports free-form questions, requests and refinement of ongoing work — contextual to the current work or tenant-wide. `/work` remains the primary institutional operating surface; Chat is a central, complementary surface, not an unimportant option.
 
 Neither Chat nor Quick Actions create their own decision, approval or execution authority. Binding effects remain subject to the same approval and permission rules regardless of the entry point.
+
+---
+
+[← Previous: From sign-in to Discovery](signup-to-discovery.md) · [Index](../README.md) · [Next: Personal Realm and Companion →](personal-realm-companion.md)

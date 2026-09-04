@@ -23,3 +23,7 @@ Model != Institution
 Institutional knowledge grows from traceable sources and decisions. KNOW supplies purpose-bound context. THINK analyzes and plans. Only a separate governance and execution boundary may permit real-world effects. PROVE keeps outcomes and uncertainty reviewable; LEARN returns only reviewed change to institutional state.
 
 > Conceptual public projection — not deployment, service, repository, protocol or security topology.
+
+---
+
+[← Previous: System overview](system-overview.md) · [Index](../README.md) · [Next: Human Agency & Model Sovereignty →](human-agency-and-model-sovereignty.md)

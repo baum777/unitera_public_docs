@@ -107,3 +107,7 @@ flowchart LR
 Diese Seite macht Architekturprinzipien und neue Adoptionskandidaten sichtbar.
 Sie adoptiert keine Invarianten, aktiviert keine Governance, vergibt keine
 Capabilities und bewirkt keine Runtime- oder Produktionsänderung.
+
+---
+
+[← Vorherige: Architektur und Logik](architecture-and-logic-deep-dive.md) · [Index](../README.md) · [Nächste: Verantwortungs- und Vertrauensdomänen →](repository-topology.md)

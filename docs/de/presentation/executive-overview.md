@@ -28,3 +28,7 @@ flowchart LR
 
 Der kontrollierte Kern ist in Teilen materialisiert; die vollständige Product
 Journey und Ende-zu-Ende-Produktionsreife werden nicht behauptet.
+
+---
+
+[← Vorherige: UNITERA — Überblick](../overview.md) · [Index](../README.md) · [Nächste: Aktueller öffentlicher Stand →](../status/current-state.md)

@@ -51,3 +51,7 @@ and reference pages.
 - [Governance](reference/governance.md)
 - [Public disclosure policy](reference/public-disclosure-policy.md)
 - [Reviewer Assurance](reference/reviewer-assurance-publication-status.md)
+
+---
+
+[← Previous: Review and assurance](reference/reviewer-assurance-publication-status.md) · [Index](README.md) · [Next: UNITERA — Overview →](overview.md)

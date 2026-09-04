@@ -14,3 +14,7 @@ flowchart LR
 Referencing makes origin and review understandable without publishing internal topology or creating authority.
 
 > Conceptual public projection — not deployment, service, repository, protocol or security topology.
+
+---
+
+[← Previous: Pilot and production readiness](../status/pilot-production-readiness.md) · [Index](../README.md) · [Next: Documentation & Diagram Conventions →](../style/documentation-and-diagrams.md)

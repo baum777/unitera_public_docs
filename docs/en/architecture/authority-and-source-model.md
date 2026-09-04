@@ -15,3 +15,7 @@ flowchart LR
 Candidates remain candidates. Publication is not adoption; adoption is not runtime activation. Exact source states are verified internally but are not published as an operational map.
 
 > Conceptual public projection — not deployment, service, repository, protocol or security topology.
+
+---
+
+[← Previous: Responsibility and trust domains](repository-topology.md) · [Index](../README.md) · [Next: KNOW / THINK / ACT →](know-think-act.md)

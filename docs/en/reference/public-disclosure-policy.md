@@ -21,3 +21,7 @@ Two individually acceptable facts are not published together when their combinat
 Exact sources are verified internally but are not automatically published. Transparency means explainable principles and boundaries, not operational reconstructability.
 
 Engineering state changes continuously. Public architectural state changes deliberately when canonical architecture, product commitments or public maturity change — not for every merge or internal gate.
+
+---
+
+[← Previous: Governance — Public Documentation Projection](governance.md) · [Index](../README.md) · [Next: Review and assurance →](reviewer-assurance-publication-status.md)

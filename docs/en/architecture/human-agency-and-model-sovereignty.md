@@ -105,3 +105,7 @@ flowchart LR
 This page exposes architectural principles and new adoption candidates. It does
 not adopt invariants, activate governance, grant capabilities, or create runtime
 or production effects.
+
+---
+
+[← Previous: Architecture and logic](architecture-and-logic-deep-dive.md) · [Index](../README.md) · [Next: Responsibility and trust domains →](repository-topology.md)

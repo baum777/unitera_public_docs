@@ -12,3 +12,7 @@ Diagrams explain concepts and relationships. They carry this notice:
 Use GitHub-native Mermaid and the rules in [`MERMAID.md`](../../../MERMAID.md).
 Meaning must be conveyed through labels and shapes, not color alone. Receipt
 and Verification remain separate concepts.
+
+---
+
+[← Previous: Pilot Production Readiness](../status/pilot-production-readiness.md) · [Index](../README.md) · [Next: Glossary →](../reference/glossary.md)
