@@ -27,6 +27,7 @@ authority topology reconstructable.
 
 - [Sign-up → Tenant → Discovery journey](product/signup-to-discovery.md)
 - [Tenant, Discovery & Company Brain](product/tenant-discovery-company-brain.md)
+- [Operating surface and continuity](product/operating-surface-and-continuity.md)
 - [Personal Realm, Companion, Personal Memory & Circling](product/personal-realm-companion.md)
 
 ## Runtime & security
