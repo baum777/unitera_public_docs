@@ -41,7 +41,6 @@
 ## Governance
 
 * [Governance](reference/governance.md)
-* [From source to publication](registry/source-to-publication.md)
 * [Public source assurance](reference/source-basis.md)
 * [Review and assurance](reference/reviewer-assurance-publication-status.md)
 * [Public disclosure policy](reference/public-disclosure-policy.md)
