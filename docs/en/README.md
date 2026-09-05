@@ -1,67 +1,63 @@
-# Documentation Index
-
-[Deutsche Ausgabe](../de/README.md)
-
-These pages are a curated public projection. They explain principles, product
-behavior, and coarse maturity without making internal implementation or
-authority topology reconstructable.
-
-## Start by reader goal
-
-- **For decision-makers:** [UNITERA in 5 minutes](getting-started/unitera-in-5-minutes.md), followed by the [Executive overview](presentation/executive-overview.md), [current public state](status/current-state.md) and [capability/use-case matrix](status/capability-use-case-matrix.md).
-- **For users:** [A customer request from A to Z](getting-started/customer-request-from-a-to-z.md), followed by [Discovery and Company Brain](product/tenant-discovery-company-brain.md).
-- **For technical readers:** [System overview](architecture/system-overview.md), followed by [KNOW / THINK / ACT](architecture/know-think-act.md) and the [authority and source-of-truth model](architecture/authority-and-source-model.md).
-
-## Start here
-
-- [UNITERA in 5 minutes](getting-started/unitera-in-5-minutes.md)
-- [A customer request from A to Z](getting-started/customer-request-from-a-to-z.md)
-- [UNITERA overview](overview.md)
-- [Executive overview](presentation/executive-overview.md)
-- [Current public state](status/current-state.md)
-- [Functions, capabilities and use cases](status/capability-use-case-matrix.md)
-- [Source basis](reference/source-basis.md)
-
-## Architecture
-
-- [System overview](architecture/system-overview.md)
-- [Architecture & logic](architecture/architecture-and-logic-deep-dive.md)
-- [Human Agency & Model Sovereignty](architecture/human-agency-and-model-sovereignty.md)
-- [Responsibility and trust domains](architecture/repository-topology.md)
-- [Authority & Source-of-Truth model](architecture/authority-and-source-model.md)
-- [KNOW / THINK / ACT](architecture/know-think-act.md)
-- [Local Runtime Node × Personal Realm](architecture/local-node-personal-realm-trust-boundary.md)
-
-## Product & organizational context
-
-- [Sign-up → Tenant → Discovery journey](product/signup-to-discovery.md)
-- [Tenant, Discovery & Company Brain](product/tenant-discovery-company-brain.md)
-- [Operating surface and continuity](product/operating-surface-and-continuity.md)
-- [Personal Realm, Companion, Personal Memory & Circling](product/personal-realm-companion.md)
-
-## Runtime & security
-
-- [Cognition runtime](runtime/cognition-runtime.md)
-- [Model and provider independence](runtime/model-and-provider-independence.md)
-- [Governed external effect](runtime/governed-effect.md)
-- [Local Runtime Node](runtime/local-runtime-node.md)
-- [Pilot production readiness](status/pilot-production-readiness.md)
-
-## Source governance
-
-Public source and materialization principles are documented through the status
-and reference pages.
-
-## Conventions & reference
-
-- [Mermaid syntax for GitHub](../../MERMAID.md)
-- [Documentation & diagram conventions](style/documentation-and-diagrams.md)
-- [Glossary](reference/glossary.md)
-- [Contributing](reference/contributing.md)
-- [Governance](reference/governance.md)
-- [Public disclosure policy](reference/public-disclosure-policy.md)
-- [Reviewer Assurance](reference/reviewer-assurance-publication-status.md)
-
+---
+description: Explore UNITERA as a system of context, cognition, authority, governed execution and evidence.
+icon: diagram-project
+layout:
+  width: default
+  cover:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
 ---
 
-[← Previous: Review and assurance](reference/reviewer-assurance-publication-status.md) · [Index](README.md) · [Next: UNITERA in 5 minutes →](getting-started/unitera-in-5-minutes.md)
+# UNITERA Public Docs
+
+`UPD-START-001` · `ORIENTATION` · `PUBLIC_CORE`
+
+> **The Architecture of Trusted Autonomy**  
+> UNITERA connects organizational context, bounded cognition, human and institutional authority, governed effect and durable evidence without treating model capability as authority.
+
+{% include ".gitbook/includes/public-projection.md" %}
+
+## Read the system first
+
+```mermaid
+flowchart LR
+    H[Human intent] --> C[Organizational context]
+    C --> K[Cognition]
+    K --> G[Govern / authority]
+    G --> A[Governed action]
+    A --> E[Evidence]
+    E --> V[Verification]
+    V -. informs .-> C
+
+    P[Personal Realm] -. explicit contribution .-> C
+    C -. bounded context .-> K
+```
+
+The diagram is a **conceptual public projection**, not deployment, repository, protocol or security topology. Start with the [System Map](architecture/system-map.md) when you want to understand the boundaries and relationships rather than a page tree.
+
+## Read by intent
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody>
+<tr><td><strong>Understand UNITERA</strong></td><td>Build the mental model in a few minutes.</td><td>KNOW → THINK → Govern → ACT → PROVE</td><td><a href="getting-started/unitera-in-5-minutes.md">UNITERA in 5 minutes</a></td></tr>
+<tr><td><strong>Trace the architecture</strong></td><td>Follow system layers, trust boundaries and runtime relations.</td><td>Cartography</td><td><a href="architecture/system-map.md">System Map</a></td></tr>
+<tr><td><strong>Follow a real flow</strong></td><td>See how context, proposals, decisions and effects connect.</td><td>Flow</td><td><a href="getting-started/customer-request-from-a-to-z.md">Customer request A–Z</a></td></tr>
+<tr><td><strong>Review governance</strong></td><td>Inspect public authority, disclosure and assurance semantics.</td><td>Governed instrument</td><td><a href="reference/governance.md">Governance</a></td></tr>
+<tr><td><strong>Build / integrate</strong></td><td>Start from the public integration boundary without assuming unpublished APIs.</td><td>Developer entry</td><td><a href="build/README.md">Build / Integrate</a></td></tr>
+</tbody></table>
+
+## Current posture
+
+The public documentation currently describes established core architecture, bounded implementations and an active path toward pilot readiness. It **does not claim production autonomy**. Use [Current public state](status/current-state.md) for the maintained maturity projection.
+
+## Three reading modes
+
+| Mode | Use it when you need to… | Primary surfaces |
+|---|---|---|
+| **Systems Cartography** | understand where something sits and what it touches | system map, architecture, boundaries, flows |
+| **Knowledge Publication** | understand why something exists and how it works | concepts, specifications, build/reference |
+| **Governed System Instrument** | inspect authority, gates, status, evidence and consequences | governance, maturity, assurance |
+
+The sidebar is an index. The system relationships are the actual mental model.
