@@ -1,3 +1,16 @@
+![UNITERA OS — Documentation](../../assets/documentation-banner.png)
+
+# Documentation Index
+
+<figure><img src="../../assets/crane.png" alt="UNITERA origami crane" width="240"></figure>
+
+[Deutsche Ausgabe](../de/README.md)
+
+These pages are a curated public projection. They explain principles, product
+behavior, and coarse maturity without making internal implementation or
+authority topology reconstructable.
+
+## Start by reader goal
 ---
 description: Explore UNITERA as a system of context, cognition, authority, governed execution and evidence.
 icon: diagram-project

@@ -1,4 +1,8 @@
+![UNITERA OS — Documentation](assets/documentation-banner.png)
+
 # UNITERA — Public Architecture & Documentation
+
+<figure><img src="assets/crane.png" alt="UNITERA Origami-Kranich / origami crane" width="240"></figure>
 
 > **Öffentliche Projektion — keine Autoritätsquelle.**
 >

@@ -1,3 +1,16 @@
+![UNITERA OS — Documentation](../../assets/documentation-banner.png)
+
+# Dokumentationsindex
+
+<figure><img src="../../assets/crane.png" alt="UNITERA Origami-Kranich" width="240"></figure>
+
+[English edition](../en/README.md)
+
+Diese Seiten sind eine kuratierte öffentliche Projektion. Sie erklären
+Prinzipien, Produktverhalten und grobe Reifegrade, ohne interne Umsetzung oder
+Autoritätstopologie rekonstruierbar zu machen.
+
+## Einstieg nach Leserziel
 ---
 description: UNITERA als System aus Kontext, Kognition, Authority, kontrollierter Ausführung und Evidenz erkunden.
 icon: diagram-project
