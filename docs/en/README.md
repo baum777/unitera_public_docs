@@ -1,4 +1,8 @@
+![UNITERA OS — Documentation](../../assets/documentation-banner.png)
+
 # Documentation Index
+
+<figure><img src="../../assets/crane.png" alt="UNITERA origami crane" width="240"></figure>
 
 [Deutsche Ausgabe](../de/README.md)
 

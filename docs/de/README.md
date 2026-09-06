@@ -1,4 +1,8 @@
+![UNITERA OS — Documentation](../../assets/documentation-banner.png)
+
 # Dokumentationsindex
+
+<figure><img src="../../assets/crane.png" alt="UNITERA Origami-Kranich" width="240"></figure>
 
 [English edition](../en/README.md)
 
