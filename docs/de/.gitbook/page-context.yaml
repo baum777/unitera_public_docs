@@ -1,0 +1,38 @@
+schema: unitera.public-docs.page-context/1
+pages:
+  README.md:
+    public_doc_id: UPD-START-001
+    artifact_type: orientation
+    system_layer: [human, tenant, cognition, governance, runtime, execution]
+    authority_posture: NO_AUTHORITY_CREATED
+    disclosure: PUBLIC_CORE
+    source_state: DESIGN_SYSTEM_RULING
+    maturity: ADOPTED
+    why_exists: Leser in UNITERA orientieren, bevor sie in Implementierungsdetails einsteigen.
+  architecture/system-map.md:
+    public_doc_id: UPD-MAP-001
+    artifact_type: orientation
+    system_layer: [human, tenant, context, cognition, governance, runtime, execution, external_system]
+    authority_posture: NO_AUTHORITY_CREATED
+    disclosure: PUBLIC_ABSTRACTED
+    source_state: SOURCE_GROUNDED
+    maturity: ADOPTED
+    why_exists: Öffentliche Systembeziehungen und Grenzen räumlich verständlich machen.
+  architecture/system-overview.md:
+    public_doc_id: UPD-SYS-001
+    artifact_type: component
+    system_layer: [tenant, context, cognition, governance, runtime, execution]
+    authority_posture: AUTHORITY_CHECK_REQUIRED
+    disclosure: PUBLIC_CORE
+    source_state: SOURCE_GROUNDED
+    maturity: ADOPTED
+    why_exists: Die minimale Architektur erklären, die für kontrollierte Wirkung erforderlich ist.
+  status/current-state.md:
+    public_doc_id: UPD-STATE-001
+    artifact_type: status
+    system_layer: [tenant, cognition, runtime, execution, surface]
+    authority_posture: NO_AUTHORITY_CREATED
+    disclosure: PUBLIC_STATUS
+    source_state: SOURCE_GROUNDED
+    maturity: PILOT
+    why_exists: Aktuelle öffentliche Reife klar von architektonischer Intention trennen.
