@@ -15,7 +15,7 @@ localization:
       label: English
   substantive_changes_require_sync: true
 snapshot:
-  reviewed_at: "2026-09-04"
+  reviewed_at: "2026-09-09"
   source_verification: VERIFIED_OWNER_SOURCES_WITH_EXPLICITLY_LABELED_OWNER_CONFIRMED_CANDIDATES
   candidate_projection: PRESENT_PENDING_CANONICAL_ADOPTION
   detail_level: PUBLIC_ABSTRACTED
@@ -38,6 +38,7 @@ public_state:
   personal_continuity: CONTRACT_AND_PRODUCT_DIRECTION
   local_runtime: BOUNDED_ARCHITECTURE
   governed_external_effects: DELIBERATELY_LIMITED
+  security_evaluation: CLASSIFICATION_AND_QUALIFICATION_CAPABILITY
   pilot: PREPARATION
   production_autonomy_claimed: false
 publication_gate:
