@@ -28,6 +28,6 @@ Die GitBook-Ausgaben binden Markenmedien byte-identisch aus dem
   (Quelle: `05_BRAND/platform-icons/favicon/`)
 
 Die Dateien sind unveränderte Kopien; sie dienen der visuellen Identität der
-Dokumentationsoberflächen. Die Markenarchitektur des Master-Entwurfssystems
+Dokumentationsoberflächen. Die Markenarchitektur des gebundenen Entwurfssystems
 hat Kandidatenstatus; diese Bindung ändert diesen Status nicht und überträgt
 keine Authority.

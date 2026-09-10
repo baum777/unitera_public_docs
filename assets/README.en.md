@@ -28,6 +28,6 @@ The GitBook editions bind brand media byte-identically from the
   (source: `05_BRAND/platform-icons/favicon/`)
 
 These files are unmodified copies; they provide the visual identity of the
-documentation surfaces. The master design system's brand architecture has
+documentation surfaces. The bound design system's brand architecture has
 candidate status; this binding does not change that status and transfers no
 authority.
