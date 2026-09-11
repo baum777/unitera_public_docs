@@ -4,12 +4,21 @@ Reserviert für öffentliche Diagramme, exportierte Architekturgrafiken, Präsen
 
 Für Architekturdiagramme ist Mermaid in Markdown zu bevorzugen, da es diffbar, prüfbar und versionskontrolliert bleibt. Statische Exporte sollen auf die Markdown-Quelle verweisen, die sie erzeugt oder erläutert.
 
-## Verwendete Markenmedien
+## Verwendete Markenmedien (2026-09-11)
 
-- `documentation-banner.png`: unveränderter Dokumentationsbanner aus dem UNITERA Brand System Bundle v1.0.0.
-- `crane.png`: unveränderter Origami-Kranich, Level B, aus demselben Bundle.
+Die README-Einstiegsseiten binden Markenmedien byte-identisch aus dem
+`UNITERA_GOVERNED_INSTRUMENTALISM_MASTER_DESIGN_SYSTEM_2026-08-31`
+(Bereich `05_BRAND/identity/os/`) ein; SHA256-Gleichheitsprüfung am Bindungstag:
 
-Die Medien dienen der visuellen Identität der Dokumentation. Sie belegen keine Ausführungsberechtigung oder Produktreife. Die Markenarchitektur des Bundles hat Kandidatenstatus; diese Verwendung ändert diesen Status nicht.
+- `unitera_os_lockup_horizontal_light_1920x1080.png` und
+  `unitera_os_lockup_horizontal_dark_1920x1080.png`: horizontales Lockup der
+  Marke UNITERA OS; die GitHub-Startseite wählt die Variante je Farbschema.
+- `unitera_os_crane_level_a_master_1254.png`: Origami-Kranich, Level A.
+
+Die Medien dienen der visuellen Identität der Dokumentation. Sie belegen keine
+Ausführungsberechtigung oder Produktreife. Die Markenarchitektur des gebundenen
+Entwurfssystems hat Kandidatenstatus; diese Bindung ändert diesen Status nicht
+und überträgt keine Authority.
 
 ## Gebundene Marken-Assets der GitBook-Oberflächen (2026-09-10)
 

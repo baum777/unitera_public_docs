@@ -1,8 +1,11 @@
-![UNITERA OS — Documentation](assets/documentation-banner.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/unitera_os_lockup_horizontal_dark_1920x1080.png">
+  <img src="assets/unitera_os_lockup_horizontal_light_1920x1080.png" alt="UNITERA OS — Documentation">
+</picture>
 
 # UNITERA — Public Architecture & Documentation
 
-<figure><img src="assets/crane.png" alt="UNITERA Origami-Kranich / origami crane" width="240"></figure>
+<figure><img src="assets/unitera_os_crane_level_a_master_1254.png" alt="UNITERA Origami-Kranich / origami crane" width="240"></figure>
 
 > **Öffentliche Projektion — keine Autoritätsquelle.**
 >

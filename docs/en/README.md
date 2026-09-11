@@ -1,8 +1,8 @@
-![UNITERA OS — Documentation](../../assets/documentation-banner.png)
+![UNITERA OS — Documentation](../../assets/unitera_os_lockup_horizontal_light_1920x1080.png)
 
 # Documentation Index
 
-<figure><img src="../../assets/crane.png" alt="UNITERA origami crane" width="240"></figure>
+<figure><img src="../../assets/unitera_os_crane_level_a_master_1254.png" alt="UNITERA origami crane" width="240"></figure>
 
 [Deutsche Ausgabe](../de/README.md)
 
