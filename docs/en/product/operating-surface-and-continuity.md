@@ -2,7 +2,7 @@
 
 Status: `PUBLIC_CORE`
 
-The core semantics of Work, Needs You, Quick Actions, Chat and Resume are confirmed. Newer surface details on this page represent owner-confirmed product direction whose canonical source adoption is still pending. This page creates neither runtime nor pilot authorization.
+The core semantics of Work, Needs You, Quick Actions, Chat and Resume are confirmed. A bounded subset of the newer surface and continuity details is now materialized in the responsible owner sources; broader live use and pilot activation remain separately gated. This page creates neither runtime nor pilot authorization.
 
 UNITERA connects personal continuity and institutional work through a shared interaction grammar without collapsing their meaning or authority boundaries. Native, web and mobile surfaces may use different density and entry points, but they do not create different rights.
 
