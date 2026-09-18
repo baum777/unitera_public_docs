@@ -7,7 +7,7 @@ icon: gauge-high
 
 `UPD-STATE-001` · `STATUS` · `PUBLIC_STATUS` · `PILOT`
 
-> **Warum existiert das?**  
+> **Warum existiert das?**
 > Architekturintention, materialisierte Capability und Live-/Produktionsreife sind unterschiedliche Aussagen. Diese Seite hält sie getrennt.
 
 {% include "../.gitbook/includes/public-projection.md" %}
