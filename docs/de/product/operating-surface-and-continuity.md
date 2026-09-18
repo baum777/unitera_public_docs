@@ -2,7 +2,7 @@
 
 Status: `PUBLIC_CORE`
 
-Die Grundsemantik von Work, Needs You, Quickactions, Chat und Wiederaufnehmen ist bestätigt. Neuere Surface-Details auf dieser Seite bilden eine Owner-bestätigte Produkt-Richtung ab, deren kanonische Source-Adoption noch aussteht. Diese Seite erzeugt weder Runtime- noch Pilotfreigaben.
+Die Grundsemantik von Work, Needs You, Quickactions, Chat und Wiederaufnehmen ist bestätigt. Eine begrenzte Auswahl der neueren Surface- und Continuity-Details ist inzwischen in den zuständigen Owner-Quellen materialisiert; breitere Live-Nutzung und Pilotaktivierung bleiben separat gegatet. Diese Seite erzeugt weder Runtime- noch Pilotfreigaben.
 
 UNITERA verbindet persönliche Kontinuität und institutionelle Arbeit über eine gemeinsame Interaktionsgrammatik, ohne ihre Bedeutungs- oder Autoritätsgrenzen zusammenzulegen. Native, Web- und mobile Oberflächen dürfen unterschiedliche Dichte und Einstiegspunkte haben, aber keine unterschiedlichen Rechte.
 
