@@ -21,14 +21,14 @@ PAIRS = (
 
 def signature(path: Path) -> dict[str, object]:
     text = path.read_text(encoding="utf-8")
-    headings = [len(match.group(1)) for match in re.finditer(r"^(#{1,6})\\s+\\S", text, re.M)]
-    table_separators = len(re.findall(r"^\\|(?:\\s*:?-+:?\\s*\\|)+\\s*$", text, re.M))
+    headings = [len(match.group(1)) for match in re.finditer(r"^(#{1,6})\s+\S", text, re.M)]
+    table_separators = len(re.findall(r"^\|(?:\s*:?-+:?\s*\|)+\s*$", text, re.M))
     return {
         "headings": headings,
         "tables": table_separators,
         "mermaid": text.count("```" + "mermaid"),
         "code_fences": text.count("```"),
-        "includes": len(re.findall(r'{%\\s*include\\s+"[^"]+"\\s*%}', text)),
+        "includes": len(re.findall(r'{%\s*include\s+"[^"]+"\s*%}', text)),
     }
 
 
@@ -43,11 +43,11 @@ def main() -> int:
 
         de_sig, en_sig = signature(de_path), signature(en_path)
         if de_sig != en_sig:
-            findings.append(f"structural drift: {de_rel} != {en_rel}\\n  DE {de_sig}\\n  EN {en_sig}")
+            findings.append(f"structural drift: {de_rel} != {en_rel}\n  DE {de_sig}\n  EN {en_sig}")
 
     if findings:
         print("public language parity: FAIL")
-        print("\\n".join(findings))
+        print("\n".join(findings))
         return 1
 
     print("public language parity: PASS")
