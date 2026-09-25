@@ -2,7 +2,7 @@
 
 Status: `PUBLIC_CORE`
 
-The core semantics of Work, Needs You, Quick Actions, Chat and Resume are confirmed. A bounded subset of the newer surface and continuity details is now materialized in the responsible owner sources; broader live use and pilot activation remain separately gated. This page creates neither runtime nor pilot authorization.
+The core semantics of Work, Needs You, Quick Actions, Chat and Resume are confirmed. Central presentation contracts for native work and continuity states are now materialized across surfaces; representative end-to-end qualification, broader live use and pilot activation remain separately gated. This page creates neither runtime nor pilot authorization.
 
 UNITERA connects personal continuity and institutional work through a shared interaction grammar without collapsing their meaning or authority boundaries. Native, web and mobile surfaces may use different density and entry points, but they do not create different rights.
 
@@ -31,6 +31,14 @@ Chat and the composer may look similar in personal, work-bound and tenant-wide u
 A single interaction may approve an exactly displayed action package. That approval applies only to the displayed revision, targets and sequence; it does not expand durable delegation.
 
 Relevant prerequisites are checked again immediately before an effect. A material change requires a new decision. Partial results and uncertain outcomes remain visible. An uncertain external effect triggers reconciliation rather than a blind retry.
+
+## Cross-surface contract
+
+Desktop and mobile surfaces may differ in density, navigation and input patterns. For central states, however, they must consume the same server-side semantics. This includes realm context, Today/Resume, Quick Actions, freshness, pause, and the separation of receipt, verification and reconciliation.
+
+A materialized presentation baseline is not yet complete live parity. Representative end-to-end evidence remains a separate maturity step.
+
+For the personal contribution boundary, preparation and review can be visible and contract-bound without implying a generally active personal-to-institutional runtime transfer.
 
 ## Trust across surfaces
 
