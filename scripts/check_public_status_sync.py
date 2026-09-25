@@ -33,7 +33,7 @@ SURFACES = {
 
 def parse_manifest_date() -> date:
     text = (ROOT / "PUBLICATION_MANIFEST.yaml").read_text(encoding="utf-8")
-    match = re.search(r'^\\s*reviewed_at:\\s*"?(\\d{4})-(\\d{2})-(\\d{2})"?\\s*$', text, re.M)
+    match = re.search(r'^\s*reviewed_at:\s*"?(\d{4})-(\d{2})-(\d{2})"?\s*$', text, re.M)
     if not match:
         raise ValueError("PUBLICATION_MANIFEST.yaml: reviewed_at not found")
     return date(*(int(part) for part in match.groups()))
@@ -42,13 +42,13 @@ def parse_manifest_date() -> date:
 def parse_surface_date(path: Path, language: str) -> date:
     text = path.read_text(encoding="utf-8")
     if language == "de":
-        match = re.search(r"(\\d{1,2})\\.\\s+(" + "|".join(DE_MONTHS) + r")\\s+(\\d{4})", text)
+        match = re.search(r"(\d{1,2})\.\s+(" + "|".join(DE_MONTHS) + r")\s+(\d{4})", text)
         if not match:
             raise ValueError(f"{path.relative_to(ROOT)}: German snapshot date not found")
         day, month, year = match.groups()
         return date(int(year), DE_MONTHS[month], int(day))
 
-    match = re.search(r"(\\d{1,2})\\s+(" + "|".join(EN_MONTHS) + r")\\s+(\\d{4})", text)
+    match = re.search(r"(\d{1,2})\s+(" + "|".join(EN_MONTHS) + r")\s+(\d{4})", text)
     if not match:
         raise ValueError(f"{path.relative_to(ROOT)}: English snapshot date not found")
     day, month, year = match.groups()
@@ -60,7 +60,7 @@ def main() -> int:
         expected = parse_manifest_date()
         observed = {path: parse_surface_date(ROOT / path, language) for path, language in SURFACES.items()}
     except ValueError as exc:
-        print(f"public status sync: FAIL\\n{exc}")
+        print(f"public status sync: FAIL\n{exc}")
         return 1
 
     mismatches = {path: value for path, value in observed.items() if value != expected}
