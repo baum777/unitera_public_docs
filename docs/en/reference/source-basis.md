@@ -2,7 +2,7 @@
 
 Status: `PUBLIC_ABSTRACTED`
 
-**Source review as of:** 18 September 2026
+**Source review as of:** 25 September 2026
 
 Public claims are checked against responsible, current owner sources before publication. Current owner sources outrank older derivations; candidates and external concepts remain clearly labeled.
 
@@ -40,6 +40,9 @@ Public explainability != source completeness
 Public provenance != exact internal topology
 Projection freshness != authority
 Candidate evidence != current canonical state
+Materialized contract != end-to-end qualification
+Implemented path != live admission
+Implementation presence != production readiness
 ```
 
 ---
