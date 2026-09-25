@@ -2,7 +2,7 @@
 
 Status: `PUBLIC_STATUS`
 
-**Stand:** 18. September 2026
+**Stand:** 25. September 2026
 
 UNITERA befindet sich weiterhin in **Pilotvorbereitung**. Gegenüber dem vorherigen öffentlichen Snapshot ist die technische und produktseitige Vorbereitung jedoch deutlich weiter materialisiert: der begrenzte Pilotumfang, Commissioning, Onboarding, kontrollierte Workflows, Evidence-/Recovery-Semantik sowie Web- und native Produktflächen besitzen inzwischen nachweisbare Umsetzungsanteile.
 
@@ -16,6 +16,7 @@ Das ist ausdrücklich **keine Pilotaktivierung** und keine Produktionsfreigabe.
 - geführtes Onboarding und Commissioning mit qualitativer Readiness statt künstlicher Prozentwerte;
 - Work-, Needs-You-, Chat- und Quickaction-Grammatik mit getrennten Authority-Grenzen;
 - begrenzte Web-, Desktop- und Mobile-Projektionen einschließlich Wiederaufnahme, Pause und aktuellen/veralteten Zuständen;
+- eine materialisierte Cross-Surface-Präsentationsbaseline für zentrale Zustände, ohne daraus vollständige Ende-zu-Ende-Parität abzuleiten;
 - getrennte Entscheidung, Grant, Ausführung, Receipt, Verification und Reconciliation;
 - fehlertolerante Recovery-Semantik ohne blinden Retry nach unklarem externem Effekt;
 - Personal-Continuity- und Beitragsvorbereitung, ohne persönliche Kontinuität mit institutioneller Authority zu vermischen;
@@ -26,6 +27,7 @@ Das ist ausdrücklich **keine Pilotaktivierung** und keine Produktionsfreigabe.
 Für einen Live-Pilot müssen die aktuellen, realen Voraussetzungen des konkreten Betriebs zusätzlich nachgewiesen werden. Dazu gehören insbesondere:
 
 - tatsächlich erreichbare und aktuell zugelassene externe Systeme;
+- repräsentative Ende-zu-Ende-Qualifikation der oberflächenübergreifend gebundenen Arbeits- und Kontinuitätszustände;
 - gültige tenant- und ressourcengebundene Betriebsbindungen;
 - reale Ende-zu-Ende-Evidenz für die im Pilot benötigten externen Pfade;
 - aktuelle Grant-, Pause-, Revocation-, Expiry- und Re-Evaluation-Nachweise an den effectful Grenzen;
