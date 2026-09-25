@@ -2,7 +2,7 @@
 
 Status: `PUBLIC_STATUS`
 
-**As of:** 18 September 2026
+**As of:** 25 September 2026
 
 UNITERA remains in **pilot preparation**. Compared with the previous public snapshot, technical and product-side preparation is materially further along: the bounded pilot scope, commissioning, onboarding, governed workflows, evidence/recovery semantics, and web and native product surfaces now have verifiable implementation.
 
@@ -16,6 +16,7 @@ The following maturity level is now supportable as a public claim:
 - guided onboarding and commissioning with qualitative readiness instead of artificial percentages;
 - Work, Needs You, Chat and Quick Action grammar with separate authority boundaries;
 - bounded web, desktop and mobile projections including resume, pause, and current/stale states;
+- a materialized cross-surface presentation baseline for central states without treating it as complete end-to-end parity;
 - separate decision, grant, execution, receipt, verification and reconciliation;
 - recovery semantics that forbid blind retry after uncertain external effect;
 - personal continuity and contribution preparation without collapsing personal continuity into institutional authority;
@@ -26,6 +27,7 @@ The following maturity level is now supportable as a public claim:
 A live pilot additionally requires current evidence for the concrete operating environment. This includes in particular:
 
 - external systems that are actually reachable and currently admitted;
+- representative end-to-end qualification of the cross-surface-bound work and continuity states;
 - valid tenant- and resource-bound operating bindings;
 - real end-to-end evidence for the external paths required by the pilot;
 - current grant, pause, revocation, expiry and re-evaluation evidence at effectful boundaries;
