@@ -1,4 +1,4 @@
-schema_version: 0.5.0
+schema_version: 0.6.0
 repository:
   name: unitera_public_docs
   role: PUBLIC_DOCUMENTATION_PROJECTION
@@ -15,8 +15,8 @@ localization:
       label: English
   substantive_changes_require_sync: true
 snapshot:
-  reviewed_at: "2026-09-18"
-  source_verification: VERIFIED_CURRENT_OWNER_SOURCES_WITH_DERIVED_PROJECTION_LAG_ACCOUNTED
+  reviewed_at: "2026-09-25"
+  source_verification: VERIFIED_CURRENT_OWNER_SOURCES_WITH_POST_SNAPSHOT_RUNTIME_AND_PRESENTATION_RECONCILIATION
   candidate_projection: EXCLUDED_FROM_CURRENT_STATE_UNLESS_EXPLICITLY_LABELED
   detail_level: PUBLIC_ABSTRACTED
 disclosure:
@@ -37,11 +37,13 @@ public_state:
   core_architecture: ESTABLISHED
   institutional_knowledge: ACTIVE_VERSIONED_BASELINE_WITH_BOUNDED_INTEGRATION
   product_experience: BOUNDED_MULTI_SURFACE_IMPLEMENTATION
-  personal_continuity: BOUNDED_IMPLEMENTATION
+  native_surfaces: CONTRACT_BASELINE_MATERIALIZED_E2E_PENDING
+  personal_continuity: BOUNDED_IMPLEMENTATION_RUNTIME_CROSSING_GATED
   local_runtime: BOUNDED_IMPLEMENTATION
+  cognition: BOUNDED_ROUTING_AND_EVIDENCE_CONTRACTS_RUNTIME_GATED
   governed_external_effects: BOUNDED_RUNTIME_PATHS_LIVE_READINESS_GATED
   security_evaluation: MATERIALIZED_CLASSIFICATION_AND_QUALIFICATION
-  pilot: PREPARATION_WITH_LIVE_GATES_OPEN
+  pilot: PREPARATION_WITH_EXTERNAL_AND_ACTIVATION_GATES_OPEN
   production_autonomy_claimed: false
 publication_gate:
   - verify_owner_sources_internally
