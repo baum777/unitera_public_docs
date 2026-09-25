@@ -67,5 +67,8 @@ https://docs.github.com/get-started/writing-on-github/working-with-advanced-form
 - Review `PUBLICATION_MANIFEST.yaml` whenever source-backed claims change.
 - Preview every changed Mermaid block on GitHub before merge.
 - Run `python3 scripts/check_public_disclosure.py` and resolve every finding.
+- Run `python3 scripts/check_public_structure.py` to reject malformed landing/frontmatter/include structure.
+- Run `python3 scripts/check_public_status_sync.py` when maintained maturity/status dates change.
+- Run `python3 scripts/check_language_parity.py` for mirrored DE/EN status and operating-surface pages.
 
 See `README.md`, `GUIDE.md`, `MERMAID.md`, `GOVERNANCE.md`, and `CONTRIBUTING.md`.
