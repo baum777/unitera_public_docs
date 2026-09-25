@@ -1,7 +1,7 @@
 # Funktionen, Capabilities und Use Cases
 
 **Disclosure:** PUBLIC_CORE · PUBLIC_ABSTRACTED · PUBLIC_STATUS
-**Stand:** 18. September 2026
+**Stand:** 25. September 2026
 
 Diese Seite übersetzt die öffentliche UNITERA-Architektur in konkrete
 Produktfähigkeiten und Anwendungssituationen. **Capability** bezeichnet hier
@@ -31,7 +31,7 @@ Grant oder eine Ausführungserlaubnis.
 | Chat und Quickactions | Fragen klären, Arbeit verfeinern und begrenzte nächste Schritte anbieten | Recherchefragen, Entwurfsarbeit, Navigation, kontextbezogene Vorbereitung | Begrenzte Umsetzung | Unterstützung innerhalb des aktuellen Kontexts; Sichtbarkeit oder Klick einer Aktion bedeutet nicht Ausführbarkeit |
 | Personal Realm und Companion | Persönliche Kontinuität, Erinnerung, Ideation und Beitragsvorbereitung getrennt vom Company Brain halten | Arbeit wiederaufnehmen, Gedanken entwickeln, persönlichen Beitrag vorbereiten | Etablierte Contract-Semantik; produktseitig begrenzt umgesetzt | Persönliche Kontinuität und bestätigungsgebundene Beitragsvorbereitung; keine autonome Übergabe oder allgemeine Personal-Runtime-Aktivierung behauptet |
 | Today, Resume und geräteübergreifende Kontinuität | Einen bewussten Neustartpunkt, stabilen Fokus, veraltete Snapshots und fortbestehende Pausen korrekt abbilden | Mobiler Tagesstart, Session-Fortsetzung, Gerätewechsel | Begrenzte Umsetzung | Wiederaufnahme mit klarer Aktualitätsgrenze; Continuity überträgt keine Authority und löst keine automatische Wiederholung aus |
-| Native Arbeitsflächen | Institutionelle und persönliche Projektionen auf nativen Oberflächen konsistent darstellen | Desktop-Arbeit, mobile Fallbearbeitung, Personal Hub | Begrenzte Umsetzung | Gemeinsame Produktgrammatik mit serverseitiger Authority; Clientzustand bleibt Projektion |
+| Native Arbeitsflächen | Institutionelle und persönliche Projektionen auf nativen Oberflächen konsistent darstellen | Desktop-Arbeit, mobile Fallbearbeitung, Personal Hub | Cross-Surface-Contract-Baseline materialisiert; repräsentative E2E-Qualifikation offen | Gemeinsame Produktgrammatik mit serverseitiger Authority; Clientzustand bleibt Projektion und erzeugt keine eigene Wahrheit |
 | Lokale Runtime-Grenze | Freigegebene lokale Ressourcen kontrolliert erreichbar machen | Lokaler Kontextzugriff, begrenzte systemnahe Arbeit | Begrenzte Umsetzung | Kontrollierte Nähe zu Daten und Wirkung; Erreichbarkeit ist weder Lese- noch Ausführungserlaubnis |
 
 ## Kernfähigkeiten des Arbeitsflusses
@@ -43,7 +43,23 @@ Grant oder eine Ausführungserlaubnis.
 | **Govern** | Richtlinien, Authority und erforderliche menschliche Entscheidung trennen und prüfen | Freigeben, ablehnen, zurückfragen, stoppen | Etablierte Architektur; begrenzte Umsetzung | Approval ist weder Grant noch Ausführung |
 | **ACT** | Nur eine aktuell erlaubte, begrenzte Wirkung ausführen | Kontrollierter Versand oder begrenzte Änderung in einem zugelassenen Pfad | Begrenzte Runtime-Umsetzung; live gegatet | Keine breite autonome Softwaresteuerung oder allgemeine Produktionsreife behauptet |
 | **PROVE** | Ausführungsevidenz, Verifikation und Reconciliation unterscheidbar halten | Zustellung prüfen, unklaren Ausgang klären, Doppelwirkung vermeiden | Etablierte Semantik; begrenzte Runtime- und Testqualifikation | Receipt ist nicht Geschäftsergebnis; ein unklarer Ausgang erlaubt keinen blinden Retry |
-| Modellwahl und Kognition | Austauschbare Modelle innerhalb unveränderter Grenzen nutzen | Entwerfen, analysieren, geeignete Kognitionsintensität wählen | Begrenzte Architektur und Integration; Remote-Nutzung separat gegatet | Stärkeres oder anderes Modell erzeugt keine zusätzliche Authority oder Datenfreigabe |
+| Modellwahl und Kognition | Austauschbare Modelle und qualifizierte Verarbeitungsrouten innerhalb unveränderter Grenzen nutzen | Entwerfen, analysieren, geeignete Kognitionsintensität wählen | Routing- und Resolution-Evidence-Verträge begrenzt materialisiert; Runtime-Nutzung separat gegatet | Modellalias, gewählte Route oder stärkeres Modell erzeugen weder zusätzliche Authority noch Datenfreigabe |
+
+## Begrenzte Pilotfähigkeitsfamilien
+
+Die aktuelle Pilotvorbereitung materialisiert mehrere klar begrenzte Fähigkeitsfamilien. Die folgende Darstellung abstrahiert bewusst von internen Operationsnamen, Anbietern und Bindungsdetails.
+
+| Fähigkeitsfamilie | Öffentliche Erwartung | Reifegrenze |
+|---|---|---|
+| Betriebs- und Verfügbarkeitsinformationen lesen | Aktuelle, zugelassene Betriebsinformationen für einen Vorgang heranziehen | reale Quelle, Tenant-/Ressourcenzugriff und Aktualität bleiben Voraussetzungen |
+| Buchungsbezogene Vorgänge | Buchungen innerhalb eines zugelassenen Pfads vorbereiten, anlegen, ändern oder stornieren | schreibende Wirkung bleibt policy-, authority-, evidence- und live-gategesteuert |
+| Kalenderarbeit | Verfügbarkeit lesen sowie freigegebene Terminänderungen kontrolliert ausführen | externe Zulassung und aktuelle Berechtigung bleiben separat erforderlich |
+| Externe Kommunikation | Nachrichten vorbereiten und nur über einen gültigen Wirkungspfad versenden | Versandnachweis ist nicht automatisch Zustellung oder Geschäftserfolg |
+| Erinnerungen und Fristen | Interne Folgearbeit aus hinreichend eindeutigem Kontext vorbereiten oder erzeugen | keine allgemeine Aufgaben- oder Softwaresteuerung |
+| Wissenszugriff | Zugelassene Wissensquellen durchsuchen und lesen | read-only bedeutet nicht globale Datenfreigabe; Herkunft und Aktualität bleiben relevant |
+| Ergebnisnachweis und Recovery | Wirkung, Receipt, Verifikation und Reconciliation getrennt halten | unklarer Ausgang bleibt unklar und erlaubt keinen blinden Retry |
+
+Diese Fähigkeitsfamilien sind kein Servicekatalog und keine Aussage, dass jede Familie im konkreten Betrieb bereits live zugelassen ist.
 
 ## Use-Case-Matrix
 

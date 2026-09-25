@@ -13,10 +13,19 @@ For a substantive change:
 3. publish only the minimum abstraction needed to explain what and why;
 4. synchronize German and English meaning;
 5. apply the composition rule across the complete public projection;
-6. run the disclosure, structure, link, and formatting checks.
+6. run the disclosure, structure, synchronization, parity, link, and formatting checks.
 
 Read `GOVERNANCE.md`, `CONTRIBUTING.md`, `PUBLICATION_MANIFEST.yaml`, and
 `MERMAID.md` before editing.
+
+For source-backed status changes, the maintained validation set is:
+
+```bash
+python3 scripts/check_public_disclosure.py
+python3 scripts/check_public_structure.py
+python3 scripts/check_public_status_sync.py
+python3 scripts/check_language_parity.py
+```
 
 ## Core rule
 

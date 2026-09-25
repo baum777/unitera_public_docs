@@ -17,7 +17,7 @@ icon: gauge-high
 | **You are here** | Start / Governance → Current public state |
 | **Authority** | status publication creates no runtime or production authority |
 | **Source state** | checked against current owner sources; derived projections may lag in time |
-| **As of** | 18 September 2026 |
+| **As of** | 25 September 2026 |
 
 ## Current maturity map
 
@@ -25,21 +25,25 @@ icon: gauge-high
 |---|---|---|---|
 | Core architecture | established | central boundaries and bindings implemented in bounded form | no production autonomy claimed |
 | Institutional knowledge | versioned active foundation established | Discovery, review and context use integrated in bounded form | ongoing organizational change remains review- and activation-bound |
-| Institutional product experience | Work-first, Needs You, Chat and Quick Actions established | web and native work surfaces materialized in bounded form | not every journey is live-qualified end to end |
-| Personal continuity | Personal Realm, memory, Resume and contribution boundary established | Personal Hub, continuity and confirmation-bound contribution preparation implemented in bounded form | no autonomous personal-to-institutional transfer claimed |
-| Native continuity | client state remains presentation while authority stays server-side | desktop and mobile surfaces with bounded read, resume, pause and intent boundaries | device or client state carries no authority |
+| Institutional product experience | Work-first, Needs You, Chat and Quick Actions established | web and native work surfaces plus a shared cross-surface presentation baseline are materialized in bounded form | representative end-to-end qualification remains open for individual journeys |
+| Personal continuity | Personal Realm, memory, Resume and contribution boundary established | Personal Hub, continuity and confirmation-bound contribution preparation implemented in bounded form | real personal-to-institutional runtime transfer is not generally claimed as active |
+| Native continuity | client state remains presentation while authority stays server-side | central read, resume, pause, trust and intent states are contract-bound across surfaces | device or client state carries no authority; representative live parity remains separately evidenced |
+| Cognition and routing | model capability, route, authority and data permission remain separate | bounded routing and resolution-evidence contracts are materialized | a routing contract or model choice creates neither runtime activation, data permission nor additional authority |
 | Governed effect | Approval, Grant, Execution, Receipt and Verification remain separate | bounded routing, execution and evidence paths materialized | real external live readiness and pilot activation remain separately gated |
 | Security evaluation | findings, evidence qualification and authority remain separate | classification and qualification capability materialized | broad production enforcement activation is not claimed |
-| Pilot | versioned bounded scope and commissioning grammar established | onboarding and pilot preparation materially implemented | **preparation**; live gates and explicit activation remain open |
+| Pilot | versioned bounded scope and commissioning grammar established | scope, onboarding, commissioning and runtime bindings are materially implemented | **preparation**; real operating bindings, external admission, end-to-end evidence and explicit activation remain open |
 | Production autonomy | not a claim of this maturity stage | — | **not claimed** |
 
 ## What changed since the previous snapshot
 
-Several surfaces that were previously described only as owner-confirmed direction now have verifiable bounded materialization. This includes native work and continuity surfaces, personal resume and contribution preparation, and the versioned bounded pilot and execution grammar.
+Since the 18 September snapshot, additional bounded implementation and contract slices have been materialized. These include a firmer cross-surface presentation baseline for native work surfaces, additional deterministic runtime projections, and a more explicit cognition-routing and resolution-evidence boundary.
+
+These changes increase demonstrable implementation maturity, but they do not automatically increase live maturity. Personal contribution transfer, real external operating bindings, representative end-to-end paths and explicit pilot activation remain separate gates.
 
 The claim boundary remains strict:
 
-- materialized UI or runtime does not mean live activation;
+- materialized UI, contract or runtime components do not mean live activation;
+- materialized cross-surface contracts do not mean representative end-to-end qualification;
 - a frozen pilot scope creates neither a grant nor execution permission;
 - a client may display or request authority but cannot create it;
 - technical receipt or provider evidence is not automatically a verified business outcome;

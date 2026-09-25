@@ -1,7 +1,7 @@
 # Functions, capabilities and use cases
 
 **Disclosure:** PUBLIC_CORE · PUBLIC_ABSTRACTED · PUBLIC_STATUS
-**As of:** 18 September 2026
+**As of:** 25 September 2026
 
 This page translates the public UNITERA architecture into concrete product
 capabilities and situations of use. **Capability** means a publicly explained
@@ -30,7 +30,7 @@ product ability here — not a formal Capability Grant or permission to execute.
 | Chat and Quick Actions | Clarify questions, refine work and offer bounded next steps | Research questions, drafting, navigation, contextual preparation | Bounded implementation | Assistance within current context; visibility or a click does not mean executability |
 | Personal Realm and Companion | Keep personal continuity, memory, ideation and contribution preparation separate from the Company Brain | Resume work, develop ideas, prepare a personal contribution | Established contract semantics; bounded product-side implementation | Personal continuity and confirmation-bound contribution preparation; no autonomous handoff or general Personal Realm runtime activation claimed |
 | Today, Resume and cross-device continuity | Represent a deliberate restart point, stable focus, stale snapshots and persistent pauses correctly | Mobile daily start, session continuation, device change | Bounded implementation | Resume with an explicit freshness boundary; continuity carries no authority and triggers no automatic retry |
-| Native work surfaces | Project institutional and personal state consistently on native surfaces | Desktop work, mobile case handling, Personal Hub | Bounded implementation | Shared product grammar with server-side authority; client state remains a projection |
+| Native work surfaces | Project institutional and personal state consistently on native surfaces | Desktop work, mobile case handling, Personal Hub | Cross-surface contract baseline materialized; representative E2E qualification open | Shared product grammar with server-side authority; client state remains a projection and creates no independent truth |
 | Local runtime boundary | Make approved local resources reachable under control | Local context access, bounded system-adjacent work | Bounded implementation | Controlled proximity to data and effects; reachability is neither read nor execution permission |
 
 ## Core work-flow capabilities
@@ -42,7 +42,23 @@ product ability here — not a formal Capability Grant or permission to execute.
 | **Govern** | Separate and evaluate policy, authority and required human decisions | Approve, reject, clarify, stop | Established architecture; bounded implementation | Approval is neither a grant nor execution |
 | **ACT** | Perform only a currently authorized, bounded effect | Governed delivery or a bounded change through an admitted path | Bounded runtime implementation; live-gated | No claim of broad autonomous software control or general production readiness |
 | **PROVE** | Keep execution evidence, verification and reconciliation distinct | Check delivery, resolve an uncertain outcome, prevent duplicate effect | Established semantics; bounded runtime and test qualification | A receipt is not a business outcome; an uncertain result does not permit blind retry |
-| Model choice and cognition | Use replaceable models within unchanged boundaries | Draft, analyze and choose an appropriate level of cognition | Bounded architecture and integration; remote use separately gated | A stronger or different model creates neither additional authority nor data-release permission |
+| Model choice and cognition | Use replaceable models and qualified processing routes within unchanged boundaries | Draft, analyze and choose an appropriate level of cognition | Routing and resolution-evidence contracts materialized in bounded form; runtime use separately gated | A model alias, selected route or stronger model creates neither additional authority nor data-release permission |
+
+## Bounded pilot capability families
+
+Current pilot preparation materializes several clearly bounded capability families. This view deliberately abstracts internal operation names, providers and binding details.
+
+| Capability family | Public expectation | Maturity boundary |
+|---|---|---|
+| Operational and availability reads | Use current, admitted operational information for a work item | real source access, tenant/resource access and freshness remain prerequisites |
+| Booking-related work | Prepare, create, change or cancel bookings only through an admitted path | write effects remain policy-, authority-, evidence- and live-gated |
+| Calendar work | Read availability and perform approved schedule changes through a governed path | external admission and current permission remain separately required |
+| External communication | Prepare messages and send them only through a valid effect path | send evidence is not automatically delivery or business success |
+| Reminders and deadlines | Prepare or create internal follow-up work from sufficiently unambiguous context | no claim of general task or software control |
+| Knowledge access | Search and read admitted knowledge sources | read-only does not mean global data release; provenance and freshness remain relevant |
+| Outcome evidence and recovery | Keep effect, receipt, verification and reconciliation separate | an uncertain outcome stays uncertain and never authorizes blind retry |
+
+These capability families are not a service catalog and do not claim that every family is already live-admitted in a concrete operating environment.
 
 ## Use-case matrix
 

@@ -1,16 +1,3 @@
-![UNITERA OS — Documentation](../../assets/unitera_os_lockup_horizontal_light_1920x1080.png)
-
-# Dokumentationsindex
-
-<figure><img src="../../assets/unitera_os_crane_level_a_master_1254.png" alt="UNITERA Origami-Kranich" width="240"></figure>
-
-[English edition](../en/README.md)
-
-Diese Seiten sind eine kuratierte öffentliche Projektion. Sie erklären
-Prinzipien, Produktverhalten und grobe Reifegrade, ohne interne Umsetzung oder
-Autoritätstopologie rekonstruierbar zu machen.
-
-## Einstieg nach Leserziel
 ---
 description: UNITERA als System aus Kontext, Kognition, Authority, kontrollierter Ausführung und Evidenz erkunden.
 icon: diagram-project
@@ -24,7 +11,13 @@ layout:
     visible: true
 ---
 
+![UNITERA OS — Documentation](../../assets/unitera_os_lockup_horizontal_light_1920x1080.png)
+
 # UNITERA Public Docs
+
+<figure><img src="../../assets/unitera_os_crane_level_a_master_1254.png" alt="UNITERA Origami-Kranich" width="240"></figure>
+
+[English edition](../en/README.md)
 
 `UPD-START-001` · `ORIENTATION` · `PUBLIC_CORE`
 
@@ -32,6 +25,8 @@ layout:
 > UNITERA verbindet Organisationskontext, begrenzte Kognition, menschliche und institutionelle Authority, kontrollierte Wirkung und dauerhafte Evidenz, ohne Modellfähigkeit mit Authority gleichzusetzen.
 
 {% include ".gitbook/includes/public-projection.md" %}
+
+Diese Seiten sind eine kuratierte öffentliche Projektion. Sie erklären Prinzipien, Produktverhalten und grobe Reifegrade, ohne interne Umsetzung oder Authority-Topologie rekonstruierbar zu machen.
 
 ## Zuerst das System lesen
 
@@ -63,7 +58,7 @@ Das Diagramm ist eine **konzeptionelle öffentliche Projektion**, keine Deployme
 
 ## Aktuelle Haltung
 
-Die öffentliche Dokumentation beschreibt derzeit etablierte Kernarchitektur, begrenzte Umsetzungen und einen aktiven Weg in Richtung Pilot-Reife. Sie **behauptet keine Produktionsautonomie**. Den gepflegten Reifegrad zeigt der [aktuelle öffentliche Stand](status/current-state.md).
+Die öffentliche Dokumentation beschreibt etablierte Kernarchitektur, begrenzte Umsetzungen und einen aktiven Weg in Richtung Pilot-Reife. Sie **behauptet keine Produktionsautonomie**. Materialisierte Contracts, Runtime-Pfade oder Oberflächen sind nicht automatisch Ende-zu-Ende qualifiziert oder live aktiviert. Den gepflegten Reifegrad zeigt der [aktuelle öffentliche Stand](status/current-state.md).
 
 ## Drei Lesemodi
 

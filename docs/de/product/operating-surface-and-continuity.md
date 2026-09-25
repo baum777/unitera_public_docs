@@ -2,7 +2,7 @@
 
 Status: `PUBLIC_CORE`
 
-Die Grundsemantik von Work, Needs You, Quickactions, Chat und Wiederaufnehmen ist bestätigt. Eine begrenzte Auswahl der neueren Surface- und Continuity-Details ist inzwischen in den zuständigen Owner-Quellen materialisiert; breitere Live-Nutzung und Pilotaktivierung bleiben separat gegatet. Diese Seite erzeugt weder Runtime- noch Pilotfreigaben.
+Die Grundsemantik von Work, Needs You, Quickactions, Chat und Wiederaufnehmen ist bestätigt. Zentrale Präsentationsverträge für native Arbeits- und Kontinuitätszustände sind inzwischen oberflächenübergreifend materialisiert; repräsentative Ende-zu-Ende-Qualifikation, breitere Live-Nutzung und Pilotaktivierung bleiben separat gegatet. Diese Seite erzeugt weder Runtime- noch Pilotfreigaben.
 
 UNITERA verbindet persönliche Kontinuität und institutionelle Arbeit über eine gemeinsame Interaktionsgrammatik, ohne ihre Bedeutungs- oder Autoritätsgrenzen zusammenzulegen. Native, Web- und mobile Oberflächen dürfen unterschiedliche Dichte und Einstiegspunkte haben, aber keine unterschiedlichen Rechte.
 
@@ -31,6 +31,14 @@ Chat und Composer können in persönlicher, arbeitsbezogener und tenantweiter Nu
 Eine einzelne Bedienhandlung kann ein exakt dargestelltes Handlungspaket freigeben. Diese Freigabe gilt nur für die angezeigte Fassung, Ziele und Abfolge; sie erweitert keine dauerhafte Delegation.
 
 Unmittelbar vor einer Wirkung werden relevante Voraussetzungen erneut geprüft. Eine wesentliche Änderung verlangt eine neue Entscheidung. Teilresultate und unklare Ausgänge bleiben sichtbar. Ein unklarer externer Effekt führt zur Klärung statt zu einer blinden Wiederholung.
+
+## Cross-Surface-Vertrag
+
+Desktop- und Mobile-Flächen dürfen sich in Dichte, Navigation und Eingabemuster unterscheiden. Für zentrale Zustände müssen sie jedoch dieselbe serverseitige Semantik konsumieren. Dazu gehören insbesondere Realm-Kontext, Today/Wiederaufnehmen, Quickactions, Aktualität, Pause sowie die Trennung von Receipt, Verification und Reconciliation.
+
+Eine materialisierte Präsentationsbaseline bedeutet noch keine vollständige Live-Parität. Repräsentative Ende-zu-Ende-Nachweise bleiben ein eigener Reifeschritt.
+
+Für die persönliche Beitragsgrenze gilt weiterhin: Vorbereitung und Review können sichtbar und vertraglich gebunden sein, ohne dass daraus eine allgemein aktive persönliche-zu-institutionelle Runtime-Übertragung folgt.
 
 ## Vertrauen über Oberflächen hinweg
 

@@ -2,7 +2,7 @@
 
 Status: `PUBLIC_ABSTRACTED`
 
-**Stand der Quellenprüfung:** 18. September 2026
+**Stand der Quellenprüfung:** 25. September 2026
 
 Öffentliche Aussagen werden vor Publikation gegen zuständige, aktuelle Owner-Quellen geprüft. Aktuelle Owner-Quellen schlagen ältere Ableitungen; Kandidaten und externe Konzepte bleiben klar gekennzeichnet.
 
@@ -40,6 +40,9 @@ Public explainability != source completeness
 Public provenance != exact internal topology
 Projection freshness != authority
 Candidate evidence != current canonical state
+Materialized contract != end-to-end qualification
+Implemented path != live admission
+Implementation presence != production readiness
 ```
 
 ---
