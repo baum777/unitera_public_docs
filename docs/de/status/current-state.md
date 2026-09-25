@@ -17,7 +17,7 @@ icon: gauge-high
 | **You are here** | Start / Governance → Aktueller öffentlicher Stand |
 | **Authority** | Statuspublikation erzeugt keine Runtime- oder Produktions-Authority |
 | **Source State** | gegen aktuelle Owner-Quellen geprüft; abgeleitete Projektionen dürfen zeitlich nachlaufen |
-| **Stand** | 18. September 2026 |
+| **Stand** | 25. September 2026 |
 
 ## Aktuelle Reifekarte
 
@@ -25,21 +25,25 @@ icon: gauge-high
 |---|---|---|---|
 | Kernarchitektur | etabliert | zentrale Grenzen und Bindungen in begrenzter Form umgesetzt | keine Produktionsautonomie behauptet |
 | Institutionelles Wissen | versionierte, aktive Grundlage etabliert | Discovery, Review und Kontextnutzung begrenzt integriert | laufende Organisationsänderungen bleiben review- und aktivierungsgebunden |
-| Institutionelles Produkterlebnis | Work-first, Needs You, Chat und Quickactions etabliert | Web- und native Arbeitsflächen in begrenzter Form materialisiert | nicht jede Journey ist live Ende zu Ende qualifiziert |
-| Persönliche Kontinuität | Personal Realm, Erinnerung, Wiederaufnehmen und Beitragsgrenze etabliert | Personal Hub, Kontinuität und bestätigungsgebundene Beitragsvorbereitung begrenzt umgesetzt | keine autonome persönliche-zu-institutionelle Übertragung behauptet |
-| Native Kontinuität | Clientzustand bleibt Präsentation, Authority bleibt serverseitig | Desktop- und Mobile-Flächen mit Read-, Resume-, Pause- und Intent-Grenzen begrenzt umgesetzt | Geräte- oder Clientzustand überträgt keine Authority |
+| Institutionelles Produkterlebnis | Work-first, Needs You, Chat und Quickactions etabliert | Web- und native Arbeitsflächen sowie eine gemeinsame Cross-Surface-Präsentationsbaseline in begrenzter Form materialisiert | repräsentative Ende-zu-Ende-Qualifikation bleibt für einzelne Journeys offen |
+| Persönliche Kontinuität | Personal Realm, Erinnerung, Wiederaufnehmen und Beitragsgrenze etabliert | Personal Hub, Kontinuität und bestätigungsgebundene Beitragsvorbereitung begrenzt umgesetzt | die reale persönliche-zu-institutionelle Runtime-Übertragung wird nicht allgemein als aktiv behauptet |
+| Native Kontinuität | Clientzustand bleibt Präsentation, Authority bleibt serverseitig | zentrale Read-, Resume-, Pause-, Trust- und Intent-Zustände sind oberflächenübergreifend vertraglich gebunden | Geräte- oder Clientzustand überträgt keine Authority; repräsentative Live-Parität bleibt separat nachzuweisen |
+| Kognition und Routing | Modellfähigkeit, Route, Authority und Datenfreigabe bleiben getrennt | begrenzte Routing- und Resolution-Evidence-Verträge sind materialisiert | Routing-Vertrag oder Modellwahl bedeuten weder Runtime-Aktivierung noch zusätzliche Datenfreigabe oder Authority |
 | Kontrollierte Wirkung | Approval, Grant, Execution, Receipt und Verification bleiben getrennt | begrenzte Routing-, Ausführungs- und Evidence-Pfade materialisiert | reale externe Live-Bereitschaft und Pilotaktivierung bleiben separat gegatet |
 | Security Evaluation | Finding, Evidenzqualifikation und Authority bleiben getrennt | Klassifikations- und Qualifikationsfähigkeit materialisiert | breite produktive Enforcement-Aktivierung wird nicht behauptet |
-| Pilot | versionierter, begrenzter Scope und Commissioning-Grammatik etabliert | Onboarding und Pilotvorbereitung substanziell materialisiert | **Vorbereitung**; Live-Gates und ausdrückliche Aktivierung bleiben offen |
+| Pilot | versionierter, begrenzter Scope und Commissioning-Grammatik etabliert | Scope-, Onboarding-, Commissioning- und Runtime-Bindungen sind substanziell materialisiert | **Vorbereitung**; reale Betriebsbindungen, externe Zulassung, Ende-zu-Ende-Nachweis und ausdrückliche Aktivierung bleiben offen |
 | Produktionsautonomie | nicht Zielbehauptung dieser Reifestufe | — | **nicht behauptet** |
 
 ## Was sich seit dem vorherigen Snapshot geändert hat
 
-Mehrere Flächen, die zuvor nur als Owner-bestätigte Richtung beschrieben wurden, besitzen inzwischen nachweisbare begrenzte Materialisierung. Das betrifft insbesondere native Arbeits- und Kontinuitätsflächen, persönliche Wiederaufnahme und Beitragsvorbereitung sowie die versioniert begrenzte Pilot- und Execution-Grammatik.
+Seit dem Snapshot vom 18. September wurden weitere begrenzte Implementierungs- und Contract-Slices materialisiert. Dazu gehören insbesondere eine festere Cross-Surface-Präsentationsbaseline für native Arbeitsflächen, zusätzliche deterministische Runtime-Projektionen sowie eine weiter ausdifferenzierte Kognitions-Routing- und Resolution-Evidence-Grenze.
+
+Diese Fortschritte erhöhen die nachweisbare Implementierungsreife, aber nicht automatisch die Live-Reife. Persönliche Beitragsübergabe, reale externe Betriebsbindungen, repräsentative Ende-zu-Ende-Pfade und die ausdrückliche Pilotaktivierung bleiben eigenständige Gates.
 
 Gleichzeitig bleibt die Aussagegrenze unverändert streng:
 
-- materialisierte UI oder Runtime bedeutet nicht Live-Aktivierung;
+- materialisierte UI, Contract- oder Runtime-Bausteine bedeuten nicht Live-Aktivierung;
+- materialisierte Cross-Surface-Verträge bedeuten nicht repräsentative Ende-zu-Ende-Qualifikation;
 - ein eingefrorener Pilotumfang erzeugt weder Grant noch Ausführungsrecht;
 - ein Client kann Authority anzeigen oder anfragen, aber nicht selbst erzeugen;
 - technische Receipt- oder Provider-Evidenz ist nicht automatisch verifiziertes Geschäftsergebnis;
