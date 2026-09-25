@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DOC_ROOTS = (ROOT / "docs" / "de", ROOT / "docs" / "en")
-INCLUDE_RE = re.compile(r'{%\\s*include\\s+"([^"]+)"\\s*%}')
+INCLUDE_RE = re.compile(r'{%\s*include\s+"([^"]+)"\s*%}')
 FRONTMATTER_KEYS = ("description:", "icon:", "layout:", "cover:", "tableOfContents:", "outline:")
 
 
@@ -37,7 +37,7 @@ def main() -> int:
         text = path.read_text(encoding="utf-8")
         lines = text.splitlines()
 
-        h1_lines = [i + 1 for i, line in enumerate(lines) if re.match(r"^#\\s+\\S", line)]
+        h1_lines = [i + 1 for i, line in enumerate(lines) if re.match(r"^#\s+\S", line)]
         if len(h1_lines) != 1:
             findings.append(f"{path.relative_to(ROOT)}: expected exactly one H1, found {len(h1_lines)} at {h1_lines}")
 
@@ -64,7 +64,7 @@ def main() -> int:
 
     if findings:
         print("public structure check: FAIL")
-        print("\\n".join(findings))
+        print("\n".join(findings))
         return 1
 
     print("public structure check: PASS")
