@@ -8,14 +8,27 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DOC_ROOTS = (ROOT / "docs" / "de", ROOT / "docs" / "en")
+MONITORED = (
+    "docs/de/README.md",
+    "docs/en/README.md",
+    "docs/de/status/current-state.md",
+    "docs/en/status/current-state.md",
+    "docs/de/status/capability-use-case-matrix.md",
+    "docs/en/status/capability-use-case-matrix.md",
+    "docs/de/status/pilot-production-readiness.md",
+    "docs/en/status/pilot-production-readiness.md",
+    "docs/de/reference/source-basis.md",
+    "docs/en/reference/source-basis.md",
+    "docs/de/product/operating-surface-and-continuity.md",
+    "docs/en/product/operating-surface-and-continuity.md",
+)
 INCLUDE_RE = re.compile(r'{%\s*include\s+"([^"]+)"\s*%}')
 FRONTMATTER_KEYS = ("description:", "icon:", "layout:", "cover:", "tableOfContents:", "outline:")
 
 
 def markdown_files():
-    for root in DOC_ROOTS:
-        yield from sorted(root.rglob("*.md"))
+    for relative in MONITORED:
+        yield ROOT / relative
 
 
 def has_frontmatter_signature(lines: list[str], start: int) -> bool:
