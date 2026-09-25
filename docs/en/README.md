@@ -1,16 +1,3 @@
-![UNITERA OS — Documentation](../../assets/unitera_os_lockup_horizontal_light_1920x1080.png)
-
-# Documentation Index
-
-<figure><img src="../../assets/unitera_os_crane_level_a_master_1254.png" alt="UNITERA origami crane" width="240"></figure>
-
-[Deutsche Ausgabe](../de/README.md)
-
-These pages are a curated public projection. They explain principles, product
-behavior, and coarse maturity without making internal implementation or
-authority topology reconstructable.
-
-## Start by reader goal
 ---
 description: Explore UNITERA as a system of context, cognition, authority, governed execution and evidence.
 icon: diagram-project
@@ -24,7 +11,13 @@ layout:
     visible: true
 ---
 
+![UNITERA OS — Documentation](../../assets/unitera_os_lockup_horizontal_light_1920x1080.png)
+
 # UNITERA Public Docs
+
+<figure><img src="../../assets/unitera_os_crane_level_a_master_1254.png" alt="UNITERA origami crane" width="240"></figure>
+
+[Deutsche Ausgabe](../de/README.md)
 
 `UPD-START-001` · `ORIENTATION` · `PUBLIC_CORE`
 
@@ -32,6 +25,8 @@ layout:
 > UNITERA connects organizational context, bounded cognition, human and institutional authority, governed effect and durable evidence without treating model capability as authority.
 
 {% include ".gitbook/includes/public-projection.md" %}
+
+These pages are a curated public projection. They explain principles, product behavior and coarse maturity without making internal implementation or authority topology reconstructable.
 
 ## Read the system first
 
@@ -49,7 +44,7 @@ flowchart LR
     C -. bounded context .-> K
 ```
 
-The diagram is a **conceptual public projection**, not deployment, repository, protocol or security topology. Start with the [System Map](architecture/system-map.md) when you want to understand the boundaries and relationships rather than a page tree.
+The diagram is a **conceptual public projection**, not deployment, repository, protocol or security topology. Start with the [System Map](architecture/system-map.md) when you want to understand boundaries and relationships rather than a page tree.
 
 ## Read by intent
 
@@ -63,7 +58,7 @@ The diagram is a **conceptual public projection**, not deployment, repository, p
 
 ## Current posture
 
-The public documentation currently describes established core architecture, bounded implementations and an active path toward pilot readiness. It **does not claim production autonomy**. Use [Current public state](status/current-state.md) for the maintained maturity projection.
+The public documentation describes established core architecture, bounded implementations and an active path toward pilot readiness. It **does not claim production autonomy**. Materialized contracts, runtime paths or surfaces are not automatically end-to-end qualified or live-activated. Use [Current public state](status/current-state.md) for the maintained maturity projection.
 
 ## Three reading modes
 
