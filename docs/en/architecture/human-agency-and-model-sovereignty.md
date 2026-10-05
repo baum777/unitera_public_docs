@@ -37,6 +37,13 @@ flowchart LR
 
 > **Conceptual public projection — not deployment, service, repository, protocol or security topology.**
 
+The human role is evaluated for the specific decision. Evidenced identity,
+organizational decision authority and required independence are separate
+prerequisites. The [separation of Identity, Human Control and
+Authority](identity-human-control-and-authority.md) describes this established
+control semantics; it is separate from the overall framing classified here as
+a candidate.
+
 ## The core loop
 
 KNOW provides purpose-bound context. THINK analyzes and proposes. Govern checks

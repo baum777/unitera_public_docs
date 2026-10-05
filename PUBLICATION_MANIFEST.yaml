@@ -45,6 +45,14 @@ public_state:
   security_evaluation: MATERIALIZED_CLASSIFICATION_AND_QUALIFICATION
   pilot: PREPARATION_WITH_EXTERNAL_AND_ACTIVATION_GATES_OPEN
   production_autonomy_claimed: false
+semantic_supplement:
+  review_date: "2026-10-06"
+  scope: IDENTITY_HUMAN_CONTROL_AND_AUTHORITY_ONLY
+  source_verification: OWNER_IDENTITY_AND_CONTROL_SOURCES_WITH_LATER_ADOPTION_AND_PUBLICATION_EVIDENCE
+  detail_level: PUBLIC_ABSTRACTED
+  public_maturity: CONTRACTED_RUNTIME_QUALIFICATION_SEPARATE
+  general_snapshot_revalidated: false
+  runtime_activation_claimed: false
 publication_gate:
   - verify_owner_sources_internally
   - publish_only_curated_abstraction

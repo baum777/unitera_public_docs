@@ -60,6 +60,9 @@ The diagram is a **conceptual public projection**, not deployment, repository, p
 
 The public documentation describes established core architecture, bounded implementations and an active path toward pilot readiness. It **does not claim production autonomy**. Materialized contracts, runtime paths or surfaces are not automatically end-to-end qualified or live-activated. Use [Current public state](status/current-state.md) for the maintained maturity projection.
 
+Identity, human decision and effect have separate prerequisites.
+[Identity, Human Control and Authority](architecture/identity-human-control-and-authority.md) explains why sign-in creates no organizational rights, approval is not a grant, and independent assurance cannot replace a required person.
+
 ## Three reading modes
 
 | Mode | Use it when you need to… | Primary surfaces |

@@ -2,6 +2,12 @@
 
 | Term | Public definition |
 |---|---|
+| **Identity** | Current evidenced resolution to a natural person and evidence of whether person references mean the same or different people; no organizational rights. |
+| **Human Control** | Evaluation of whether specific natural persons satisfy human roles and, where applicable, independence for a particular decision. |
+| **Authority** | Decision or effect authority within the relevant responsibility domain; not derived from identity or model capability. |
+| **Approval** | Human approval of a specific proposal under particular rules; neither a grant nor execution. |
+| **Guard Assurance** | Independent evaluation of a specific act; neither a human control slot nor execution authority. |
+| **Owner** | Organizational decision role whose applicability is separately evaluated for the specific decision. |
 | **Human Agency** | Ability of people and institutions to set goals, boundaries, and binding decisions. |
 | **Model Sovereignty** | Freedom to select and change models without transferring or expanding authority. |
 | **Company Brain** | Governed organizational knowledge and institutional context. |

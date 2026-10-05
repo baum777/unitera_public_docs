@@ -12,6 +12,7 @@
 ## Foundations
 
 * [Human Agency & Model Sovereignty](architecture/human-agency-and-model-sovereignty.md)
+* [Identity, Human Control and Authority](architecture/identity-human-control-and-authority.md)
 * [KNOW / THINK / ACT](architecture/know-think-act.md)
 * [Authority & Source-of-Truth model](architecture/authority-and-source-model.md)
 * [Tenant, Discovery & Company Brain](product/tenant-discovery-company-brain.md)
