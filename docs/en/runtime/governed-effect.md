@@ -11,7 +11,13 @@ flowchart LR
     V -->|"reviewable evidence"| R["Traceable outcome"]
 ```
 
-Approval is not execution, a receipt is not verification, and an unknown outcome is not an invitation to retry blindly. Real-world effects remain deliberately narrow.
+Approval is neither a grant nor execution, a receipt is not verification, and an unknown outcome is not an invitation to retry blindly. Real-world effects remain deliberately narrow.
+
+Where human control is required, what counts is the currently evidenced person
+authorized for this exact decision. Different accounts do not prove independent
+people. A positive control evaluation is not a grant; a material change to the
+proposal or applicable rules requires a new evaluation. See [Identity, Human
+Control and Authority](../architecture/identity-human-control-and-authority.md).
 
 > Conceptual public projection — not deployment, service, repository, protocol or security topology.
 

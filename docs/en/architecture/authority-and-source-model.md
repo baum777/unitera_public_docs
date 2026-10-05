@@ -14,6 +14,17 @@ flowchart LR
 
 Candidates remain candidates. Publication is not adoption; adoption is not runtime activation. Exact source states are verified internally but are not published as an operational map.
 
+## Identity and human decision authority
+
+An evidenced natural person is not yet an authorized tenant member. Human
+Control evaluates the required human role and, where applicable, independence
+for the specific decision type. Even a positive evaluation creates no grant or
+execution permission by itself.
+
+The [dedicated explanation](identity-human-control-and-authority.md) separates
+person relationships from organizational rights, and owner decision from
+independent Guard assurance.
+
 ## Security evaluation without execution authority
 
 UNITERA separates security classification, evidence qualification and policy evaluation from execution authority.

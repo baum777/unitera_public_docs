@@ -38,6 +38,13 @@ flowchart LR
 
 > **Conceptual public projection — not deployment, service, repository, protocol or security topology.**
 
+Die menschliche Rolle wird für die konkrete Entscheidung geprüft. Belegte
+Identität, organisatorische Entscheidungsbefugnis und notwendige Unabhängigkeit
+sind eigene Voraussetzungen. Die [Trennung von Identity, Human Control und
+Authority](identity-human-control-and-authority.md) beschreibt diese etablierte
+Kontrollsemantik; sie ist von der hier als Kandidat eingeordneten Gesamtrahmung
+getrennt.
+
 ## Der Kernloop
 
 KNOW stellt zweckgebundenen Kontext bereit. THINK analysiert und schlägt vor.

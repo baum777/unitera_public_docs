@@ -14,6 +14,17 @@ flowchart LR
 
 Kandidaten bleiben Kandidaten. Publikation ist keine Adoption; Adoption ist keine Runtime-Aktivierung. Exakte Quellenstände werden intern verifiziert, aber nicht als operative Landkarte publiziert.
 
+## Identity und menschliche Entscheidungsbefugnis
+
+Eine belegte natürliche Person ist noch kein berechtigtes Tenant-Mitglied.
+Human Control prüft für den konkreten Entscheidungstyp die erforderliche
+menschliche Rolle und gegebenenfalls Unabhängigkeit. Selbst eine positive
+Bewertung erzeugt allein keinen Grant und keine Ausführungserlaubnis.
+
+Die [eigene Erläuterung](identity-human-control-and-authority.md) trennt
+Personenbeziehungen von Organisationsrechten und Owner-Entscheidung von
+unabhängiger Guard-Assurance.
+
 ## Sicherheitsbewertung ohne Ausführungsautorität
 
 UNITERA trennt Sicherheitsklassifikation, Evidenz-Qualifizierung und Policy-Bewertung von der Ausführungsautorität.

@@ -2,6 +2,12 @@
 
 | Begriff | Öffentliche Definition |
 |---|---|
+| **Identity** | Aktuell belegte Zuordnung zu einer natürlichen Person und Evidenz darüber, ob Personenbezüge dieselbe oder verschiedene Personen meinen; keine Organisationsrechte. |
+| **Human Control** | Prüfung, ob konkrete natürliche Personen die menschlichen Rollen und gegebenenfalls Unabhängigkeit für eine bestimmte Entscheidung erfüllen. |
+| **Authority** | Entscheidungs- oder Wirkungsbefugnis im jeweiligen Verantwortungsraum; wird nicht aus Identität oder Modellfähigkeit abgeleitet. |
+| **Approval** | Menschliche Freigabe eines konkreten Vorschlags unter bestimmten Regeln; kein Grant und keine Ausführung. |
+| **Guard Assurance** | Unabhängige Prüfung eines konkreten Akts; kein menschlicher Kontrollplatz und keine Ausführungsbefugnis. |
+| **Owner** | Organisatorische Entscheidungsrolle, deren Anwendbarkeit für die konkrete Entscheidung gesondert geprüft wird. |
 | **Human Agency** | Fähigkeit von Menschen und Institutionen, Ziele, Grenzen und verbindliche Entscheidungen zu bestimmen. |
 | **Model Sovereignty** | Freiheit, Modelle ohne Übertragung oder Ausweitung von Autorität auszuwählen und zu wechseln. |
 | **Company Brain** | Kontrolliertes Organisationswissen und institutioneller Kontext. |

@@ -18,6 +18,19 @@ Public claims are checked against responsible, current owner sources before publ
 | Older source candidates and derivations | context only; they do not override a newer owner state |
 | External concepts | separately attributed |
 
+## Scoped human control supplement
+
+The supplemental source review of **6 October 2026** covers only identity,
+human decision qualification and the bounded founding profile. It checked the
+responsible person, relationship and control sources, together with separate
+adoption and later publication evidence. Historical candidate labels are read
+alongside later decisions; their frozen bytes are not rewritten retroactively.
+
+The [supplemental semantics](../architecture/identity-human-control-and-authority.md)
+are explained as contractually described. Complete runtime qualification remains
+separate. This scoped review does not update the general September maturity
+snapshot or constitute a fresh full review of all source classes.
+
 ## Reconciliation rule
 
 A derived projection can lag behind an already-canonical owner state. In that case:

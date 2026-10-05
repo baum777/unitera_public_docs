@@ -18,6 +18,20 @@ Status: `PUBLIC_ABSTRACTED`
 | Ältere Source-Candidates und Ableitungen | nur Kontext; sie überschreiben keinen neueren Owner-Zustand |
 | Externe Konzepte | separat attribuiert |
 
+## Gezielte Ergänzung zur menschlichen Kontrolle
+
+Die ergänzende Quellenprüfung vom **6. Oktober 2026** betrifft ausschließlich
+Identity, menschliche Entscheidungsqualifikation und das begrenzte
+Gründungsprofil. Dafür wurden die zuständigen Personen-, Beziehungs- und
+Kontrollquellen sowie separate Adoptions- und spätere Publikationsbelege
+geprüft. Historische Kandidatenkennzeichnungen werden zusammen mit den späteren
+Entscheidungen gelesen; ihre eingefrorenen Bytes werden nicht rückwirkend umgeschrieben.
+
+Die [ergänzte Semantik](../architecture/identity-human-control-and-authority.md)
+wird als vertraglich beschrieben erklärt. Die vollständige Runtime-Qualifikation
+bleibt separat. Diese gezielte Prüfung aktualisiert nicht den allgemeinen
+September-Reifesnapshot und stellt keine erneute Gesamtprüfung aller Quellenklassen dar.
+
 ## Reconciliation-Regel
 
 Eine abgeleitete Projektion kann hinter einem bereits kanonischen Owner-Zustand liegen. In diesem Fall gilt:

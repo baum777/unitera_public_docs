@@ -60,6 +60,9 @@ Das Diagramm ist eine **konzeptionelle öffentliche Projektion**, keine Deployme
 
 Die öffentliche Dokumentation beschreibt etablierte Kernarchitektur, begrenzte Umsetzungen und einen aktiven Weg in Richtung Pilot-Reife. Sie **behauptet keine Produktionsautonomie**. Materialisierte Contracts, Runtime-Pfade oder Oberflächen sind nicht automatisch Ende-zu-Ende qualifiziert oder live aktiviert. Den gepflegten Reifegrad zeigt der [aktuelle öffentliche Stand](status/current-state.md).
 
+Identität, menschliche Entscheidung und Wirkung haben eigene Voraussetzungen.
+[Identity, Human Control und Authority](architecture/identity-human-control-and-authority.md) erklärt, warum eine Anmeldung keine Organisationsrechte erzeugt, ein Approval kein Grant ist und unabhängige Assurance keinen erforderlichen Menschen ersetzt.
+
 ## Drei Lesemodi
 
 | Modus | Nutze ihn, wenn du… | Primäre Flächen |
