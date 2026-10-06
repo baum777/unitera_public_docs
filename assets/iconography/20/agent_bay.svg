@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" color="currentColor" data-unitera-family="agent_bay" data-unitera-authority="ICON_FAMILY_CANDIDATE">
+<title>Agent Bay</title><desc>three-sided bay/dock; east-facing aperture; hollow address node centered on back wall; SE modifier slot outside aperture</desc>
+<polyline points="18.2,4 6,4 4.5,5.5 4.5,18.5 6,20 18.2,20" fill="none" stroke="currentColor" stroke-width="1.98" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+<circle cx="6.2" cy="12" r="1.6" fill="none" stroke="currentColor" stroke-width="1.344" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" color="currentColor" data-unitera-family="workspace" data-unitera-authority="ICON_FAMILY_CANDIDATE">
+<title>Workspace</title><desc>single outer boundary; inner operational work surface</desc>
+<rect x="3.5" y="4" width="17" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="1.98" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+<rect x="6.3" y="8.3" width="11.4" height="7.8" rx="1.8" fill="none" stroke="currentColor" stroke-width="1.344" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+<line x1="8" y1="18" x2="16" y2="18" fill="none" stroke="currentColor" stroke-width="1.344" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+</svg>

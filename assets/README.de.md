@@ -1,42 +1,60 @@
 # Medien
 
-Reserviert für öffentliche Diagramme, exportierte Architekturgrafiken, Präsentationsmedien und Logos, die ausdrücklich zur öffentlichen Nutzung freigegeben sind.
+Öffentliche Markenmedien, Diagramme und Präsentationsgrafiken der UNITERA-Dokumentation.
+Architekturdiagramme bleiben vorzugsweise Mermaid in Markdown.
 
-Für Architekturdiagramme ist Mermaid in Markdown zu bevorzugen, da es diffbar, prüfbar und versionskontrolliert bleibt. Statische Exporte sollen auf die Markdown-Quelle verweisen, die sie erzeugt oder erläutert.
+## Aktuelle Markenmedien — 6. Oktober 2026
 
-## Verwendete Markenmedien (2026-09-11)
+Die Markenmedien stammen aus dem vom Owner bereitgestellten Asset-Paket.
+Importierte SVG-Originale sind unveränderte Kopien. Abgeleitete Varianten sind
+unten gesondert beschrieben. Die Einbindung ist eine visuelle Aktualisierung;
+sie erzeugt keine fachliche Adoption, Berechtigung oder Produktreife.
 
-Die README-Einstiegsseiten binden Markenmedien byte-identisch aus dem
-`UNITERA_GOVERNED_INSTRUMENTALISM_MASTER_DESIGN_SYSTEM_2026-08-31`
-(Bereich `05_BRAND/identity/os/`) ein; SHA256-Gleichheitsprüfung am Bindungstag:
+| Medium | Verwendung |
+|---|---|
+| [UNITERA OS Wortmarke](identity/os/svg/unitera_os_wordmark_light.svg) | Produktname auf den Einstiegsseiten. |
+| [Kranich Hero](identity/os/masters/svg/unitera-crane-hero-graphite.svg) | Großes Emblem auf der Repository-Startseite und in beiden Sprachausgaben. |
+| [Kranich Glyph](identity/os/masters/svg/unitera-crane-glyph-graphite.svg) | Kompaktes Emblem für mittlere Darstellungsgrößen. |
+| [Kranich Micro](identity/os/masters/svg/unitera-crane-micro-graphite.svg) | Vereinfachtes Emblem für Favicons und kleinste Darstellungen. |
+| UNITERA Systems Wortmarke und Zeichen | Firmenidentität; bleibt von Produktwortmarke und Kranich getrennt. |
 
-- `unitera_os_lockup_horizontal_light_1920x1080.png` und
-  `unitera_os_lockup_horizontal_dark_1920x1080.png`: horizontales Lockup der
-  Marke UNITERA OS; die GitHub-Startseite wählt die Variante je Farbschema.
-- `unitera_os_crane_level_a_master_1254.png`: Origami-Kranich, Level A.
+Die Einstiegsseiten verwenden SVG statt der bisherigen großen PNG-Medien.
+Die Farbschema-Auswahl verwendet Graphite auf hellem und Ivory auf dunklem
+Hintergrund. Alle gelieferten Hero-, Glyph- und Micro-Varianten liegen unter
+`identity/os/masters/svg/`, einschließlich der neutralen `currentColor`-Quellen.
+Ein separat eingebundenes SVG erbt die Textfarbe seiner umgebenden Seite nicht;
+deshalb verwenden die Einstiegsseiten die fest eingefärbten Varianten.
 
-Die Medien dienen der visuellen Identität der Dokumentation. Sie belegen keine
-Ausführungsberechtigung oder Produktreife. Die Markenarchitektur des gebundenen
-Entwurfssystems hat Kandidatenstatus; diese Bindung ändert diesen Status nicht
-und überträgt keine Authority.
+## Abgeleitete Varianten
 
-## Gebundene Marken-Assets der GitBook-Oberflächen (2026-09-10)
+- Die dunkle OS-Wortmarke ist aus der gelieferten hellen Wortmarke abgeleitet:
+  ausschließlich die UNITERA-Textfarbe wechselt von Graphite zu Ivory;
+  Geometrie, Typografie und OS-Akzent bleiben gleich.
+- Die Favicons verwenden die gelieferte Micro-Silhouette. PNG und ICO zeigen
+  Graphite auf einer Ivory-Fläche. Das zusätzliche SVG-Favicon passt seine
+  Farbe dem Farbschema an; das Safari-Zeichen ist monochrom.
+- Die ICO-Datei enthält Größen von 16, 32 und 48 Pixeln; die PNG-Dateien liegen
+  in denselben Größen vor.
 
-Die GitBook-Ausgaben binden Markenmedien byte-identisch aus dem
-`UNITERA_GOVERNED_INSTRUMENTALISM_MASTER_DESIGN_SYSTEM_2026-08-31`
-(Bereich `05_BRAND`) ein; SHA256-Gleichheitsprüfung am Bindungstag:
+## GitBook-Medien
 
-- `docs/de/.gitbook/assets/brand/` und `docs/en/.gitbook/assets/brand/`:
-  `unitera_systems_primary_mark_{light,dark}.svg`,
-  `unitera_systems_lockup_horizontal_{light,dark}.svg`,
-  `unitera_systems_wordmark_{light,dark}.svg`
-  (Quelle: `05_BRAND/identity/systems/svg/`)
-- `docs/<lang>/.gitbook/assets/brand/platform-icons/favicon/`:
-  `favicon-16x16.png`, `favicon-32x32.png`, `favicon-48x48.png`,
-  `favicon.ico`, `safari-pinned-tab.svg`
-  (Quelle: `05_BRAND/platform-icons/favicon/`)
+Beide Sprachausgaben enthalten identische Kopien unter
+`docs/<lang>/.gitbook/assets/brand/`: OS-Wortmarken, Hero/Glyph/Micro in Graphite
+und Ivory, Systems-Medien und `platform-icons/favicon/`.
 
-Die Dateien sind unveränderte Kopien; sie dienen der visuellen Identität der
-Dokumentationsoberflächen. Die Markenarchitektur des gebundenen Entwurfssystems
-hat Kandidatenstatus; diese Bindung ändert diesen Status nicht und überträgt
-keine Authority.
+Die im Paket enthaltenen Systems-Dateien sind übernommen. Das helle
+Systems-Zeichen und das helle Systems-Lockup sind im Paket nicht enthalten;
+ihre bereits vorhandenen Fassungen bleiben gebunden. Die Medienablage ersetzt
+keine separat konfigurierte GitBook-Oberflächeneinstellung.
+
+## Iconset
+
+`iconography/20/` enthält 18 Objekt-Icons. `iconography/modifiers/20/` enthält
+11 Modifikatoren. Beide Gruppen sind unveränderte SVG-Originale aus dem Paket;
+ihre eingebetteten Statuskennzeichnungen bleiben erhalten.
+
+Person, Rolle, Entscheidung, Grant, Receipt und Verification bleiben getrennte
+Zeichen. Ein Freigabe-Modifikator bezeichnet keinen Grant; ein Receipt-Icon
+beweist kein verifiziertes Ergebnis. Ein Icon erzeugt keine Authority.
+
+Die [Markenhinweise](../legal/TRADEMARKS.md) gelten weiterhin.

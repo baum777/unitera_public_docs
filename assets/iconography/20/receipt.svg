@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" color="currentColor" data-unitera-family="receipt" data-unitera-authority="ICON_FAMILY_CANDIDATE">
+<title>Receipt</title><desc>execution record plane; right terminal cut; left provider/origin node; inbound return chevron</desc>
+<path d="M6 4 H17 L20 7 V20 H6 Z" fill="none" stroke="currentColor" stroke-width="1.98" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+<circle cx="5.2" cy="12" r="1.5" fill="none" stroke="currentColor" stroke-width="1.344" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+<line x1="19" y1="11.5" x2="14.3" y2="11.5" fill="none" stroke="currentColor" stroke-width="1.344" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+<polyline points="16,9.2 13.7,11.5 16,13.8" fill="none" stroke="currentColor" stroke-width="1.344" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+<line x1="9" y1="16" x2="16.2" y2="16" fill="none" stroke="currentColor" stroke-width="1.344" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+</svg>

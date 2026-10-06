@@ -53,6 +53,17 @@ semantic_supplement:
   public_maturity: CONTRACTED_RUNTIME_QUALIFICATION_SEPARATE
   general_snapshot_revalidated: false
   runtime_activation_claimed: false
+brand_media_update:
+  update_date: "2026-10-06"
+  source: OWNER_SUPPLIED_ASSET_PACKAGE
+  scope: PUBLIC_DOCUMENTATION_BRAND_MEDIA_ONLY
+  product_wordmark: "UNITERA OS"
+  company_wordmark: "UNITERA Systems"
+  emblem_variants: [HERO, GLYPH, MICRO]
+  imported_svg_sources: UNMODIFIED
+  derived_media: [DARK_OS_WORDMARK, MICRO_FAVICONS]
+  language_asset_copies: IDENTICAL
+  semantic_adoption_created: false
 publication_gate:
   - verify_owner_sources_internally
   - publish_only_curated_abstraction
