@@ -11,11 +11,17 @@ layout:
     visible: true
 ---
 
-![UNITERA OS — Documentation](../../assets/unitera_os_lockup_horizontal_light_1920x1080.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/identity/os/svg/unitera_os_wordmark_dark.svg">
+  <img src="../../assets/identity/os/svg/unitera_os_wordmark_light.svg" alt="UNITERA OS — Documentation" width="640">
+</picture>
 
 # UNITERA Public Docs
 
-<figure><img src="../../assets/unitera_os_crane_level_a_master_1254.png" alt="UNITERA Origami-Kranich" width="240"></figure>
+<figure><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../../assets/identity/os/masters/svg/unitera-crane-hero-ivory.svg">
+  <img src="../../assets/identity/os/masters/svg/unitera-crane-hero-graphite.svg" alt="UNITERA Origami-Kranich" width="240">
+</picture></figure>
 
 [English edition](../en/README.md)
 

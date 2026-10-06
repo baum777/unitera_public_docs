@@ -1,11 +1,14 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/unitera_os_lockup_horizontal_dark_1920x1080.png">
-  <img src="assets/unitera_os_lockup_horizontal_light_1920x1080.png" alt="UNITERA OS — Documentation">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/identity/os/svg/unitera_os_wordmark_dark.svg">
+  <img src="assets/identity/os/svg/unitera_os_wordmark_light.svg" alt="UNITERA OS — Documentation" width="640">
 </picture>
 
 # UNITERA — Public Architecture & Documentation
 
-<figure><img src="assets/unitera_os_crane_level_a_master_1254.png" alt="UNITERA Origami-Kranich / origami crane" width="240"></figure>
+<figure><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/identity/os/masters/svg/unitera-crane-hero-ivory.svg">
+  <img src="assets/identity/os/masters/svg/unitera-crane-hero-graphite.svg" alt="UNITERA Origami-Kranich / origami crane" width="240">
+</picture></figure>
 
 > **Öffentliche Projektion — keine Autoritätsquelle.**
 >
