@@ -2,7 +2,7 @@
 
 Status: `PUBLIC_ABSTRACTED`
 
-**Stand der Quellenprüfung:** 25. September 2026
+**Stand der Quellenprüfung:** 26. Oktober 2026
 
 Öffentliche Aussagen werden vor Publikation gegen zuständige, aktuelle Owner-Quellen geprüft. Aktuelle Owner-Quellen schlagen ältere Ableitungen; Kandidaten und externe Konzepte bleiben klar gekennzeichnet.
 
@@ -29,8 +29,11 @@ Entscheidungen gelesen; ihre eingefrorenen Bytes werden nicht rückwirkend umges
 
 Die [ergänzte Semantik](../architecture/identity-human-control-and-authority.md)
 wird als vertraglich beschrieben erklärt. Die vollständige Runtime-Qualifikation
-bleibt separat. Diese gezielte Prüfung aktualisiert nicht den allgemeinen
-September-Reifesnapshot und stellt keine erneute Gesamtprüfung aller Quellenklassen dar.
+bleibt separat. Zum damaligen Zeitpunkt aktualisierte diese gezielte Prüfung den September-Reifesnapshot nicht. Der spätere bereichsübergreifende Abgleich wird nachfolgend gesondert ausgewiesen.
+
+## Bereichsübergreifender Abgleich vom 26. Oktober 2026
+
+Die aktuelle Prüfung berücksichtigt Owner-Beschreibungen und begrenzte Nachweise für Produkt und Runtime, Execution Control, Tenant-Zulassung, agentische Orchestrierung, persönliche Kontinuität, Security-Qualifikation, Kontextprojektionen und Quellregister. Sie aktualisiert die öffentliche Reifedarstellung, führt jedoch keine Tests erneut aus, erteilt keine Betriebsfreigabe und bestätigt keine vollständige Produktionsintegration. Ungemergte Kandidaten zählen nicht als aktueller Owner-Stand.
 
 ## Reconciliation-Regel
 
