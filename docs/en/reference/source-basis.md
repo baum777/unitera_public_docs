@@ -2,7 +2,7 @@
 
 Status: `PUBLIC_ABSTRACTED`
 
-**Source review as of:** 25 September 2026
+**Source review as of:** 26 October 2026
 
 Public claims are checked against responsible, current owner sources before publication. Current owner sources outrank older derivations; candidates and external concepts remain clearly labeled.
 
@@ -28,8 +28,11 @@ alongside later decisions; their frozen bytes are not rewritten retroactively.
 
 The [supplemental semantics](../architecture/identity-human-control-and-authority.md)
 are explained as contractually described. Complete runtime qualification remains
-separate. This scoped review does not update the general September maturity
-snapshot or constitute a fresh full review of all source classes.
+separate. At the time, this scoped review did not update the September snapshot. The later cross-domain review is recorded separately below.
+
+## Cross-domain reconciliation of 26 October 2026
+
+The current review covers owner descriptions and bounded evidence for product and runtime, execution control, tenant admission, agentic orchestration, personal continuity, security qualification, context projections and source registries. It updates public maturity language but does not rerun the tests, grant operational authority or establish complete production integration. Unmerged candidates do not count as current owner state.
 
 ## Reconciliation rule
 

@@ -2,7 +2,7 @@
 
 Status: `PUBLIC_STATUS`
 
-**As of:** 25 September 2026
+**As of:** 26 October 2026
 
 UNITERA remains in **pilot preparation**. Compared with the previous public snapshot, technical and product-side preparation is materially further along: the bounded pilot scope, commissioning, onboarding, governed workflows, evidence/recovery semantics, and web and native product surfaces now have verifiable implementation.
 
@@ -21,6 +21,10 @@ The following maturity level is now supportable as a public claim:
 - recovery semantics that forbid blind retry after uncertain external effect;
 - personal continuity and contribution preparation without collapsing personal continuity into institutional authority;
 - materialized security classification and evidence qualification without deriving production enforcement from it.
+
+## More recent qualification without activation
+
+Agentic workflow coordination has been qualified locally, including bounded live-model experiments. Further local checks concern service-execution boundaries, integrity and read-only context projections. This does not activate a generally available agent service or production external dispatch. Component qualification is not operational authorization.
 
 ## Still open before a real pilot start
 

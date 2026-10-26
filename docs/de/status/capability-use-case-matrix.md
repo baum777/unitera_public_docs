@@ -1,7 +1,7 @@
 # Funktionen, Capabilities und Use Cases
 
 **Disclosure:** PUBLIC_CORE · PUBLIC_ABSTRACTED · PUBLIC_STATUS
-**Stand:** 25. September 2026
+**Stand:** 26. Oktober 2026
 
 Diese Seite übersetzt die öffentliche UNITERA-Architektur in konkrete
 Produktfähigkeiten und Anwendungssituationen. **Capability** bezeichnet hier
@@ -32,6 +32,8 @@ Grant oder eine Ausführungserlaubnis.
 | Personal Realm und Companion | Persönliche Kontinuität, Erinnerung, Ideation und Beitragsvorbereitung getrennt vom Company Brain halten | Arbeit wiederaufnehmen, Gedanken entwickeln, persönlichen Beitrag vorbereiten | Etablierte Contract-Semantik; produktseitig begrenzt umgesetzt | Persönliche Kontinuität und bestätigungsgebundene Beitragsvorbereitung; keine autonome Übergabe oder allgemeine Personal-Runtime-Aktivierung behauptet |
 | Today, Resume und geräteübergreifende Kontinuität | Einen bewussten Neustartpunkt, stabilen Fokus, veraltete Snapshots und fortbestehende Pausen korrekt abbilden | Mobiler Tagesstart, Session-Fortsetzung, Gerätewechsel | Begrenzte Umsetzung | Wiederaufnahme mit klarer Aktualitätsgrenze; Continuity überträgt keine Authority und löst keine automatische Wiederholung aus |
 | Native Arbeitsflächen | Institutionelle und persönliche Projektionen auf nativen Oberflächen konsistent darstellen | Desktop-Arbeit, mobile Fallbearbeitung, Personal Hub | Cross-Surface-Contract-Baseline materialisiert; repräsentative E2E-Qualifikation offen | Gemeinsame Produktgrammatik mit serverseitiger Authority; Clientzustand bleibt Projektion und erzeugt keine eigene Wahrheit |
+| Agentische Workflow-Koordination | Aufgaben planen, Agenten und Werkzeuge qualifizieren und Ergebnisse prüfen | Mehrstufige, kontrollierte KI-Arbeit | lokal umgesetzt und begrenzt live qualifiziert; allgemeine Serviceaktivierung offen | Plan, Executor und Receipt erzeugen weder Authority noch verifizierte Completion |
+| Lesende Kontextbeziehungen | Quellen und Beziehungen zweckgebunden darstellen | Kontextprüfung und Analyse | begrenzte validierte Projektion; breitere Integration offen | abgeleitete Projektion ersetzt keine Owner-Wahrheit |
 | Lokale Runtime-Grenze | Freigegebene lokale Ressourcen kontrolliert erreichbar machen | Lokaler Kontextzugriff, begrenzte systemnahe Arbeit | Begrenzte Umsetzung | Kontrollierte Nähe zu Daten und Wirkung; Erreichbarkeit ist weder Lese- noch Ausführungserlaubnis |
 
 ## Kernfähigkeiten des Arbeitsflusses

@@ -17,7 +17,7 @@ icon: gauge-high
 | **You are here** | Start / Governance → Aktueller öffentlicher Stand |
 | **Authority** | Statuspublikation erzeugt keine Runtime- oder Produktions-Authority |
 | **Source State** | gegen aktuelle Owner-Quellen geprüft; abgeleitete Projektionen dürfen zeitlich nachlaufen |
-| **Stand** | 25. September 2026 |
+| **Stand** | 26. Oktober 2026 |
 
 ## Aktuelle Reifekarte
 
@@ -28,6 +28,8 @@ icon: gauge-high
 | Institutionelles Produkterlebnis | Work-first, Needs You, Chat und Quickactions etabliert | Web- und native Arbeitsflächen sowie eine gemeinsame Cross-Surface-Präsentationsbaseline in begrenzter Form materialisiert | repräsentative Ende-zu-Ende-Qualifikation bleibt für einzelne Journeys offen |
 | Persönliche Kontinuität | Personal Realm, Erinnerung, Wiederaufnehmen und Beitragsgrenze etabliert | Personal Hub, Kontinuität und bestätigungsgebundene Beitragsvorbereitung begrenzt umgesetzt | die reale persönliche-zu-institutionelle Runtime-Übertragung wird nicht allgemein als aktiv behauptet |
 | Native Kontinuität | Clientzustand bleibt Präsentation, Authority bleibt serverseitig | zentrale Read-, Resume-, Pause-, Trust- und Intent-Zustände sind oberflächenübergreifend vertraglich gebunden | Geräte- oder Clientzustand überträgt keine Authority; repräsentative Live-Parität bleibt separat nachzuweisen |
+| Agentische Workflow-Orchestrierung | Aufgaben, Executor-Qualifikation, Routing und nachweisbarer Abschluss bleiben getrennt | lokal ausführbare Orchestrierung und begrenzte Live-Erprobung nachgewiesen | allgemeine Remote-Dienstaktivierung und Produktionsautonomie nicht nachgewiesen |
+| Lesende Kontextprojektion | quellengebundene Beziehungen ohne neue institutionelle Authority | begrenzte validierte Projektion | breitere Runtime-Integration und automatische Übernahme offen |
 | Kognition und Routing | Modellfähigkeit, Route, Authority und Datenfreigabe bleiben getrennt | begrenzte Routing- und Resolution-Evidence-Verträge sind materialisiert | Routing-Vertrag oder Modellwahl bedeuten weder Runtime-Aktivierung noch zusätzliche Datenfreigabe oder Authority |
 | Kontrollierte Wirkung | Approval, Grant, Execution, Receipt und Verification bleiben getrennt | begrenzte Routing-, Ausführungs- und Evidence-Pfade materialisiert | reale externe Live-Bereitschaft und Pilotaktivierung bleiben separat gegatet |
 | Security Evaluation | Finding, Evidenzqualifikation und Authority bleiben getrennt | Klassifikations- und Qualifikationsfähigkeit materialisiert | breite produktive Enforcement-Aktivierung wird nicht behauptet |
@@ -36,7 +38,7 @@ icon: gauge-high
 
 ## Was sich seit dem vorherigen Snapshot geändert hat
 
-Seit dem Snapshot vom 18. September wurden weitere begrenzte Implementierungs- und Contract-Slices materialisiert. Dazu gehören insbesondere eine festere Cross-Surface-Präsentationsbaseline für native Arbeitsflächen, zusätzliche deterministische Runtime-Projektionen sowie eine weiter ausdifferenzierte Kognitions-Routing- und Resolution-Evidence-Grenze.
+Seit dem Snapshot vom 25. September bestätigt der Quellenabgleich zusätzliche lokal ausführbare agentische Workflows, begrenzte Live-Erprobungen und eine validierte lesende Kontextprojektion. Lokale Integritäts- und Service-Ausführungsprüfungen sind fortgeschritten. Das sind begrenzte Qualifikationsfortschritte, keine allgemeine Betriebs- oder Produktionsfreigabe.
 
 Diese Fortschritte erhöhen die nachweisbare Implementierungsreife, aber nicht automatisch die Live-Reife. Persönliche Beitragsübergabe, reale externe Betriebsbindungen, repräsentative Ende-zu-Ende-Pfade und die ausdrückliche Pilotaktivierung bleiben eigenständige Gates.
 
@@ -55,6 +57,8 @@ Gleichzeitig bleibt die Aussagegrenze unverändert streng:
 Der aktuelle Istzustand wird aus den jeweils zuständigen Owner-Quellen abgeleitet. Registry-, Kartographie-, Dokumentations- oder andere abgeleitete Projektionen können zeitlich hinter einem bereits kanonischen Owner-Zustand liegen. Ein solcher Projection-Lag darf den Owner-Zustand weder überschreiben noch künstlich zurückstufen.
 
 Die [Capability- und Use-Case-Matrix](capability-use-case-matrix.md) schlüsselt diese Einordnung nach Produktfunktion, erwartetem Ergebnis und Grenze auf.
+
+[Kontrollierte agentische Arbeit](../runtime/governed-agentic-work.md) erläutert, wie das KI-Betriebssystem spezialisierte Agenten koordiniert, ohne Planung, Qualifikation und Autorisierung gleichzusetzen.
 
 ## Bedeutet nicht
 
