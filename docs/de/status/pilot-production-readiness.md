@@ -2,7 +2,7 @@
 
 Status: `PUBLIC_STATUS`
 
-**Stand:** 25. September 2026
+**Stand:** 26. Oktober 2026
 
 UNITERA befindet sich weiterhin in **Pilotvorbereitung**. Gegenüber dem vorherigen öffentlichen Snapshot ist die technische und produktseitige Vorbereitung jedoch deutlich weiter materialisiert: der begrenzte Pilotumfang, Commissioning, Onboarding, kontrollierte Workflows, Evidence-/Recovery-Semantik sowie Web- und native Produktflächen besitzen inzwischen nachweisbare Umsetzungsanteile.
 
@@ -21,6 +21,10 @@ Das ist ausdrücklich **keine Pilotaktivierung** und keine Produktionsfreigabe.
 - fehlertolerante Recovery-Semantik ohne blinden Retry nach unklarem externem Effekt;
 - Personal-Continuity- und Beitragsvorbereitung, ohne persönliche Kontinuität mit institutioneller Authority zu vermischen;
 - materialisierte Security-Klassifikation und Evidenzqualifikation, ohne daraus Produktions-Enforcement abzuleiten.
+
+## Neuere Qualifikation ohne Aktivierung
+
+Agentische Workflow-Koordination wurde lokal einschließlich begrenzter Live-Modell-Erprobungen qualifiziert. Weitere lokale Prüfungen betreffen Service-Ausführungsgrenzen, Integrität und lesende Kontextprojektionen. Daraus folgen weder ein allgemein verfügbarer Agentendienst noch produktiver externer Dispatch. Komponentenqualifikation ist keine Betriebsfreigabe.
 
 ## Vor einem realen Pilotstart weiterhin offen
 
