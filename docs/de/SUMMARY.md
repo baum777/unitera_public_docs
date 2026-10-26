@@ -24,6 +24,7 @@
 * [Architektur und Logik](architecture/architecture-and-logic-deep-dive.md)
 * [Verantwortungs- und Vertrauensdomänen](architecture/repository-topology.md)
 * [Local Runtime Node × Personal Realm](architecture/local-node-personal-realm-trust-boundary.md)
+* [Kontrollierte agentische Arbeit](runtime/governed-agentic-work.md)
 * [Cognition Runtime](runtime/cognition-runtime.md)
 * [Modell- und Provider-Unabhängigkeit](runtime/model-and-provider-independence.md)
 * [Local Runtime Node](runtime/local-runtime-node.md)
