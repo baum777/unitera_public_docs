@@ -17,7 +17,7 @@ icon: gauge-high
 | **You are here** | Start / Governance → Current public state |
 | **Authority** | status publication creates no runtime or production authority |
 | **Source state** | checked against current owner sources; derived projections may lag in time |
-| **As of** | 25 September 2026 |
+| **As of** | 26 October 2026 |
 
 ## Current maturity map
 
@@ -28,6 +28,8 @@ icon: gauge-high
 | Institutional product experience | Work-first, Needs You, Chat and Quick Actions established | web and native work surfaces plus a shared cross-surface presentation baseline are materialized in bounded form | representative end-to-end qualification remains open for individual journeys |
 | Personal continuity | Personal Realm, memory, Resume and contribution boundary established | Personal Hub, continuity and confirmation-bound contribution preparation implemented in bounded form | real personal-to-institutional runtime transfer is not generally claimed as active |
 | Native continuity | client state remains presentation while authority stays server-side | central read, resume, pause, trust and intent states are contract-bound across surfaces | device or client state carries no authority; representative live parity remains separately evidenced |
+| Agentic workflow orchestration | work steps, executor qualification, routing and verifiable completion remain distinct | locally executable orchestration and bounded live experiments evidenced | general remote service activation and production autonomy not evidenced |
+| Read-only context projection | source-backed relationships without new institutional authority | bounded validated projection | broader runtime integration and automated ingestion open |
 | Cognition and routing | model capability, route, authority and data permission remain separate | bounded routing and resolution-evidence contracts are materialized | a routing contract or model choice creates neither runtime activation, data permission nor additional authority |
 | Governed effect | Approval, Grant, Execution, Receipt and Verification remain separate | bounded routing, execution and evidence paths materialized | real external live readiness and pilot activation remain separately gated |
 | Security evaluation | findings, evidence qualification and authority remain separate | classification and qualification capability materialized | broad production enforcement activation is not claimed |
@@ -36,7 +38,7 @@ icon: gauge-high
 
 ## What changed since the previous snapshot
 
-Since the 18 September snapshot, additional bounded implementation and contract slices have been materialized. These include a firmer cross-surface presentation baseline for native work surfaces, additional deterministic runtime projections, and a more explicit cognition-routing and resolution-evidence boundary.
+Since the 25 September snapshot, source reconciliation confirms additional locally executable agentic workflows, bounded live experiments and a validated read-only context projection. Local integrity and service-execution checks have advanced. These are scoped qualification gains, not general operational or production permission.
 
 These changes increase demonstrable implementation maturity, but they do not automatically increase live maturity. Personal contribution transfer, real external operating bindings, representative end-to-end paths and explicit pilot activation remain separate gates.
 
@@ -55,6 +57,8 @@ The claim boundary remains strict:
 Current state is derived from the responsible owner sources. Registry, cartography, documentation or other derived projections can lag behind an already-canonical owner state. Such projection lag may neither override the owner state nor artificially downgrade it.
 
 The [capability and use-case matrix](capability-use-case-matrix.md) breaks this classification down by product function, expected result and boundary.
+
+[Governed agentic work](../runtime/governed-agentic-work.md) explains how the AI operating system coordinates specialized agents without confusing planning, qualification and authorization.
 
 ## Does not imply
 
