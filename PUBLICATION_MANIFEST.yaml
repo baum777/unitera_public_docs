@@ -15,8 +15,8 @@ localization:
       label: English
   substantive_changes_require_sync: true
 snapshot:
-  reviewed_at: "2026-09-25"
-  source_verification: VERIFIED_CURRENT_OWNER_SOURCES_WITH_POST_SNAPSHOT_RUNTIME_AND_PRESENTATION_RECONCILIATION
+  reviewed_at: "2026-10-26"
+  source_verification: VERIFIED_SCOPED_CURRENT_OWNER_DESCRIPTIONS_AND_MATURITY_RECONCILIATION
   candidate_projection: EXCLUDED_FROM_CURRENT_STATE_UNLESS_EXPLICITLY_LABELED
   detail_level: PUBLIC_ABSTRACTED
 disclosure:
@@ -41,10 +41,18 @@ public_state:
   personal_continuity: BOUNDED_IMPLEMENTATION_RUNTIME_CROSSING_GATED
   local_runtime: BOUNDED_IMPLEMENTATION
   cognition: BOUNDED_ROUTING_AND_EVIDENCE_CONTRACTS_RUNTIME_GATED
+  agentic_workflows: LOCALLY_QUALIFIED_BOUNDED_LIVE_EVIDENCE_SERVICE_GATED
+  read_only_context: VALIDATED_BOUNDED_PROJECTION_INGESTION_GATED
   governed_external_effects: BOUNDED_RUNTIME_PATHS_LIVE_READINESS_GATED
   security_evaluation: MATERIALIZED_CLASSIFICATION_AND_QUALIFICATION
   pilot: PREPARATION_WITH_EXTERNAL_AND_ACTIVATION_GATES_OPEN
   production_autonomy_claimed: false
+cross_domain_reconciliation:
+  reviewed_at: "2026-10-26"
+  scope: ABSTRACTED_PUBLIC_MATURITY_AND_AGENTIC_WORK
+  owner_classes_checked: PRODUCT_RUNTIME_EXECUTION_TENANT_AGENTIC_PERSONAL_SECURITY_CONTEXT_REGISTRY
+  production_autonomy_claimed: false
+  live_service_activation_claimed: false
 semantic_supplement:
   review_date: "2026-10-06"
   scope: IDENTITY_HUMAN_CONTROL_AND_AUTHORITY_ONLY
